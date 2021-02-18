@@ -1,5 +1,6 @@
 ﻿using System;
-using CadastroSeries;
+using CadastroSeries.Classes;
+using CadastroSeries.Enum;
 
 namespace CadastroSeries
 {
