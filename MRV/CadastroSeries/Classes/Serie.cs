@@ -4,8 +4,7 @@ using System.Text;
 
 namespace CadastroSeries.Classes
 {
-    public abstract class EntidadeBase
+    class Serie : EntidadeBase
     {
-        public int Id { get; protected set; }
     }
 }
