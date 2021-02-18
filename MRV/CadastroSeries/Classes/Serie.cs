@@ -46,5 +46,10 @@ namespace CadastroSeries.Classes
         {
             return this.Id;
         }
+
+        public void Excluir( )
+        {
+            this.Excluido = true;
+        }
     }
 }
