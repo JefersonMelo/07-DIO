@@ -1,21 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using CadastroSeries.Interfaces;
-using CadastroSeries.Enum;
+﻿using System.Collections.Generic;
 
-namespace CadastroSeries.Classes
+namespace CadastroSeries
 {
     public class SerieRepositorio : IRepositorio<Serie>// Tipos Genéricos --> List <--
     {
         private List<Serie> listaSerie = new List<Serie>();
 
-        void IRepositorio<Serie>.Atualizar( int id, Serie objeto )
+        public void Atualizar( int id, Serie objeto )
         {
             listaSerie[id] = objeto;
         }
 
-        void IRepositorio<Serie>.Excuir( int id )
+        public void Excluir( int id )
         {
             /*
              * Não usar o -->RemoveAt<--, para não mudar o indice do vetor.
@@ -24,22 +20,22 @@ namespace CadastroSeries.Classes
             listaSerie[id].Excluir();
         }
 
-        void IRepositorio<Serie>.Inserir( Serie objeto )
+        public void Inserir( Serie objeto )
         {
             listaSerie.Add(objeto);
         }
 
-        List<Serie> IRepositorio<Serie>.Lista( )
+        public List<Serie> Lista( )
         {
             return listaSerie;
         }
 
-        int IRepositorio<Serie>.ProximoId( )
+        public int ProximoId( )
         {
             return listaSerie.Count;
         }
 
-        Serie IRepositorio<Serie>.RetornarId( int id )
+        public Serie RetornarId( int id )
         {
             return listaSerie[id];
         }

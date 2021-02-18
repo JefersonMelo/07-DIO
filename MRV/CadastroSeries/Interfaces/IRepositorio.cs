@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace CadastroSeries.Interfaces
+namespace CadastroSeries
 {
     public interface IRepositorio<T>
     {
         // Padrão de Repositório, Design Patterns
         List<T> Lista( );
-        T RetornarId(int id);
+        T RetornarId( int id );
         void Inserir( T objeto );
-        void Excuir( int id );
+        void Excluir( int id );
         void Atualizar( int id, T objeto );
         int ProximoId( );
 

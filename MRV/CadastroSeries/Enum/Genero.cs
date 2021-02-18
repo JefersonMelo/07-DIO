@@ -1,20 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CadastroSeries.Enum
+﻿namespace CadastroSeries
 {
     public enum Genero
     {
-        Acao = 1,
+        Ação = 1,
         Aventura = 2,
-        Comedia = 3,
-        Documentario = 4,
+        Comédia = 3,
+        Documentário = 4,
         Drama = 5,
         Espionagem = 6,
         Faroeste = 7,
         Fantasia = 8,
-        Ficcao = 9,
+        Ficção = 9,
         Musical = 10,
         Romance = 11,
         Suspense = 12,
