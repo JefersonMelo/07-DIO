@@ -34,35 +34,20 @@ namespace CadastroSeries
 
                         switch (menu.OpcaoUsuario)
                         {
-                            case '1':
+                            case '1':// Listar Série
                                 listar.ListarSeries();
                                 break;
 
-                            case '2':
+                            case '2':// Inserir Série
                                 menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
-                                entradaGenero = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite o Título da Série: ");
-                                entradaTitulo = Console.ReadLine();
-                                Console.Write("\nDigite o Ano de Início da Série: ");
-                                entradaAno = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite a Descrição da Série: ");
-                                entradaDescricao = Console.ReadLine();
-                                inserir.InserirSerie(entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
+                                inserir.InserirSerie();
                                 break;
 
-                            case '3':
+                            case '3':// Atualizar
                                 Console.Write("\nDigite o Id da Série: ");
                                 indice = int.Parse(Console.ReadLine());
                                 menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
-                                Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
-                                entradaGenero = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite o Título da Série: ");
-                                entradaTitulo = Console.ReadLine();
-                                Console.Write("\nDigite o Ano de Início da Série: ");
-                                entradaAno = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite a Descrição da Série: ");
-                                entradaDescricao = Console.ReadLine();
-                                atualizar.AtualizarSerie(indice, entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
+                                atualizar.AtualizarSerie();
                                 break;
 
                             case '4':

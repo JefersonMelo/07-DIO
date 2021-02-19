@@ -1,8 +1,10 @@
-﻿namespace CadastroSeries
+﻿using System;
+
+namespace CadastroSeries
 {
     public class Inserir
     {
-        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+       //static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
         static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         private int EntradaGenero { get; set; }
@@ -11,18 +13,23 @@
         private string EntradaDescricao { get; set; }
 
         // Manipular Séries Opção 2
-        public void InserirSerie( int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
+        public void InserirSerie( )
         {
-            this.EntradaGenero = entradaGenero;
-            this.EntradaTitulo = entradaTitulo;
-            this.EntradaAno = entradaAno;
-            this.EntradaDescricao = entradaDescricao;
+            SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+            //Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
+            EntradaGenero = int.Parse(Console.ReadLine());
+            Console.Write("\nDigite o Título da Série: ");
+            EntradaTitulo = Console.ReadLine();
+            Console.Write("\nDigite o Ano de Início da Série: ");
+            EntradaAno = int.Parse(Console.ReadLine());
+            Console.Write("\nDigite a Descrição da Série: ");
+            EntradaDescricao = Console.ReadLine();
 
             Serie novaSerie = new Serie(id: repositorioSeries.ProximoId(),
-                                        genero: (Genero)this.EntradaGenero,
-                                        titulo: this.EntradaTitulo,
-                                        ano: this.EntradaAno,
-                                        descricao: this.EntradaDescricao);
+                                        genero: (Genero)EntradaGenero,
+                                        titulo: EntradaTitulo,
+                                        ano: EntradaAno,
+                                        descricao: EntradaDescricao);
 
             repositorioSeries.Inserir(novaSerie);
         }

@@ -4,6 +4,12 @@ namespace CadastroSeries
 {
     public class Menu
     {
+        public int indice { get; set; }
+        public int entradaGenero { get; set; }
+        public int entradaAno { get; set; }
+        public string entradaTitulo { get; set; }
+        public string entradaDescricao { get; set; }
+
         public Menu( ) { }
 
         public Menu( char op )
