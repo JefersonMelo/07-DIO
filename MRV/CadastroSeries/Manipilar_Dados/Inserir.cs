@@ -4,9 +4,11 @@ namespace CadastroSeries
 {
     public class Inserir
     {
+        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+
         public Inserir( ) { }
 
-        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        
 
         public void InserirSerie( )// Opção 2
         {

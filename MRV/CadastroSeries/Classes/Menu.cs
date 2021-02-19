@@ -18,23 +18,27 @@
                    $"X- Sair";
         }
 
-        public string FilmeOuSerie( )
+        public string EscolherTipoVideo( )
         {
             return $"\nEscolha Uma Opção:\n" +
                    $"F- Filmes\n" +
                    $"S- Séries\n" +
+                   $"I- Infantil\n" +
+                   $"A- Adulto\n" +
                    $"X- Sair";
-        }
-
-        public Menu( char op )
-        {
-            this.OpcaoUsuario = op;
         }
 
         //public string MenuIserirAtualizar( )
         //{
 
         //}
+
+        public Menu( char op )
+        {
+            this.OpcaoUsuario = op;
+        }
+
+
 
     }
 }

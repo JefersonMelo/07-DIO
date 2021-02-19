@@ -16,7 +16,7 @@ namespace CadastroSeries
 
             do
             {
-                Console.WriteLine(menu.FilmeOuSerie());
+                Console.WriteLine(menu.EscolherTipoVideo());
                 Console.Write("Opção: ");
                 menu.OpcaoUsuario = char.Parse(Console.ReadLine().ToUpper());
 
@@ -25,8 +25,8 @@ namespace CadastroSeries
                 {
                     do
                     {
-                        Console.Write("Opção: ");
                         Console.WriteLine(menu.ImprimirMenu());
+                        Console.Write("Opção: ");
                         menu.OpcaoUsuario = char.Parse(Console.ReadLine().ToUpper());
 
                         switch (menu.OpcaoUsuario)
@@ -61,8 +61,8 @@ namespace CadastroSeries
                 {
                     do
                     {
-                        Console.Write("Opção: ");
                         Console.WriteLine(menu.ImprimirMenu());
+                        Console.Write("Opção: ");
                         menu.OpcaoUsuario = char.Parse(Console.ReadLine().ToUpper());
 
                         switch (menu.OpcaoUsuario)

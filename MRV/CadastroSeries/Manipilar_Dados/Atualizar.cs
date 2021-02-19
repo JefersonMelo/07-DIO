@@ -4,9 +4,11 @@ namespace CadastroSeries
 {
     public class Atualizar
     {
+        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+
         public Atualizar( ) { }
 
-        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        
 
         public void AtualizarSerie( )// Opção 3
         {
