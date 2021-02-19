@@ -13,62 +13,83 @@ namespace CadastroSeries
 
         static void Main( string[] args )
         {
+
             do
             {
-                Console.WriteLine(menu.ImprimirMenu());
+                Console.WriteLine(menu.FilmeOuSerie());
                 Console.Write("Opção: ");
                 menu.OpcaoUsuario = char.Parse(Console.ReadLine().ToUpper());
 
+                // Movimentações em Séries
                 if (menu.OpcaoUsuario == 'S')
                 {
-                    switch (menu.OpcaoUsuario)// Movimentações em Séries
+                    do
                     {
-                        case '1':
-                            listar.ListarSeries();
-                            break;
-                        case '2':
-                            inserir.InserirSerie();
-                            break;
-                        case '3':
-                            atualizar.AtualizarSerie();
-                            break;
-                        case '4':
-                            excluir.ExcluirSerie();
-                            break;
-                        case '5':
-                            visualizar.VisualizarSerie();
-                            break;
-                        case 'C':
-                            Console.Clear();
-                            break;
+                        Console.Write("Opção: ");
+                        Console.WriteLine(menu.ImprimirMenu());
+                        menu.OpcaoUsuario = char.Parse(Console.ReadLine().ToUpper());
 
-                    }
+                        switch (menu.OpcaoUsuario)
+                        {
+                            case '1':
+                                listar.ListarSeries();
+                                break;
+                            case '2':
+                                inserir.InserirSerie();
+                                break;
+                            case '3':
+                                atualizar.AtualizarSerie();
+                                break;
+                            case '4':
+                                excluir.ExcluirSerie();
+                                break;
+                            case '5':
+                                visualizar.VisualizarSerie();
+                                break;
+                            case 'C':
+                                Console.Clear();
+                                break;
+
+                        }
+
+                    } while (menu.OpcaoUsuario != 'X');
+                    menu.OpcaoUsuario = ' ';
                 }
+
                 // Movimentações em Filmes
                 else if (menu.OpcaoUsuario == 'F')
                 {
-                    switch (menu.OpcaoUsuario)
+                    do
                     {
-                        case '1':
-                            listar.ListarFilmes();
-                            break;
-                        case '2':
-                            inserir.InserirFilme();
-                            break;
-                        case '3':
-                            atualizar.AtualizarFilme();
-                            break;
-                        case '4':
-                            excluir.ExcluirFilme();
-                            break;
-                        case '5':
-                            visualizar.VisualizarFilme();
-                            break;
-                        case 'C':
-                            Console.Clear();
-                            break;
+                        Console.Write("Opção: ");
+                        Console.WriteLine(menu.ImprimirMenu());
+                        menu.OpcaoUsuario = char.Parse(Console.ReadLine().ToUpper());
 
-                    }
+                        switch (menu.OpcaoUsuario)
+                        {
+                            case '1':
+                                listar.ListarFilmes();
+                                break;
+                            case '2':
+                                //inserir.InserirFilme();
+                                break;
+                            case '3':
+                                //atualizar.AtualizarFilme();
+                                break;
+                            case '4':
+                                excluir.ExcluirFilme();
+                                break;
+                            case '5':
+                                visualizar.VisualizarFilme();
+                                break;
+                            case 'C':
+                                Console.Clear();
+                                break;
+
+                        }
+
+                    } while (menu.OpcaoUsuario != 'X');
+                    menu.OpcaoUsuario = ' ';
                 }
 
             } while (menu.OpcaoUsuario != 'X');

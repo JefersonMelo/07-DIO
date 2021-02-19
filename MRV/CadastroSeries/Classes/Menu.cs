@@ -9,8 +9,6 @@
         public string ImprimirMenu( )
         {
             return $"\nInforme Uma Opção:\n" +
-                   $"F- Filmes" +
-                   $"S- Séries" +
                    $"1- Listar\n" +
                    $"2- Inserir Novo\n" +
                    $"3- Atualizar\n" +
@@ -20,7 +18,15 @@
                    $"X- Sair";
         }
 
-        public Menu( char op ) 
+        public string FilmeOuSerie( )
+        {
+            return $"\nEscolha Uma Opção:\n" +
+                   $"F- Filmes\n" +
+                   $"S- Séries\n" +
+                   $"X- Sair";
+        }
+
+        public Menu( char op )
         {
             this.OpcaoUsuario = op;
         }
