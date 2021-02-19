@@ -10,32 +10,32 @@ namespace CadastroSeries
 
         public void Atualizar( int id, Filme objeto )
         {
-            throw new NotImplementedException();
+            listaFilmes[id] = objeto;
         }
 
         public void Excluir( int id )
         {
-            throw new NotImplementedException();
+            listaFilmes[id].Excluir();
         }
 
         public void Inserir( Filme objeto )
         {
-            throw new NotImplementedException();
+            listaFilmes.Add(objeto);
         }
 
         public List<Filme> Lista( )
         {
-            throw new NotImplementedException();
+            return listaFilmes;
         }
 
         public int ProximoId( )
         {
-            throw new NotImplementedException();
+            return listaFilmes.Count;
         }
 
         public Filme RetornarId( int id )
         {
-            throw new NotImplementedException();
+            return listaFilmes[id];
         }
     }
 }

@@ -9,6 +9,8 @@
         public string ImprimirMenu( )
         {
             return $"\nInforme Uma Opção:\n" +
+                   $"F- Filmes" +
+                   $"S- Séries" +
                    $"1- Listar\n" +
                    $"2- Inserir Novo\n" +
                    $"3- Atualizar\n" +

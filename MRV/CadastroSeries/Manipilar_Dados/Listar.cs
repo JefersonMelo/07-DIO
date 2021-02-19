@@ -7,8 +7,10 @@ namespace CadastroSeries
         public Listar( ) { }
 
         static SerieRepositorio repositorio = new SerieRepositorio();
+        static RepositorioFilmes repFilmes = new RepositorioFilmes();
 
-        public void ListarSeries( )// Opção 1
+        // Manipular Séries Opção 1 
+        public void ListarSeries( )
         {
             Console.WriteLine("\nListar Séries");
 
@@ -28,6 +30,29 @@ namespace CadastroSeries
 
                 Console.WriteLine($"#ID: {serie.RetornarId()}: - " +
                                   $"{serie.RetornarTitulo()} " +
+                                  $"{(excluido ? "*Excluído*" : "")}");
+            }
+        }
+
+        // Manipular Filmes Opção 1 
+        public void ListarFilmes( )
+        {
+            Console.WriteLine("\nListar Filmes");
+
+            var lista = repFilmes.Lista();
+
+            if (lista.Count == 0)
+            {
+                Console.WriteLine("\nNenhum Filme Cadastrado.");
+                return;
+            }
+
+            foreach (var filme in lista)
+            {
+                var excluido = filme.RetornarExcluido();
+
+                Console.WriteLine($"#ID: {filme.RetornarId()}: - " +
+                                  $"{filme.RetornarTitulo()} " +
                                   $"{(excluido ? "*Excluído*" : "")}");
             }
         }

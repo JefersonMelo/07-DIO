@@ -6,7 +6,7 @@ namespace CadastroSeries
 {
     public class Filme : EntidadeBase
     {
-        //public Filme( ) { }
+        public Filme( ) { }
 
         private Genero Genero { get; set; }
         private string Titulo { get; set; }
