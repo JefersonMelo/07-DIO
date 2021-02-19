@@ -4,6 +4,8 @@ namespace CadastroSeries
 {
     public class Listar
     {
+        public Listar( ) { }
+
         static SerieRepositorio repositorio = new SerieRepositorio();
 
         public void ListarSeries( )// Opção 1
@@ -22,11 +24,11 @@ namespace CadastroSeries
             {
                 var excluido = serie.RetornarExcluido();
 
-                Console.WriteLine("#ID {0}: - {1} {2}", serie.RetornarId(), serie.RetornarTitulo(), (excluido ? "*Excluído*" : ""));
+                //Console.WriteLine("#ID {0}: - {1} {2}", serie.RetornarId(), serie.RetornarTitulo(), (excluido ? "*Excluído*" : ""));
 
-                //Console.WriteLine($"#ID: {serie.RetornarId()}: - " +
-                //                  $"{serie.RetornarTitulo()} " +
-                //                  $"{(excluido ? "*Excluído*" : "")}");
+                Console.WriteLine($"#ID: {serie.RetornarId()}: - " +
+                                  $"{serie.RetornarTitulo()} " +
+                                  $"{(excluido ? "*Excluído*" : "")}");
             }
         }
     }

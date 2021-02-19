@@ -4,6 +4,8 @@ namespace CadastroSeries
 {
     public class Excluir
     {
+        public Excluir( ) { }
+
         static SerieRepositorio repositorio = new SerieRepositorio();
 
         public void ExcluirSerie( )// Opção 4

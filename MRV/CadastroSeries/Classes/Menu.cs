@@ -2,9 +2,9 @@
 {
     public class Menu
     {
-        public char OpcaoUsuario { get; set; }
-
         public Menu( ) { }
+
+        public char OpcaoUsuario { get; set; }
 
         public string ImprimirMenu( )
         {
@@ -22,5 +22,11 @@
         {
             this.OpcaoUsuario = op;
         }
+
+        //public string MenuIserirAtualizar( )
+        //{
+
+        //}
+
     }
 }

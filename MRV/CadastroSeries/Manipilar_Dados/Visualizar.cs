@@ -4,6 +4,8 @@ namespace CadastroSeries
 {
     public class Visualizar
     {
+        public Visualizar( ) { }
+
         static SerieRepositorio repositorio = new SerieRepositorio();
 
         public void VisualizarSerie( )// Opção 5
