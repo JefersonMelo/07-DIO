@@ -17,8 +17,10 @@ namespace CadastroSeries
         public void AtualizarSerie( )
         {
             SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-            Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
+            //Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
             EntradaGenero = int.Parse(Console.ReadLine());
+            Console.Write("\nDigite o Id da Série: ");
+            Indice = int.Parse(Console.ReadLine());
             Console.Write("\nDigite o Título da Série: ");
             EntradaTitulo = Console.ReadLine();
             Console.Write("\nDigite o Ano de Início da Série: ");
@@ -31,11 +33,11 @@ namespace CadastroSeries
             //this.EntradaDescricao = entradaDescricao;
             //this.Indice = indice;
 
-            Serie atualizaSerie = new Serie(id: this.Indice,
-                                        genero: (Genero)this.EntradaGenero,
-                                        titulo: this.EntradaTitulo,
-                                        ano: this.EntradaAno,
-                                        descricao: this.EntradaDescricao);
+            Serie atualizaSerie = new Serie(id: Indice,
+                                        genero: (Genero)EntradaGenero,
+                                        titulo: EntradaTitulo,
+                                        ano: EntradaAno,
+                                        descricao: EntradaDescricao);
 
             repositorioSeries.Atualizar(this.Indice, atualizaSerie);
         }

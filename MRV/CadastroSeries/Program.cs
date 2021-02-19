@@ -44,8 +44,6 @@ namespace CadastroSeries
                                 break;
 
                             case '3':// Atualizar
-                                Console.Write("\nDigite o Id da Série: ");
-                                indice = int.Parse(Console.ReadLine());
                                 menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
                                 atualizar.AtualizarSerie();
                                 break;
