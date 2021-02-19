@@ -28,13 +28,7 @@ namespace CadastroSeries
              * Environment.NewLine 
              * https://docs.microsoft.com/en-us/dotnet/api/system.environment.newline?view=netcore-3.1
              */
-            //string retorno = "";
-            //retorno += "Gênero: " + this.Genero + Environment.NewLine;
-            //retorno += "Titulo: " + this.Titulo + Environment.NewLine;
-            //retorno += "Descrição: " + this.Descricao + Environment.NewLine;
-            //retorno += "Ano de Início: " + this.Ano + Environment.NewLine;
-            //retorno += "Excluido: " + this.Excluido;
-            //return retorno;
+
             return $"\nGênero: {this.Genero + Environment.NewLine}" +
                    $"Título: {this.Titulo + Environment.NewLine}" +
                    $"Descrição: {this.Descricao + Environment.NewLine}" +

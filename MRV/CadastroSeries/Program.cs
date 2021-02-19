@@ -13,6 +13,9 @@ namespace CadastroSeries
 
         static void Main( string[] args )
         {
+            int entradaGenero, entradaAno, indice;
+            string entradaTitulo, entradaDescricao;
+
 
             do
             {
@@ -34,18 +37,42 @@ namespace CadastroSeries
                             case '1':
                                 listar.ListarSeries();
                                 break;
+
                             case '2':
-                                inserir.InserirSerie();
+                                menu.OpcaoGenero();
+                                entradaGenero = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite o Título da Série: ");
+                                entradaTitulo = Console.ReadLine();
+                                Console.Write("\nDigite o Ano de Início da Série: ");
+                                entradaAno = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite a Descrição da Série: ");
+                                entradaDescricao = Console.ReadLine();
+                                inserir.InserirSerie(entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
                                 break;
+
                             case '3':
-                                atualizar.AtualizarSerie();
+                                Console.Write("\nDigite o Id da Série: ");
+                                indice = int.Parse(Console.ReadLine());
+                                menu.OpcaoGenero();
+                                Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
+                                entradaGenero = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite o Título da Série: ");
+                                entradaTitulo = Console.ReadLine();
+                                Console.Write("\nDigite o Ano de Início da Série: ");
+                                entradaAno = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite a Descrição da Série: ");
+                                entradaDescricao = Console.ReadLine();
+                                atualizar.AtualizarSerie(indice, entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
                                 break;
+
                             case '4':
                                 excluir.ExcluirSerie();
                                 break;
+
                             case '5':
                                 visualizar.VisualizarSerie();
                                 break;
+
                             case 'C':
                                 Console.Clear();
                                 break;
@@ -70,18 +97,42 @@ namespace CadastroSeries
                             case '1':
                                 listar.ListarFilmes();
                                 break;
+
                             case '2':
-                                //inserir.InserirFilme();
+                                menu.OpcaoGenero();
+                                entradaGenero = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite o Título do Filme: ");
+                                entradaTitulo = Console.ReadLine();
+                                Console.Write("\nDigite o Ano de Início do Filme: ");
+                                entradaAno = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite a Descrição do Filme: ");
+                                entradaDescricao = Console.ReadLine();
+                                inserir.InserirFilme(entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
                                 break;
+
                             case '3':
-                                //atualizar.AtualizarFilme();
+                                Console.Write("\nDigite o Id do Filme: ");
+                                indice = int.Parse(Console.ReadLine());
+                                menu.OpcaoGenero();
+                                Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
+                                entradaGenero = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite o Título da Filme: ");
+                                entradaTitulo = Console.ReadLine();
+                                Console.Write("\nDigite o Ano de Início da Filme: ");
+                                entradaAno = int.Parse(Console.ReadLine());
+                                Console.Write("\nDigite a Descrição da Filme: ");
+                                entradaDescricao = Console.ReadLine();
+                                atualizar.AtualizarFilme(indice, entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
                                 break;
+
                             case '4':
                                 excluir.ExcluirFilme();
                                 break;
+
                             case '5':
                                 visualizar.VisualizarFilme();
                                 break;
+
                             case 'C':
                                 Console.Clear();
                                 break;

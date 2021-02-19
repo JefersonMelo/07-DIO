@@ -2,7 +2,7 @@
 
 namespace CadastroSeries
 {
-    public interface IrepositorioSeries<T>
+    public interface IRepositorioSeries<T>
     {
         // Padrão de Repositório, Design Patterns
         List<T> Lista( );

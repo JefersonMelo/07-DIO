@@ -1,4 +1,6 @@
-﻿namespace CadastroSeries
+﻿using System;
+
+namespace CadastroSeries
 {
     public class Menu
     {
@@ -23,22 +25,26 @@
             return $"\nEscolha Uma Opção:\n" +
                    $"F- Filmes\n" +
                    $"S- Séries\n" +
-                   $"I- Infantil\n" +
-                   $"A- Adulto\n" +
+                   /*$"I- Infantil\n" +*/
+                   /*$"A- Adulto\n" +*/
                    $"X- Sair";
         }
 
-        //public string MenuIserirAtualizar( )
-        //{
-
-        //}
+        public void OpcaoGenero( )
+        {
+            // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
+            // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
+            foreach (int i in Enum.GetValues(typeof(Genero)))
+            {
+                Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
+            }
+            Console.Write("Digite o Gênero Entre as Opções Acima: ");
+        }
 
         public Menu( char op )
         {
             this.OpcaoUsuario = op;
         }
-
-
 
     }
 }

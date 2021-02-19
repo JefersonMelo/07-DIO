@@ -7,7 +7,7 @@ namespace CadastroSeries
         public Listar( ) { }
 
         static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-        static repositorioSeriesFilmes repFilmes = new repositorioSeriesFilmes();
+        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         // Manipular Séries Opção 1 
         public void ListarSeries( )
@@ -25,8 +25,6 @@ namespace CadastroSeries
             foreach (var serie in lista)
             {
                 var excluido = serie.RetornarExcluido();
-
-                //Console.WriteLine("#ID {0}: - {1} {2}", serie.RetornarId(), serie.RetornarTitulo(), (excluido ? "*Excluído*" : ""));
 
                 Console.WriteLine($"#ID: {serie.RetornarId()}: - " +
                                   $"{serie.RetornarTitulo()} " +

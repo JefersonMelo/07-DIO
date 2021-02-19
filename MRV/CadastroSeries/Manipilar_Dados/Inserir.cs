@@ -5,40 +5,45 @@ namespace CadastroSeries
     public class Inserir
     {
         static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
-        public Inserir( ) { }
-
+        private int EntradaGenero { get; set; }
+        private string EntradaTitulo { get; set; }
+        private int EntradaAno { get; set; }
+        private string EntradaDescricao { get; set; }
         
-
-        public void InserirSerie( )// Opção 2
+        // Manipular Séries Opção 2
+        public void InserirSerie(int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao)
         {
-            Console.WriteLine("\nInserir Nova Série");
-
-            // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
-            // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
-            foreach (int i in Enum.GetValues(typeof(Genero)))
-            {
-                Console.WriteLine("{0}-{1}", i, Enum.GetName(typeof(Genero), i));
-            }
-            Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
-            int entradaGenero = int.Parse(Console.ReadLine());
-
-            Console.Write("\nDigite o Título da Série: ");
-            string entradaTitulo = Console.ReadLine();
-
-            Console.Write("\nDigite o Ano de Início da Série: ");
-            int entradaAno = int.Parse(Console.ReadLine());
-
-            Console.Write("\nDigite a Descrição da Série: ");
-            string entradaDescricao = Console.ReadLine();
+            this.EntradaGenero = entradaGenero;
+            this.EntradaTitulo = entradaTitulo;
+            this.EntradaAno = entradaAno;
+            this.EntradaDescricao = entradaDescricao;
 
             Serie novaSerie = new Serie(id: repositorioSeries.ProximoId(),
-                                        genero: (Genero)entradaGenero,
-                                        titulo: entradaTitulo,
-                                        ano: entradaAno,
-                                        descricao: entradaDescricao);
+                                        genero: (Genero)this.EntradaGenero,
+                                        titulo: this.EntradaTitulo,
+                                        ano: this.EntradaAno,
+                                        descricao: this.EntradaDescricao);
 
             repositorioSeries.Inserir(novaSerie);
+        }
+
+        // Manipular Filmes Opção 2
+        public void InserirFilme( int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
+        {
+            this.EntradaGenero = entradaGenero;
+            this.EntradaTitulo = entradaTitulo;
+            this.EntradaAno = entradaAno;
+            this.EntradaDescricao = entradaDescricao;
+
+            Filme novoFilme = new Filme(id: repositorioSeries.ProximoId(),
+                                        genero: (Genero)this.EntradaGenero,
+                                        titulo: this.EntradaTitulo,
+                                        ano: this.EntradaAno,
+                                        descricao: this.EntradaDescricao);
+
+            repFilmes.Inserir(novoFilme);
         }
     }
 }

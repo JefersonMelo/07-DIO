@@ -7,7 +7,7 @@ namespace CadastroSeries
         public Visualizar( ) { }
 
         static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-        static repositorioSeriesFilmes repFilmes = new repositorioSeriesFilmes();
+        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         // Manipular Séries Opção 5
         public void VisualizarSerie( )

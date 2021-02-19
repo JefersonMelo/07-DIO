@@ -7,7 +7,7 @@ namespace CadastroSeries
         public Excluir( ) { }
 
         static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-        static repositorioSeriesFilmes repFilmes = new repositorioSeriesFilmes();
+        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         // Manipulação em Séries Opção 4
         public void ExcluirSerie( )
