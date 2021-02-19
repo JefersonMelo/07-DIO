@@ -6,14 +6,14 @@ namespace CadastroSeries
     {
         public Excluir( ) { }
 
-        static SerieRepositorio repositorio = new SerieRepositorio();
+        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
 
         public void ExcluirSerie( )// Opção 4
         {
             Console.Write("\nDigite o Id da Série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
-            repositorio.Excluir(indiceSerie);
+            repositorioSeries.Excluir(indiceSerie);
         }
     }
 }

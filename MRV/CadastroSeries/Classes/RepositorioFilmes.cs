@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CadastroSeries
 {
-    public class RepositorioFilmes : IRepositorio<Filme>
+    public class repositorioSeriesFilmes : IrepositorioSeries<Filme>
     {
         private List<Filme> listaFilmes = new List<Filme>();
 

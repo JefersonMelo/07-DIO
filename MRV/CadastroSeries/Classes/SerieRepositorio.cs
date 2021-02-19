@@ -2,7 +2,7 @@
 
 namespace CadastroSeries
 {
-    public class SerieRepositorio : IRepositorio<Serie>// Tipos Genéricos --> List <--
+    public class SerierepositorioSeries : IrepositorioSeries<Serie>// Tipos Genéricos --> List <--
     {
         private List<Serie> listaSerie = new List<Serie>();
 

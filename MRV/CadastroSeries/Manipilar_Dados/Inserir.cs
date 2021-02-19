@@ -6,7 +6,7 @@ namespace CadastroSeries
     {
         public Inserir( ) { }
 
-        static SerieRepositorio repositorio = new SerieRepositorio();
+        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
 
         public void InserirSerie( )// Opção 2
         {
@@ -30,13 +30,13 @@ namespace CadastroSeries
             Console.Write("\nDigite a Descrição da Série: ");
             string entradaDescricao = Console.ReadLine();
 
-            Serie novaSerie = new Serie(id: repositorio.ProximoId(),
+            Serie novaSerie = new Serie(id: repositorioSeries.ProximoId(),
                                         genero: (Genero)entradaGenero,
                                         titulo: entradaTitulo,
                                         ano: entradaAno,
                                         descricao: entradaDescricao);
 
-            repositorio.Inserir(novaSerie);
+            repositorioSeries.Inserir(novaSerie);
         }
     }
 }

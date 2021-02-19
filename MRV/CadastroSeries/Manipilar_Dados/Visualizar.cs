@@ -6,8 +6,8 @@ namespace CadastroSeries
     {
         public Visualizar( ) { }
 
-        static SerieRepositorio repositorio = new SerieRepositorio();
-        static RepositorioFilmes repFilmes = new RepositorioFilmes();
+        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        static repositorioSeriesFilmes repFilmes = new repositorioSeriesFilmes();
 
         // Manipular Séries Opção 5
         public void VisualizarSerie( )
@@ -15,7 +15,7 @@ namespace CadastroSeries
             Console.Write("\nDigite o Id da Série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
-            var serie = repositorio.RetornarId(indiceSerie);
+            var serie = repositorioSeries.RetornarId(indiceSerie);
 
             Console.WriteLine(serie);
         }

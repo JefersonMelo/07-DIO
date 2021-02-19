@@ -6,7 +6,7 @@ namespace CadastroSeries
     {
         public Atualizar( ) { }
 
-        static SerieRepositorio repositorio = new SerieRepositorio();
+        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
 
         public void AtualizarSerie( )// Opção 3
         {
@@ -37,7 +37,7 @@ namespace CadastroSeries
                                         ano: entradaAno,
                                         descricao: entradaDescricao);
 
-            repositorio.Atualizar(indiceSerie, atualizaSerie);
+            repositorioSeries.Atualizar(indiceSerie, atualizaSerie);
         }
     }
 }

@@ -6,15 +6,15 @@ namespace CadastroSeries
     {
         public Listar( ) { }
 
-        static SerieRepositorio repositorio = new SerieRepositorio();
-        static RepositorioFilmes repFilmes = new RepositorioFilmes();
+        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        static repositorioSeriesFilmes repFilmes = new repositorioSeriesFilmes();
 
         // Manipular Séries Opção 1 
         public void ListarSeries( )
         {
             Console.WriteLine("\nListar Séries");
 
-            var lista = repositorio.Lista();
+            var lista = repositorioSeries.Lista();
 
             if (lista.Count == 0)
             {
