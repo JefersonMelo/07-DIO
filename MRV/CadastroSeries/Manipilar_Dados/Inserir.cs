@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CadastroSeries
+﻿namespace CadastroSeries
 {
     public class Inserir
     {
@@ -11,9 +9,9 @@ namespace CadastroSeries
         private string EntradaTitulo { get; set; }
         private int EntradaAno { get; set; }
         private string EntradaDescricao { get; set; }
-        
+
         // Manipular Séries Opção 2
-        public void InserirSerie(int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao)
+        public void InserirSerie( int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
         {
             this.EntradaGenero = entradaGenero;
             this.EntradaTitulo = entradaTitulo;
@@ -37,7 +35,7 @@ namespace CadastroSeries
             this.EntradaAno = entradaAno;
             this.EntradaDescricao = entradaDescricao;
 
-            Filme novoFilme = new Filme(id: repositorioSeries.ProximoId(),
+            Filme novoFilme = new Filme(id: repFilmes.ProximoId(),
                                         genero: (Genero)this.EntradaGenero,
                                         titulo: this.EntradaTitulo,
                                         ano: this.EntradaAno,

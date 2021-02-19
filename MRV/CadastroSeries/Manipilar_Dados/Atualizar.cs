@@ -14,13 +14,13 @@ namespace CadastroSeries
         private int Indice { get; set; }
 
         // Manipulação Séries Opção 3
-        public void AtualizarSerie( int indiceSerie, int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
+        public void AtualizarSerie( int indice, int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
         {
             this.EntradaGenero = entradaGenero;
             this.EntradaTitulo = entradaTitulo;
             this.EntradaAno = entradaAno;
             this.EntradaDescricao = entradaDescricao;
-            this.Indice = indiceSerie;
+            this.Indice = indice;
 
             Serie atualizaSerie = new Serie(id: this.Indice,
                                         genero: (Genero)this.EntradaGenero,
@@ -28,17 +28,17 @@ namespace CadastroSeries
                                         ano: this.EntradaAno,
                                         descricao: this.EntradaDescricao);
 
-            repositorioSeries.Atualizar(indiceSerie, atualizaSerie);
+            repositorioSeries.Atualizar(this.Indice, atualizaSerie);
         }
 
         // Manipulação Filmes Opção 3
-        public void AtualizarFilme( int indiceSerie, int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
+        public void AtualizarFilme( int indice, int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
         {
             this.EntradaGenero = entradaGenero;
             this.EntradaTitulo = entradaTitulo;
             this.EntradaAno = entradaAno;
             this.EntradaDescricao = entradaDescricao;
-            this.Indice = indiceSerie;
+            this.Indice = indice;
 
             Filme atualizaFilme = new Filme(id: this.Indice,
                                         genero: (Genero)this.EntradaGenero,
@@ -46,7 +46,7 @@ namespace CadastroSeries
                                         ano: this.EntradaAno,
                                         descricao: this.EntradaDescricao);
 
-            repFilmes.Atualizar(indiceSerie, atualizaFilme);
+            repFilmes.Atualizar(this.Indice, atualizaFilme);
         }
 
     }

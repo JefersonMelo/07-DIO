@@ -4,8 +4,6 @@ namespace CadastroSeries
 {
     public class Listar
     {
-        public Listar( ) { }
-
         static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
         static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 

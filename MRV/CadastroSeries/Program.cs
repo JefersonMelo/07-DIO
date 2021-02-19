@@ -39,7 +39,7 @@ namespace CadastroSeries
                                 break;
 
                             case '2':
-                                menu.OpcaoGenero();
+                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
                                 entradaGenero = int.Parse(Console.ReadLine());
                                 Console.Write("\nDigite o Título da Série: ");
                                 entradaTitulo = Console.ReadLine();
@@ -53,7 +53,7 @@ namespace CadastroSeries
                             case '3':
                                 Console.Write("\nDigite o Id da Série: ");
                                 indice = int.Parse(Console.ReadLine());
-                                menu.OpcaoGenero();
+                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
                                 Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
                                 entradaGenero = int.Parse(Console.ReadLine());
                                 Console.Write("\nDigite o Título da Série: ");
@@ -99,7 +99,7 @@ namespace CadastroSeries
                                 break;
 
                             case '2':
-                                menu.OpcaoGenero();
+                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
                                 entradaGenero = int.Parse(Console.ReadLine());
                                 Console.Write("\nDigite o Título do Filme: ");
                                 entradaTitulo = Console.ReadLine();
@@ -113,7 +113,7 @@ namespace CadastroSeries
                             case '3':
                                 Console.Write("\nDigite o Id do Filme: ");
                                 indice = int.Parse(Console.ReadLine());
-                                menu.OpcaoGenero();
+                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
                                 Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
                                 entradaGenero = int.Parse(Console.ReadLine());
                                 Console.Write("\nDigite o Título da Filme: ");

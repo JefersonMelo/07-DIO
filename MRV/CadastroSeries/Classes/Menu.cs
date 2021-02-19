@@ -6,6 +6,11 @@ namespace CadastroSeries
     {
         public Menu( ) { }
 
+        public Menu( char op )
+        {
+            this.OpcaoUsuario = op;
+        }
+
         public char OpcaoUsuario { get; set; }
 
         public string ImprimirMenu( )
@@ -32,6 +37,7 @@ namespace CadastroSeries
 
         public void OpcaoGenero( )
         {
+            Console.WriteLine();
             // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getvalues?view=netcore-3.1
             // https://docs.microsoft.com/pt-br/dotnet/api/system.enum.getname?view=netcore-3.1
             foreach (int i in Enum.GetValues(typeof(Genero)))
@@ -40,11 +46,5 @@ namespace CadastroSeries
             }
             Console.Write("Digite o Gênero Entre as Opções Acima: ");
         }
-
-        public Menu( char op )
-        {
-            this.OpcaoUsuario = op;
-        }
-
     }
 }

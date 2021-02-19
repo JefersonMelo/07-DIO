@@ -24,9 +24,9 @@ namespace CadastroSeries
         public void VisualizarFilme( )
         {
             Console.Write("\nDigite o Id do Filme: ");
-            int indiceSerie = int.Parse(Console.ReadLine());
+            int indice = int.Parse(Console.ReadLine());
 
-            var filme = repFilmes.RetornarId(indiceSerie);
+            var filme = repFilmes.RetornarId(indice);
 
             Console.WriteLine(filme);
         }
