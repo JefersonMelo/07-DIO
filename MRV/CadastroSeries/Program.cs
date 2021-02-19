@@ -4,8 +4,12 @@ namespace CadastroSeries
 {
     class Program
     {
-        static ManipulacaoDados manipulacaoDados = new ManipulacaoDados();
         static Menu menu = new Menu();
+        static Listar listar = new Listar();
+        static Excluir excluir = new Excluir();
+        static Inserir inserir = new Inserir();
+        static Atualizar atualizar = new Atualizar();        
+        static Visualizar visualizar = new Visualizar();
 
         static void Main( string[] args )
         {
@@ -18,19 +22,19 @@ namespace CadastroSeries
                 switch (menu.OpcaoUsuario)
                 {
                     case '1':
-                        manipulacaoDados.ListarSeries();
+                        listar.ListarSeries();
                         break;
                     case '2':
-                        manipulacaoDados.InserirSerie();
+                        inserir.InserirSerie();
                         break;
                     case '3':
-                        manipulacaoDados.AtualizarSerie();
+                        atualizar.AtualizarSerie();
                         break;
                     case '4':
-                        manipulacaoDados.ExcluirSerie();
+                        excluir.ExcluirSerie();
                         break;
                     case '5':
-                        manipulacaoDados.VisualizarSerie();
+                        visualizar.VisualizarSerie();
                         break;
                     case 'C':
                         Console.Clear();
