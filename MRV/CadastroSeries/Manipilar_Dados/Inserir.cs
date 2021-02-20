@@ -4,8 +4,8 @@ namespace CadastroSeries
 {
     public class Inserir
     {
-       //static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+        //static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        //static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         private int EntradaGenero { get; set; }
         private string EntradaTitulo { get; set; }
@@ -16,7 +16,7 @@ namespace CadastroSeries
         public void InserirSerie( )
         {
             SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-            //Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
+            
             EntradaGenero = int.Parse(Console.ReadLine());
             Console.Write("\nDigite o Título da Série: ");
             EntradaTitulo = Console.ReadLine();
@@ -35,18 +35,23 @@ namespace CadastroSeries
         }
 
         // Manipular Filmes Opção 2
-        public void InserirFilme( int entradaGenero, string entradaTitulo, int entradaAno, string entradaDescricao )
+        public void InserirFilme( )
         {
-            this.EntradaGenero = entradaGenero;
-            this.EntradaTitulo = entradaTitulo;
-            this.EntradaAno = entradaAno;
-            this.EntradaDescricao = entradaDescricao;
+            RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+
+            EntradaGenero = int.Parse(Console.ReadLine());
+            Console.Write("\nDigite o Título do Filme: ");
+            EntradaTitulo = Console.ReadLine();
+            Console.Write("\nDigite o Ano de Início do Filme: ");
+            EntradaAno = int.Parse(Console.ReadLine());
+            Console.Write("\nDigite a Descrição do Filme: ");
+            EntradaDescricao = Console.ReadLine();
 
             Filme novoFilme = new Filme(id: repFilmes.ProximoId(),
-                                        genero: (Genero)this.EntradaGenero,
-                                        titulo: this.EntradaTitulo,
-                                        ano: this.EntradaAno,
-                                        descricao: this.EntradaDescricao);
+                                        genero: (Genero)EntradaGenero,
+                                        titulo: EntradaTitulo,
+                                        ano: EntradaAno,
+                                        descricao: EntradaDescricao);
 
             repFilmes.Inserir(novoFilme);
         }

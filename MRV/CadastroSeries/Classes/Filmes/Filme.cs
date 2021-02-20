@@ -12,12 +12,12 @@ namespace CadastroSeries
 
         public Filme( int id, Genero genero, string titulo, string descricao, int ano )
         {
-            this.Id = id;
-            this.Genero = genero;
-            this.Titulo = titulo;
-            this.Descricao = descricao;
-            this.Ano = ano;
-            this.Excluido = false;
+            Id = id;
+            Genero = genero;
+            Titulo = titulo;
+            Descricao = descricao;
+            Ano = ano;
+            Excluido = false;
         }
 
         public override string ToString( )
@@ -26,31 +26,31 @@ namespace CadastroSeries
              * Environment.NewLine 
              * https://docs.microsoft.com/en-us/dotnet/api/system.environment.newline?view=netcore-3.1
              */
-            return $"\nGênero: {this.Genero + Environment.NewLine}" +
-                   $"Título: {this.Titulo + Environment.NewLine}" +
-                   $"Descrição: {this.Descricao + Environment.NewLine}" +
-                   $"Ano de Início: {this.Ano + Environment.NewLine}" +
-                   $"Excluído: {this.Excluido}";
+            return $"\nGênero: {Genero + Environment.NewLine}" +
+                   $"Título: {Titulo + Environment.NewLine}" +
+                   $"Descrição: {Descricao + Environment.NewLine}" +
+                   $"Ano de Início: {Ano + Environment.NewLine}" +
+                   $"Excluído: {Excluido}";
 
         }
 
         public string RetornarTitulo( )
         {
-            return this.Titulo;
+            return Titulo;
         }
 
         public int RetornarId( )
         {
-            return this.Id;
+            return Id;
         }
         public bool RetornarExcluido( )
         {
-            return this.Excluido;
+            return Excluido;
         }
 
         public void Excluir( )
         {
-            this.Excluido = true;
+            Excluido = true;
         }
     }
 }

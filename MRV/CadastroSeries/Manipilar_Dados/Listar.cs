@@ -4,12 +4,14 @@ namespace CadastroSeries
 {
     public class Listar
     {
-        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+        //static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        //static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         // Manipular Séries Opção 1 
         public void ListarSeries( )
         {
+            SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+
             Console.WriteLine("\nListar Séries");
 
             var lista = repositorioSeries.Lista();
@@ -33,6 +35,8 @@ namespace CadastroSeries
         // Manipular Filmes Opção 1 
         public void ListarFilmes( )
         {
+            RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+
             Console.WriteLine("\nListar Filmes");
 
             var lista = repFilmes.Lista();

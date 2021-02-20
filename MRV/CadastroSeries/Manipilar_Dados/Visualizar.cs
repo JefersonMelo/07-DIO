@@ -6,12 +6,14 @@ namespace CadastroSeries
     {
         public Visualizar( ) { }
 
-        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+        //static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        //static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         // Manipular Séries Opção 5
         public void VisualizarSerie( )
         {
+            SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+
             Console.Write("\nDigite o Id da Série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
@@ -23,6 +25,8 @@ namespace CadastroSeries
         // Manipular Filmes Opção 5
         public void VisualizarFilme( )
         {
+            RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+
             Console.Write("\nDigite o Id do Filme: ");
             int indice = int.Parse(Console.ReadLine());
 

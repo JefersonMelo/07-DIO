@@ -4,12 +4,14 @@ namespace CadastroSeries
 {
     public class Excluir
     {
-        static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
-        static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+        //static SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+        //static RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
 
         // Manipulação em Séries Opção 4
         public void ExcluirSerie( )
         {
+            SerierepositorioSeries repositorioSeries = new SerierepositorioSeries();
+
             Console.Write("\nDigite o Id da Série: ");
             int indiceSerie = int.Parse(Console.ReadLine());
 
@@ -19,6 +21,8 @@ namespace CadastroSeries
         // Manipulação em Filmes Opção 4
         public void ExcluirFilme( )// Opção 4
         {
+            RepositorioSeriesFilmes repFilmes = new RepositorioSeriesFilmes();
+
             Console.Write("\nDigite o Id do Filme: ");
             int indiceFilme = int.Parse(Console.ReadLine());
 

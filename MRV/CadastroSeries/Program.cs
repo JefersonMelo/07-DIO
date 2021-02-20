@@ -13,9 +13,7 @@ namespace CadastroSeries
 
         static void Main( string[] args )
         {
-            int entradaGenero, entradaAno, indice;
-            string entradaTitulo, entradaDescricao;
-
+            int indice;
 
             do
             {
@@ -44,8 +42,10 @@ namespace CadastroSeries
                                 break;
 
                             case '3':// Atualizar
-                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
-                                atualizar.AtualizarSerie();
+                                Console.Write("\nDigite o Id da Série: ");
+                                indice = int.Parse(Console.ReadLine());
+                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum 
+                                atualizar.AtualizarSerie(indice);
                                 break;
 
                             case '4':
@@ -81,31 +81,16 @@ namespace CadastroSeries
                                 listar.ListarFilmes();
                                 break;
 
-                            case '2':
-                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
-                                entradaGenero = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite o Título do Filme: ");
-                                entradaTitulo = Console.ReadLine();
-                                Console.Write("\nDigite o Ano de Início do Filme: ");
-                                entradaAno = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite a Descrição do Filme: ");
-                                entradaDescricao = Console.ReadLine();
-                                inserir.InserirFilme(entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
+                            case '2':// Inserir Filme
+                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum                             
+                                inserir.InserirFilme();
                                 break;
 
-                            case '3':
+                            case '3':// Atualizar Filme
                                 Console.Write("\nDigite o Id do Filme: ");
                                 indice = int.Parse(Console.ReadLine());
-                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum
-                                Console.Write("\nDigite o Gênero Entre as Opções Acima: ");
-                                entradaGenero = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite o Título da Filme: ");
-                                entradaTitulo = Console.ReadLine();
-                                Console.Write("\nDigite o Ano de Início da Filme: ");
-                                entradaAno = int.Parse(Console.ReadLine());
-                                Console.Write("\nDigite a Descrição da Filme: ");
-                                entradaDescricao = Console.ReadLine();
-                                atualizar.AtualizarFilme(indice, entradaGenero, entradaTitulo, entradaAno, entradaDescricao);
+                                menu.OpcaoGenero();// Retorna a Lista de Gêneros -->enum                                
+                                atualizar.AtualizarFilme(indice);
                                 break;
 
                             case '4':
