@@ -1032,8 +1032,120 @@ finanças e comercial, para que sejam definidas funcionalidades que ajudem essas
 	posicionamento e poder de negociação para os desafios futuros.
 </p>
 
-<p>&nbsp;</p>
+</div>
 
-<p>&nbsp;</p></div>
+<div>
+<h3>
+	<strong>Estudar os números para entender as necessidades do negócio e direcionar investimentos</strong>
+</h3>
+<p>
+	Uma grande dificuldade vivida pela&nbsp;<strong>Lady Driver</strong>&nbsp;foi que, apesar do modelo de negócio da 
+	startup não ser completamente novo, nenhuma das empresas que atuam nessa área possuem capital aberto. Por conta disto, 
+	o acesso a dados para fazer projeções era escasso, como conta Reinaldo Lopes.
+</p>
 
+<p>
+	Para o diretor de operações, é importante entender os números relacionados ao negócio para que seja possível a elaboração 
+	de um bom&nbsp;<strong>Pitch Deck</strong>.
+</p>
 
+<p>
+	O Pitch é uma apresentação que mostra a oportunidade do negócio para investidores e fundos de investimento. Geralmente, 
+	é um conjunto de slides, que deve transmitir uma breve ideia de como funciona o negócio, o estágio em que está, onde pretende chegar, 
+	como será realizado e, principalmente, o retorno do investimento. Um bom Pitch deve sempre conter indicadores de desempenho relevantes.
+</p>
+
+<h3>
+	<strong>Entendendo os números</strong>
+</h3>
+
+<p>
+	Entre os dados que devem estar explícitos no Pitch, pode-se considerar o CAC (customer acquisition costs, ou custos de aquisição de cliente), 
+	LTV (lifetime value, ou valor de vida do cliente) esperado, margens de lucro e payback (período de retorno de investimento em um projeto).
+</p>
+
+<p>
+	O CAC e o LTV são números essências nesta fase inicial do negócio, pois se referem aos&nbsp;<em><strong>unit economics</strong></em>,
+	 ou seja, a “receita direta e custos associados a um modelo de negócios, expressados com base em uma unidade”.
+</p>
+
+<p>
+	Apesar da dificuldade em apurar dados sobre o segmento em que se inseria a Lady Driver, o COO buscou informações através de diferentes 
+	fontes, conversando com pessoas do meio e na internet, realizando benchmark até conseguir chegar em um modelo capaz de validar o negócio.
+</p>
+
+<p>
+	Para todo empreendedor identificar e, principalmente, compreender os números pode se tornar uma vantagem altamente relevante em um mercado 
+	competitivo. Os números estão presentes nas diversas fases de uma empresa e, em cada uma delas, cabe ao empreendedor entende-los para 
+	traçar com mais assertividade o caminho a seguir.
+</p>
+
+<p>
+	No caso da Lady Driver, mesmo com a dificuldade inicial de buscar dados para benchmarking que servisse de parâmetros para as 
+	projeções da empresa, era entendimento dos sócios do negócio a necessidade de construir um bom Pitch, com dados e métricas reais 
+	para apresentar aos potenciais investidores e aumentar as chances de captação de recursos.
+</p>
+
+<p>
+	Nesse sentido, é importante todo empreendedor entender e saber diferenciar as métricas acionáveis das métricas de vaidade.</p>
+
+<h3>
+	<strong>Fuja das métricas de vaidade</strong>
+</h3>
+
+<p>
+	Métricas de vaidade são aquelas expressivas em volume, mas que na realidade não capturam o valor do produto para o cliente. 
+	Para Ries, em A Startup Enxuta, o ideal é focar em métricas que expressam o uso do produto, a capacidade de adquirir novos 
+	clientes e crescimento de receitas. O autor lista três boas características que as métricas devem conter para não serem métricas 
+	de vaidade:
+</p>
+
+<p>
+	<em>– Acionáveis:</em>&nbsp;mostram causa e efeito com clareza e você sabe o que fazer para alterá-la;<br>
+	<em>– Acessíveis:</em>&nbsp;podem ser acompanhadas e entendidas facilmente. A dica é utilizar em relatórios unidades tangíveis, concretas;<br>
+	<em>– Auditáveis:</em>&nbsp;são dados realmente confiáveis.
+</p>
+
+<h3>
+	<strong>Smart Money</strong>
+</h3>
+
+<p>
+	Voltando ao estágio em que a Lady Driver se encontrava, todo o capital da empresa estava vindo exclusivamente dos sócios, contudo, 
+	eles perceberam que para alavancar o negócio de fato, seria necessário mais investimentos e recursos.
+</p>
+
+<p>
+	A alternativa encontrada foi aproximar-se de um sócio-investidor que pôde desempenhar o papel de&nbsp;<strong>Smart Money</strong>, 
+	ou seja, auxiliar não somente com capital, mas também com experiência e conexões com parceiros estratégicos.
+</p>
+
+<h3>
+	<strong>Aprender e evoluir sempre</strong>
+</h3>
+
+<p>
+	O modelo enxuto tem como grande característica o constante aprendizado movido pelo ciclo apresentado por Eric Ries. Segundo o autor, 
+	os produtos desenvolvidos por startups são experimentos; a aprendizagem sobre como desenvolver uma empresa sustentável é resultado 
+	desses experimentos. Esse processo pode ser visualizado em três etapas que formam o ciclo de feedback construir-medir-aprender.
+</p>
+
+<p>
+	Assim, além das melhorias constantes no aplicativo da&nbsp;<strong>Lady Driver</strong>, Reinaldo Lopes também ressalta o cuidado 
+	com a parte orçamentária da empresa e comenta a importância de revisar o orçamento constantemente, principalmente em um negócio 
+	com uma proposta de mercado inovadora, pois sempre estará sujeito a variações.
+</p>
+
+<p>
+	O COO cita um exemplo marcante que a startup vivenciou no início da sua operação. De acordo com Lopes, eles descobriram que o 
+	serviço de mapas do Google que estavam utilizando requeria o pagamento de uma licença no valor de US$ 15 mil, algo que não constava no 
+	levantamento de custos da empresa. Em razão dessa necessidade, foi preciso refazer o orçamento e definir quais eram as prioridades 
+	para o funcionamento adequado do negócio.
+</p>
+
+<p>
+	Lopes nomeia esse planejamento como a pista de decolagem da Lady Driver. Essa visão geral sobre o negócio, que foi construída a 
+	partir de todas as etapas realizadas ao longo da criação e validação da ideia, permitiu aos empreendedores orçar investimentos e 
+	apresenta-los na primeira rodada de captação, que tinha como objetivo garantir fôlego de um ano para o negócio se consolidar no mercado.
+</p>
+</div>
