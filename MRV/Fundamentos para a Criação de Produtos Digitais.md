@@ -1,5 +1,7 @@
 <h1><strong>Fundamentos para a Criação de Produtos Digitais</strong></h1>
 
+<h2><strong>O que é gestão de produto</strong></h2>
+
 <div><p>Neste estudo de caso vamos analisar como Daniel Almeida, cofundador do<strong>&nbsp;Stayfilm</strong>, faz a gestão de produto alinhada à estratégia do negócio. A ferramenta possibilita que os usuários criem filmes com recursos visuais inovadores e qualidade de cinema através das fotos salvas – seja no computador, celular ou nas redes sociais – e compartilhem com amigos.</p>
 
 <p>Já foram mais de<strong>&nbsp;700 mil downloads e 2 milhões de vídeos produzidos</strong>&nbsp;pelo aplicativo, criado em 2012.</p>
@@ -34,10 +36,6 @@
 
 <p>Martin Eriksson, um dos autores do livro Product Leadership, descreve o gestor de produtos em uma interseção simples entre negócios, tecnologia e experiência do usuário (UX). Segundo ele, o gestor precisa ter experimentado pelo menos uma das áreas, ser apaixonado pelas três e familiarizado com os colaboradores de todas.</p>
 
-<p>O autor usa o diagrama de Venn para ilustrar seu conceito:</p>
-
-<p><img alt="" src="https://www.academiapme.com.br/wp-content/uploads/2018/06/diagrama-venn-product-management-300x289.png" style="height:366px; width:380px"></p>
-
 <p><strong>Tecnologia:</strong>&nbsp;o gestor de produtos tem que compreender o que será construído antes de começar a construir. Isso não significa que ele precisa saber codificar, mas ser capaz de entender a tecnologia. O&nbsp;<em>product manager</em>&nbsp;precisa se envolver o máximo de tempo possível com o desenvolvimento da equipe, ter uma linguagem compartilhada e de compreensão com seus engenheiros.</p>
 
 <p><strong>Experiência do usuário (UX):</strong>&nbsp;o gerente de produto tem que ser apaixonado pelos clientes e pelos problemas deles, pois a voz do cliente dentro de uma empresa vem do gestor e não deve ser ignorada. Para que isso aconteça, faz parte da função do&nbsp;<em>product manager</em>&nbsp;sair para conversas com clientes, obter feedbacks em primeira-mão, bem como colaborar com o trabalho dos designers internos e externos, que fazem parte desse processo.</p>
@@ -68,9 +66,7 @@
 
 <p>Mina Radhakrishnan, a primeira Gestora de Produto do Uber, conta que um monte de gente diz que gerente de produto é como o CEO ou o capitão do navio. Ela realmente não pensa nisso dessa forma, porque quando as coisas são descritas assim, faz parecer como se o gestor estivesse tomando as decisões, ou conduzindo como tudo funciona junto. Para ela, o gerente de produto é realmente a pessoa que trabalha com todo mundo mais para definir e dizer coisas como: é assim que esta coisa deve funcionar, e é por isso que deve funcionar dessa forma.</p>
 
-<p>&nbsp;</p>
-
-<p>&nbsp;</p></div>
+<h2><strong>Como alinhar a estratégia do negócio com a evolução do produto</strong></h2>
 
 <div><p>Para medir o crescimento do negócio e mapear os objetivos, a empresa precisa ter um plano estratégico que defina onde ela quer chegar e em qual prazo. E é nesse ponto que a gestão de produto faz toda a diferença para o negócio.</p>
 
@@ -148,6 +144,4 @@
 
 <p>Esses são apenas uma amostra das pessoas e elementos envolvidos em qualquer grande produto: gestor de produto, equipe de produtos (designers, engenheiros, desenvolvedores, etc.), componentes, roadmap, ferramentas, equipe de marketing e um site de marketing e, claro, os clientes. Remova qualquer um desses elementos e o resultado será diferente.</p>
 
-<p>&nbsp;</p>
-
-<p>&nbsp;</p></div>
+<h2><strong>O que é Lean Startup</strong></h2>
