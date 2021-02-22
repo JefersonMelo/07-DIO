@@ -44,27 +44,67 @@
 	o produto tem que estar alinhado.
 </p>
 
-<p>A gestão de produto é responsável por fazer a&nbsp;<strong>conexão de todas as áreas da empresa</strong>, entre elas marketing, finanças e comercial, para que sejam definidas funcionalidades que ajudem essas áreas a atingir seus objetivos estratégicos de negócio.</p>
+<p>
+	A gestão de produto é responsável por fazer a&nbsp;<strong>conexão de todas as áreas da empresa</strong>, entre elas marketing, 
+	finanças e comercial, para que sejam definidas funcionalidades que ajudem essas áreas a atingir seus objetivos estratégicos de negócio.
+</p>
 
-<p>Para Marty Cagan, sócio fundador do grupo de produtos Silicon Valley e veterano em gestão de produto, o trabalho do gestor de produto é um grande desafio dentro da empresa. “O trabalho de um gerente de produto é descobrir um produto que seja valioso, utilizável e viável”.</p>
+<p>
+	Para Marty Cagan, sócio fundador do grupo de produtos Silicon Valley e veterano em gestão de produto, o trabalho do gestor de produto 
+	é um grande desafio dentro da empresa. “O trabalho de um gerente de produto é descobrir um produto que seja valioso, utilizável e viável”.
+</p>
 
-<h3><strong>A relevância do gestor de produto</strong></h3>
+<h3>
+	<strong>A relevância do gestor de produto</strong>
+</h3>
 
-<p>Um gerente de produto deve pesquisar sobre seu mercado, seu comprador e o problema que seu público está tentando resolver. É preciso assimilar grandes quantidades de informações, incluindo feedback qualitativo de clientes, dados quantitativos das ferramentas de análise e estatísticas, relatórios de pesquisa e tendências de mercado, para citar apenas algumas.</p>
+<p>
+	Um gerente de produto deve pesquisar sobre seu mercado, seu comprador e o problema que seu público está tentando resolver.
+ 	É preciso assimilar grandes quantidades de informações, incluindo feedback qualitativo de clientes, dados quantitativos das 
+	ferramentas de análise e estatísticas, relatórios de pesquisa e tendências de mercado, para citar apenas algumas.
+</p>
 
-<p>O gestor de produtos tem um papel bastante variado na empresa. Para suprir as necessidades da empresa, ele precisa de habilidades em áreas como&nbsp;<strong>negócios, experiência do usuário e tecnologia</strong>.</p>
+<p>
+	O gestor de produtos tem um papel bastante variado na empresa. Para suprir as necessidades da empresa, ele precisa de
+	habilidades em áreas como&nbsp;<strong>negócios, experiência do usuário e tecnologia</strong>.
+</p>
 
-<p>Tanya Cordrey, ex-diretora digital do Guardian, diz que uma das coisas realmente fantásticas sobre o gerente de produto, mas também uma das tensões reais, é que é um papel muito amplo. É preciso ser realmente bom em estratégia, ser inspirador e entender o retrato a longo prazo. Ao mesmo tempo, também é necessário ser realmente bom no lado operacional e fazer as coisas acontecerem.</p>
+<p>
+	Tanya Cordrey, ex-diretora digital do Guardian, diz que uma das coisas realmente fantásticas sobre o gerente de produto, 
+	mas também uma das tensões reais, é que é um papel muito amplo. É preciso ser realmente bom em estratégia, ser inspirador 
+	e entender o retrato a longo prazo. Ao mesmo tempo, também é necessário ser realmente bom no lado operacional e fazer as 
+	coisas acontecerem.
+</p>
 
-<p>Para tornar a Stayfilm um caso de sucesso, Daniel afirma que todos os envolvidos no negócio precisam ser experts no produto, ou seja, passar por todos os processos da ferramenta como se fossem um usuário e entender como ele funciona. “Eu tenho que conseguir fazer com que todo mundo dentro da empresa consiga produzir um filme, compartilhar com seus amigos e ficar feliz que aquele filme foi pra frente”.</p>
+<p>
+	Para tornar a Stayfilm um caso de sucesso, Daniel afirma que todos os envolvidos no negócio precisam ser experts no produto, 
+	ou seja, passar por todos os processos da ferramenta como se fossem um usuário e entender como ele funciona. “Eu tenho que 
+	conseguir fazer com que todo mundo dentro da empresa consiga produzir um filme, compartilhar com seus amigos e ficar feliz que 
+	aquele filme foi pra frente”.
+</p>
 
-<p>Ben Horowitz, investidor americano da empresa de capital Andreessen-Horowitz, salienta que um bom gerente de produto atua como CEO do produto. Bons gerentes têm uma visão realista do que é sucesso em seus meios de produto e garantem que esta visão se torne realidade, custe o que custar. Gerentes eficientes são vistos por toda a equipe como o líder do produto.</p>
+<p>
+	Ben Horowitz, investidor americano da empresa de capital Andreessen-Horowitz, salienta que um bom gerente de produto atua 
+	como CEO do produto. Bons gerentes têm uma visão realista do que é sucesso em seus meios de produto e garantem que esta visão 
+	se torne realidade, custe o que custar. Gerentes eficientes são vistos por toda a equipe como o líder do produto.
+</p>
 
-<h3><strong>Negócios, tecnologia e experiência do usuário</strong></h3>
+<h3>
+	<strong>Negócios, tecnologia e experiência do usuário</strong>
+</h3>
 
-<p>Martin Eriksson, um dos autores do livro Product Leadership, descreve o gestor de produtos em uma interseção simples entre negócios, tecnologia e experiência do usuário (UX). Segundo ele, o gestor precisa ter experimentado pelo menos uma das áreas, ser apaixonado pelas três e familiarizado com os colaboradores de todas.</p>
+<p>
+	Martin Eriksson, um dos autores do livro Product Leadership, descreve o gestor de produtos em uma interseção simples entre negócios, 
+	tecnologia e experiência do usuário (UX). Segundo ele, o gestor precisa ter experimentado pelo menos uma das áreas, ser apaixonado 
+	pelas três e familiarizado com os colaboradores de todas.
+</p>
 
-<p><strong>Tecnologia:</strong>&nbsp;o gestor de produtos tem que compreender o que será construído antes de começar a construir. Isso não significa que ele precisa saber codificar, mas ser capaz de entender a tecnologia. O&nbsp;<em>product manager</em>&nbsp;precisa se envolver o máximo de tempo possível com o desenvolvimento da equipe, ter uma linguagem compartilhada e de compreensão com seus engenheiros.</p>
+<p>
+	<strong>Tecnologia:</strong>&nbsp;o gestor de produtos tem que compreender o que será construído antes de começar a construir. 
+	Isso não significa que ele precisa saber codificar, mas ser capaz de entender a tecnologia. O&nbsp;<em>product manager</em>&nbsp;
+	precisa se envolver o máximo de tempo possível com o desenvolvimento da equipe, ter uma linguagem compartilhada e de compreensão com 
+	seus engenheiros.
+</p>
 
 <p><strong>Experiência do usuário (UX):</strong>&nbsp;o gerente de produto tem que ser apaixonado pelos clientes e pelos problemas deles, pois a voz do cliente dentro de uma empresa vem do gestor e não deve ser ignorada. Para que isso aconteça, faz parte da função do&nbsp;<em>product manager</em>&nbsp;sair para conversas com clientes, obter feedbacks em primeira-mão, bem como colaborar com o trabalho dos designers internos e externos, que fazem parte desse processo.</p>
 
@@ -348,17 +388,45 @@
 
 <p><em>“Tem empreendedor que começa com um negócio, mas aquele negócio não valida, mas ele não quer largar mão, largar o osso, ele quer continuar fazendo aquilo e acaba, às vezes, confundindo um pouco resiliência com insistência em manter um negócio que não tem sentido. É importante você ser bastante frio, não ter o apego”</em>, destaca Daniel Arcoverde, um dos fundadores da empresa.</p>
 
-<p><strong>Eric Ries</strong>&nbsp;também destaca em seu livro&nbsp;<strong>A Startup Enxuta</strong>&nbsp;esse momento crucial que quase todo o empreendedor vive durante o desenvolvimento de um produto, decidir quando pivotar e quando perseverar. Nas palavras do autor, não há maior destruidor do potencial criativo que a decisão mal orientada de perseverar.&nbsp;<em>“As empresas que não conseguem pivotar para uma nova direção com base no feedback do mercado podem ficar presas na terra dos mortos-vivos, nem crescendo o suficiente, nem morrendo, consumindo recursos e dedicação dos funcionários e de outras partes interessadas, mas sem avançar”</em>, ressalta Ries em A Startup Enxuta.</p>
+<p>
+	<strong>Eric Ries</strong>&nbsp;também destaca em seu livro&nbsp;<strong>A Startup Enxuta</strong>&nbsp;esse momento crucial que quase 
+	todo o empreendedor vive durante o desenvolvimento de um produto, decidir quando pivotar e quando perseverar. Nas palavras do autor, 
+	não há maior destruidor do potencial criativo que a decisão mal orientada de perseverar.&nbsp;
+	<em>“As empresas que não conseguem pivotar 
+	para uma nova direção com base no feedback do mercado podem ficar presas na terra dos mortos-vivos, nem crescendo o suficiente, 
+	nem morrendo, consumindo recursos e dedicação dos funcionários e de outras partes interessadas, mas sem avançar”
+	</em>, ressalta Ries em A Startup Enxuta.
+</p>
 
-<p>Para Arcoverde, a lição com o enfrentamento dos primeiros desafios da empresa foi o de sempre buscar entender os porquês da trajetória para redirecionar o negócio, melhorar o produto e o seu valor, e assim garantir condições para alcançar o Product Market FIT, “que é quando você, de fato, tem um produto com uma proposta de valor que cabe ao mercado, e você tem um mercado potencial que demanda por aquela sua solução”.</p>
+<p>
+	Para Arcoverde, a lição com o enfrentamento dos primeiros desafios da empresa foi o de sempre buscar entender os porquês da trajetória 
+	para redirecionar o negócio, melhorar o produto e o seu valor, e assim garantir condições para alcançar o Product Market FIT, “que é 
+	quando você, de fato, tem um produto com uma proposta de valor que cabe ao mercado, e você tem um mercado potencial que demanda por 
+	aquela sua solução”.
+</p>
 
-<p>Com a entrada do produto no mercado, os sócios do&nbsp;<strong>Netshow.me</strong>&nbsp;se depararam com a necessidade de ter mais agilidade no atendimento das demandas que começavam a surgir referentes ao negócio, em especial ao software. A solução foi montar uma equipe interna que trouxesse essa agilidade para a startup.</p>
+<p>
+	Com a entrada do produto no mercado, os sócios do&nbsp;<strong>Netshow.me</strong>&nbsp;se depararam com a necessidade de ter mais 
+	agilidade no atendimento das demandas que começavam a surgir referentes ao negócio, em especial ao software. A solução foi montar uma 
+	equipe interna que trouxesse essa agilidade para a startup.
+</p>
 
-<p>Com a ajuda de um profissional do mercado, a dupla elaborou um processo seletivo em busca de um colaborador que tivesse as habilidades técnicas necessárias, mas que também apresentasse compatibilidade de ideias, que se adequasse à cultura da empresa.</p>
+<p>
+	Com a ajuda de um profissional do mercado, a dupla elaborou um processo seletivo em busca de um colaborador que tivesse as habilidades 
+	técnicas necessárias, mas que também apresentasse compatibilidade de ideias, que se adequasse à cultura da empresa.
+</p>
 
-<p>O primeiro funcionário contratado foi da área de desenvolvimento e que, posteriormente, tornou-se mais um sócio do negócio.</p>
+<p>
+	O primeiro funcionário contratado foi da área de desenvolvimento e que, posteriormente, tornou-se mais um sócio do negócio.
+</p>
 
-<p><em>“A gente tem uma filosofia bastante meritocrática e que é compartilhada. À medida que a gente cresce, a gente quer que as pessoas que entram no barco com a gente cresçam também e virem nossos sócios”</em>, explica Daniel.</p>
+<p>
+	<em>
+		“A gente tem uma filosofia bastante meritocrática e que é compartilhada. À medida que a gente cresce, a gente quer que as pessoas 
+		que entram no barco com a gente cresçam também e virem nossos sócios”
+	</em>
+, explica Daniel.
+</p>
 
 <p>&nbsp;</p>
 
