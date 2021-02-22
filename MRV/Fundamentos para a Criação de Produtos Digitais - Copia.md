@@ -1149,3 +1149,75 @@ finanças e comercial, para que sejam definidas funcionalidades que ajudem essas
 	apresenta-los na primeira rodada de captação, que tinha como objetivo garantir fôlego de um ano para o negócio se consolidar no mercado.
 </p>
 </div>
+
+<div>
+<h2>
+	<strong>Aprender com erros e acertos para evoluir e valorizar a cultura para fortalecer o time</strong>
+</h2>
+<p>
+	A&nbsp;<strong>Worthix</strong>&nbsp;é uma empresa que tem como principal atividade mostrar ao empresário como compreender a 
+	percepção do cliente sobre o produto ou serviço consumido pode aumentar as vendas e reduzir o churn (índice de cancelamento de clientes).
+</p>
+
+<p>
+	O produto da Worthix é um software que oferece uma metodologia de pesquisa do comportamento do consumidor que usa inteligência 
+	artificial para medir com precisão científica quais são as experiências que mais motivam a compra e a lealdade dos clientes.
+</p>
+
+<p>
+	O CEO da empresa, Guilherme Cerqueira, destaca que sua motivação por empreender é pensar que por meio do seu negócio deixará sua 
+	contribuição à sociedade e uma marca na história. Para ele, o grande desafio do empreendedor é buscar sempre o conhecimento.
+</p>
+
+<h3>
+<strong>Conhecimento é o que suporta o desenvolvimento</strong>
+</h3>
+
+<p>
+	As principais fontes inspiradoras para Cerqueira são leituras e cases sobre a trajetória de outros empreendedores. 
+	Segundo ele, muito se aprende conhecendo a jornada de pessoas que já construíram um legado, pois é possível entender 
+	como elas se comportaram em situações de dificuldades ou de extremo êxito.
+</p>
+
+<p>
+	Em relação ao aprendizado em universidades e escolas, a opinião do empreendedor é que em razão da própria dinâmica da inovação 
+	nem sempre esses centros acadêmicos conseguem se manter atualizados em seus conteúdos, portanto, não são as principais fontes de 
+	pesquisa para ele. Contudo, ele ressalta que alguns locais têm se esforçado para oferecer cursos de alta qualidade a empreendedores.
+</p>
+
+<h3>
+<strong>Aprender errando</strong>
+</h3>
+
+<p>
+	Cerqueira também afirma que procura sempre aprender com seus próprios erros. “Você tem que estar muito preocupado em aprender com seus 
+	próprios erros. Aliás, isso é fundamental, porque meus próprios erros me ensinam bastante, nunca tenho medo de errar, quanto mais eu erro, 
+	mais eu acerto, é impressionante”, ressalta.
+</p>
+
+<h3>
+<strong>Cultura participativa gera melhores resultados</strong>
+</h3>
+
+<p>
+	Para o empreendedor, a cultura da empresa é uma preocupação, pois ela deve ser difundida aos colaboradores desde o princípio. 
+	É ela que vai direcionar os passos do time e que tipo de empresa está sendo criada.
+</p>
+
+<p>
+	Nas experiências de Cerqueira, a liberdade de ideias sempre foi prioridade. Para ele, desde o estagiário até o alto escalão 
+	devem ter a mesma oportunidade de se expressar e contribuir para o crescimento do negócio, não há certo ou errado.
+</p>
+
+<p>
+	<em>
+		“A gente sempre fez questão de respeitar muito a individualidade das pessoas, a opinião das pessoas, dar espaço para 
+		todo mundo falar tudo o que podia”
+	</em>, diz o CEO, que completa ainda:&nbsp;
+	<em>
+		“para mim cultura é uma preocupação enorme porque é algo que a gente tem que começar desde pequenininho (início da empresa), 
+		ou seja, desde pequeno você tem que começar dizendo que todo mundo pode, que todo mundo deve”
+	</em>.
+</p>
+
+</div>
