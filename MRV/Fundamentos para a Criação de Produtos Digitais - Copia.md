@@ -1355,9 +1355,9 @@ finanças e comercial, para que sejam definidas funcionalidades que ajudem essas
 
 <div>
 
-<h3>
+<h2>
 	<strong>Quais são as principais funções em uma equipe de produto</strong>
-</h3>
+</h2>
 
 <p>A&nbsp;<strong>RankMyApp</strong>&nbsp;é uma ferramenta de&nbsp;SEO (<em>Search Engine Optimization</em>)&nbsp;focada em auxiliar aplicativos a ganhar mais downloads e mais visibilidade através da otimização e da inteligência de marketing orgânico.</p>
 
@@ -1404,7 +1404,24 @@ finanças e comercial, para que sejam definidas funcionalidades que ajudem essas
 <p>“Um dos maiores aprendizados que a gente teve é que todo cliente vai ter um desejo específico na ferramenta e o desenvolvimento leva tempo, então não adianta achar que a gente vai fazer mil features simultaneamente, a gente tem que saber focar e entender qual é a feature que é realmente importante”, destaca Scalise.</p>
 
 <p>Para Martyn Cagan, em Inspired, trabalhar com prototipagem constante e realizar testes com usuários a cada nova funcionalidade incorporada são abordagens importantes para a empresa que busca um processo de gestão de produtos eficiente.</p>
+</div>
 
-<p>&nbsp;</p>
+<div>
+<h2>
+	<strong>As principais métricas acompanhadas por uma equipe de produtos</strong>
+</h2>
+<p>Como é um&nbsp;SaaS (Software as a Service)&nbsp;com assinatura mensal, o&nbsp;<strong>RankMyApp</strong>&nbsp;considera duas métricas vitais para monitorar e acompanhar o progresso do negócio, são elas:&nbsp;Customer Lifetime Value(CLTV, e em português,&nbsp;“Valor do tempo de vida do cliente”) e o&nbsp;Custo de Aquisição do Cliente (CAC).</p>
 
-<p>&nbsp;</p></div>
+<p>O&nbsp;Customer Lifetime Value (CLTV)&nbsp;é uma métrica que fornece uma previsão de todo o valor que um negócio pode arrecadar desde o início até o fim do relacionamento com o cliente. Dificilmente uma empresa saberá o período exato deste relacionamento, mas a partir do comportamento desse cliente e de um acervo histórico que deve existir na empresa sobre a permanência de clientes é possível estimar esse valor.</p>
+
+<p>Já o&nbsp;CAC&nbsp;é o que a própria nomenclatura diz. Essa métrica mostra o custo que a empresa terá na aquisição do cliente. Ela mostra o desempenho do negócio em termos financeiros.</p>
+
+<p>Essas duas métricas se relacionam muito bem e conseguem traduzir em números como está a empresa. Num cenário positivo para o negócio, é preciso ter em mente que o&nbsp;CLTV&nbsp;seja superior ao&nbsp;CAC.</p>
+
+<p>O que se propaga entre as melhores práticas de negócios é que, em média, o&nbsp;CLTV&nbsp;deve ser três vezes maior que o&nbsp;CAC&nbsp;para que a empresa tenha uma boa projeção de futuro. Estar consciente sobre essas duas métricas e conseguir avalia-las pode significar novas estratégias capazes de atingir clientes mais qualificados.</p>
+
+<p>No RankMyApp, o&nbsp;CLTV&nbsp;é de responsabilidade da equipe de Produto, que tem como foco oferecer uma solução de alto valor para o cliente, que o engaje e o mantenha como usuário, gerando valor para a empresa. Já o&nbsp;CAC&nbsp;fica a cargo das equipes de Marketing e Vendas, que têm como missão conquistar mais clientes com o menor custo possível. A intenção, de acordo com o CEO, é reproduzir uma máquina de vendas, ou seja, aumentar o&nbsp;CLTV, manter os clientes engajados, satisfeitos, ao ponto de que recomendem a empresa, se tornem promotores do RankMyApp, e que organicamente possam atrair novos clientes e, assim, reduzir o custo de aquisição, ou o&nbsp;CAC.</p>
+
+<p>O investimento inicial na empresa foi dos próprios sócios, seguindo um planejamento, com metas definidas e métricas de faturamento e custo para mensurar progresso e acompanhar resultados.</p>
+</div>
+
