@@ -145,3 +145,176 @@
 <p>Esses são apenas uma amostra das pessoas e elementos envolvidos em qualquer grande produto: gestor de produto, equipe de produtos (designers, engenheiros, desenvolvedores, etc.), componentes, roadmap, ferramentas, equipe de marketing e um site de marketing e, claro, os clientes. Remova qualquer um desses elementos e o resultado será diferente.</p>
 
 <h2><strong>O que é Lean Startup</strong></h2>
+
+<div><p>Nesse estudo de caso vamos apresentar conceitos da Lean Startup e como aplicá-los na prática. Guilherme Cerqueira, CEO da Worthix, vai explicar quais os processos que ele adotou para a criação do seu produto digital.</p>
+
+<p>A Worthix é um software construído com Inteligência Artificial para empresas que querem medir a experiência do próprio cliente e descobrir se ele se mantém fiel ao produto e se continuará fazendo negócios com a empresa.</p>
+
+<p>Fundada no Vale do Silício, Estados Unidos, a Worthix captou cerca de&nbsp;<strong>R$ 5,4 milhões de investimentos</strong>durante seu período de expansão. Hoje, possui escritórios em São Francisco, Atlanta e Rio de Janeiro.</p>
+
+<p>E para trazer os conceitos teóricos da aula, será usado como base o best-seller “A Startup Enxuta”, do autor Eric Ries, o criador da metodologia. O empreendedor americano ganhou destaque no mundo ao desenvolver um modelo de negócio inovador e foi notícia de grandes mídias como The New York Times, Wall Street Journal e Harvard Business Review.</p>
+
+<h3><strong>O que é e porque a Lean Startup foi criada</strong></h3>
+
+<p>O modelo de negócios que existia antes da metodologia Lean Startup pode até ter funcionado para grandes empresas com histórico operacional e um ambiente estático. Mas os negócios que não possuíam nenhum dos dois fatores já tinham uma desvantagem palpável.</p>
+
+<p>Em seu início, as startups ainda estão definindo o segmento de mercado, público e até as funcionalidades do produto, tudo muito vago e incerto. E quando o negócio começa a dar errado, os fundadores e investidores abrem mão da empresa e partem para um método chamado “<em>just do it</em>”, em português, simplesmente faça. Eles não percebem que o problema pode ser simplesmente a falta de gerenciamento.</p>
+
+<p>Cansado de seguir um pensamento de negócio que não funcionava na sua empresa, Eric Ries começou a desenvolver uma nova metodologia baseada no&nbsp;<em>Costumer Development</em>, em manufatura enxuta e desenvolvimento ágil.</p>
+
+<p>Essa metodologia, chamada por ele de Lean Startup, representa uma nova maneira de criar inovações constantemente.</p>
+
+<p>O autor também aplicou em sua empresa, a IMVU, processos que estavam bem longe do que era pregado pelo pensamento tradicional. Ries lançou um produto incompleto, com erros de programação e instabilidade, e cobrou dos clientes por isso, sempre pedindo feedback desses usuários e fazendo atualizações diárias para evoluir constantemente o produto digital.</p>
+
+<p>Ele e sua equipe analisavam esses feedbacks mas não aplicavam as informações do negócio, pois o objetivo não era dar aos clientes aquilo que eles queriam, mas sim dar algo que eles nem sabiam que queriam.</p>
+
+<p>Contrariando toda a metodologia convencional de negócio, a IMVU virou um sucesso. A empresa atingiu um faturamento anual de 50 milhões de dólares em 2011, possuía um catálogo de mais de 6 milhões de itens, eram adicionados 7 mil por dia, e quase todos foram criados por clientes.</p>
+
+<h3><strong>Princípios da Lean startup</strong></h3>
+
+<p>Depois do sucesso que virou a IMVU, o escritor de “A Startup Enxuta” começou a se dedicar integralmente ao desenvolvimento de princípios que poderiam ajudar produtos inovadores a alcançarem o sucesso. Assim, ele elaborou cinco princípios:</p>
+
+<ol>
+	<li><strong>Existem empreendedores em todos os lugares</strong>. Não é preciso ser dono de uma empresa ou chefiar uma equipe para se encaixar no termo. Eric Ries define startup como “uma instituição humana projetada para criar novos produtos e serviços sob condições de extrema incerteza”. Sendo assim, a Lean Startup pode ser aplicada desde em uma grande empresa até em apenas um setor.</li>
+	<li><strong>Empreender significa administração</strong>. Uma startup é construída com base em incertezas e por isso precisa de um tipo específico de gestão. É esse cenário que faz o empreendedor ser a peça fundamental do negócio, o responsável pelo seu crescimento e futuro.</li>
+	<li><strong>Valide o aprendizado</strong>. Antes de inovar um produto, faturar ou atender às necessidades do cliente, é preciso aprender. Produtos digitais exigem um aprendizado constante, que pode validar a visão do empreendedor através de testes e experimentos.</li>
+	<li><strong>Construir-medir-aprender.</strong>&nbsp;Tirar ideias do papel e transformá-las em produtos é o objetivo das startups. Após a criação do produto, é necessário medir as experiências dos usuários e, a partir delas, determinar se a empresa vai mudar de direção ou seguir a estratégia definida. Mesmo startups de sucesso devem rever esse processo e acelerar o ciclo de feedbacks.</li>
+	<li><strong>Métricas e números para inovar</strong>. Mensurar o crescimento, estabelecer marcos e priorizar o trabalho são algumas tarefas negligenciadas dentro de um produto digital. Mas é imprescindível que as startups tenham pessoas responsáveis por isso e por uma contabilidade voltada especialmente para o negócio.</li>
+</ol>
+
+<p>A cultura Lean Startup está transformando completamente os negócios e seus sistemas de produção. Esse pensamento preza a qualidade do produto de dentro para fora, e como é possível desenvolver isso, além de aproveitar ao máximo o conhecimento e a criatividade dos funcionários.</p>
+
+<p>Eric Ries resume a metodologia em: “desenvolver novos produtos digitais que possuem grande visão e ambição, com o objetivo de engajar rapidamente o consumidor”. Para que o progresso seja rápido, é necessário que o aprendizado também seja acelerado.</p>
+
+<h3><strong>A importância de se colocar no lugar do cliente</strong></h3>
+
+<p>A metodologia Lean Startup é focada em desenvolver soluções úteis para os clientes, e não em produtos que sairão do mercado em alguns meses por não resolverem os problemas dos consumidores.</p>
+
+<p>E para descobrir o que o cliente precisa, o livro “A Startup Enxuta” traz o conceito de Steve Blank: saia do prédio e comece a aprender sobre o público-alvo do seu produto. Um bom exemplo foi o que um gerente da Toyota fez.</p>
+
+<p>Responsável pelo projeto de desenvolvimento de um modelo de minivan da concessionária,&nbsp;<strong>ele percorreu com o veículo mais de 85 mil quilômetros</strong>&nbsp;nos Estados Unidos a fim de sentir na pele quais seriam as dores dos clientes que comprariam a minivan.</p>
+
+<p>Durante o trajeto, ele também conversou com clientes reais e, com base nessas informações e em sua própria experiência, ele validou suas hipóteses e descobriu o que os motoristas americanos esperavam de um veículo como o que a Toyota se propunha a lançar.</p>
+
+<p>Guilherme Cerqueira já atuava no mercado quando identificou uma dor do segmento, com base em sua experiência e análise: a dificuldade das empresas de encontrar uma métrica que variasse de acordo com o grau de interesse do cliente.</p>
+
+<p>Ele percebeu que o grau de satisfação dos clientes não era uma garantia de que eles continuariam fazendo negócios com a empresa. Assim, Cerqueira concluiu que, para o consumidor, estar satisfeito não era o mais importante, o que fazia a diferença era o quanto aquele produto ou serviço valia a pena para ele.</p>
+
+<p>Para ter a validação dessa hipótese, o CEO levou a ideia até seus potenciais clientes, as empresas, e ofereceu o serviço a elas. Por se tratar de um método científico, Cerqueira criou um teste de validação e colocou um protótipo para funcionar dentro das empresas para confirmar se ele realmente resolvia o problema dos usuários.</p>
+
+<p>Durante esse processo, o empreendedor estava focado apenas em resolver uma dor de mercado e agregar valor ao seu cliente. Após o feedback positivo dos usuários, que validaram sua ideia, é que ele começou a pensar no produto e em questões relacionadas, como: quanto e como cobrar, usabilidade, persona, funcionalidades e assim por diante.</p>
+
+<p>Depois da hipótese validada é que a Worthix se transformou em um produto digital, começando com o um MVP,&nbsp;<strong>Minimum Viable Product</strong>, traduzido para o português, produto mínimo viável.</p>
+
+<p>Ries escreve em seu livro sobre a importância de monetizar o produto, mesmo na fase de validação, antes dele estar pronto para ser lançado no mercado. Se os clientes pagam por um serviço que ainda não está em sua melhor versão, ele já é minimamente validado, e o empreendedor não precisa mais procurar por alguém que está disposto a pagar pelo produto antes de lançá-lo de fato no mercado.</p>
+
+<p>Outro ponto levantado pelo autor é a receita gerada pela startup. Quanto mais cedo o negócio começar a captar dinheiro, melhor, pois ele pode retornar em forma de investimento para o próprio produto e aprimorá-lo.</p>
+
+<p>Cobrar pelo serviço logo no início ajuda o empreendedor a classificar qual o valor dele para os clientes. Se o produto ficar em fase de validação por muito tempo, sem gerar receita, muito provavelmente os clientes não vão querer pagar por ele.</p>
+
+
+<h2><strong>Como construir e validar as hipóteses de um MVP</strong></h2>
+
+<div><p>Guilherme Cerqueira já possuía uma empresa de pesquisa quando notou a dor das empresas em perceber que seus compradores poderiam parar de fazer negócios com elas, mesmo estando satisfeitos com o serviço.</p>
+
+<p>Após identificar o problema, o CEO procurou grandes empresas que estariam com essa dor a fim de validar estrategicamente a sua ideia. Validada a hipótese, o próximo passo foi desenvolver o produto.</p>
+
+<p>Eric Ries explica que as startups possuem uma visão, a qual sempre vão seguir, que é o propósito de mudar o mundo de alguma forma. Para alcançar essa visão e chegar no produto, o resultado final, é preciso desenvolver uma estratégia.</p>
+
+<p>Essa estratégia deve ser composta por um plano de negócio e um plano de produto, além de ter conhecimento dos concorrentes, dos parceiros e do público-alvo, ou segmento, que a empresa deverá atuar. O produto digital é o que materializa a solução do problema, que deve sempre ter suas funcionalidades aprimoradas evolutivamente com base nos feedbacks dos clientes.</p>
+
+<p>Seguindo a metodologia Lean Startup, esse produto digital deve ser criado de forma rápida, otimizada e barata, e para isso é preciso desenvolver um MVP.</p>
+
+<h3><strong>O que é um MVP</strong></h3>
+
+<p>Terminado o processo de validação inicial da hipótese, é hora iniciar os esforços para colocar o produto para rodar no mercado. Mas, como já apendemos nessa aula, quanto antes começar a cobrar por ele, melhor, mesmo que a plataforma ainda esteja longe do que seria o ideal para um lançamento.</p>
+
+<p>Para não perder tempo e dinheiro, Cerqueira desenvolveu um MVP, a menor versão possível do produto que possa agregar valor, feito para que os clientes pudessem testar e dar feedbacks, como um protótipo. Ele permite o mínimo de recurso e tempo de desenvolvimento, mas é imprescindível saber mensurar seu impacto no mercado.</p>
+
+<p>A Worthix focou em um MVP que qualquer cliente pudesse usar com facilidade e independente da empresa de atuação. Guilherme conta que essa primeira versão do software incluía apenas as funcionalidades básicas do produto. Mesmo sendo uma versão enxuta, o protótipo agregou valor para os clientes, que começaram a pedir novas rodadas.</p>
+
+<p>O MVP é construído baseado em hipóteses do próprio empreendedor, que devem ser testadas a fim de serem validadas ou não. Esse protótipo passa por todo o processo de construir-medir-aprender, ciclo que define se a startup vai mudar de direção ou permanecer com a mesma estratégia na sua jornada até à visão.</p>
+
+<p>Outra técnica de MVP é o MVP com&nbsp;<em>concierge</em>. Por definição, o produto mínimo&nbsp;<em>concierge</em>&nbsp;é quando o empreendedor acompanha seu cliente pessoalmente, e trabalha junto com ele para evoluir constantemente o produto mínimo viável.</p>
+
+<p>No MVP&nbsp;<em>concierge</em>&nbsp;o serviço personalizado não é o produto de fato, é apenas uma ferramenta para aprendizagem e testes de hipóteses para evolução do produto.</p>
+
+<h3><strong>Construir, medir, aprender</strong></h3>
+
+<p>Para construir um produto que valerá a pena para os clientes é preciso criar hipóteses, que prevê o que vai agregar valor ao usuário, e testá-las. Essas teorias são experimentos científicos que tem como objetivo descobrir como criar um negócio a partir da visão.</p>
+
+<p>Segundo Eric Ries, é preciso testar hipóteses de maneira rápida e precisa, permitindo que o empreendedor comece os experimentos de imediato. O experimento científico é mais do que testes e validação, ele é a primeira versão do produto.</p>
+
+<p>Este ciclo é chamado de construir-medir-aprender dentro da Lean Startup.</p>
+
+<p>Foi o processo que a Worthix fez para validar o aplicativo. Primeiro o CEO construiu a metodologia, depois mediu o quanto o produto resolvia a dor dos potenciais clientes e então, para que ele aprendesse sob a perspectiva dos usuários, ligava de cliente para cliente e analisava as métricas para poder entender o que era importante para o produto que ele estava criando.</p>
+
+<p>O empreendedor constrói hipóteses do produto, define a métrica que será usada para validar e, por fim, cria situações para o aprendizado. Este processo permite qual o melhor caminho para a empresa: pivotar ou perseverar.</p>
+
+<p>Pivotar, ou pivô, significa mudar de direção ou de estratégia, e acontece quando o empreendedor percebe que o plano não está dando certo, ou quando o produto não foi validado. Então, ele precisa mudar o modelo de negócio.</p>
+
+<p>Ries deixa claro que as emoções humanas podem interferir na hora de tomar essa decisão, quando o empreendedor se recusa a mudar de direção no negócio com base nos feedbacks. Isso pode levar a empresa a uma subvida, ou seja, ela não vai crescer nem morrer, mas vai consumir recursos e empenho dos funcionários sem chegar a lugar algum.</p>
+
+<p>O autor cita o exemplo da Votizen, empresa estadunidense que desenvolveu uma rede online para eleitores do país. Seu CEO, David Binetti, pivotou três vezes antes de alcançar o sucesso. Durante o processo, ele acelerou significativamente o desenvolvimento dos MVPs.</p>
+
+<p>O primeiro MVP demorou oito meses para ser criado; o segundo, a metade desse tempo; o terceiro levou três meses; e o último, apenas um mês. Isso mostra como o CEO agilizou seu processo de validação/rejeição da hipótese até encontrar o seu&nbsp;<em>product/market fit</em>.</p>
+
+<p>O número de pivôs que uma startup ainda tem pode ser medido pelo número de oportunidades que restam para fazer uma mudança no modelo de negócio de forma rápida, em menos tempo e com custo menor.</p>
+
+<h3><strong>Quais as diferenças entre as métricas e qual é a melhor para o negócio</strong></h3>
+
+<p>No livro “Startup Enxuta”, o autor traz dois tipos diferentes de métricas: as métricas de vaidade e as métricas acionáveis. Vamos entender cada uma delas:</p>
+
+<p><strong>Métricas de vaidade</strong>: são informações e números coletados do produto que não ajudam o empreendedor a tomar uma decisão. Isso não quer dizer que elas não são importantes, mas não são os indicadores que apontarão o sucesso ou fracasso do negócio.</p>
+
+<p>Por exemplo, se um produto digital tem como métrica o número de downloads e, em um mês faz uma promoção para estimular esse número, os indicadores gerados por essa promoção são uma métrica de vaidade, pois não representam o número real de downloads que o produto tem mensalmente.</p>
+
+<p><strong>Métricas acionáveis</strong>: são aquelas que indicam a real situação do negócio e quais os pontos que precisam ser melhorados. Esses indicadores apontam, por exemplo, qual é o potencial de crescimento, engajamento dos clientes, faturamento, dentre outros que podem variar de acordo com o segmento do produto.</p>
+
+<p>Um bom exemplo são as métricas acionáveis que a Worthix usa. Guilherme observa três indicadores principais do negócio: aquisição de clientes, engajamento de utilização e abandono do produto. Esses números são acompanhados de perto pelo CEO, que escolheu essas métricas-chave para apontar resultados reais do negócio, não ilusórios.</p>
+
+<p>O best-seller cita o processo de teste da Zappos, e-commerce de sapatos. A empresa acreditava que as pessoas queriam comprar calçados pela internet, e para validar essa visão sem gastar muitos recursos, Nick Swinmurn, fundador do negócio, criou um e-commerce e tirou fotos de sapatos de lojas físicas.</p>
+
+<p>Quando o cliente comprava o produto, Nick ia até as lojas e comprava o calçado para enviar ao seu usuário. Com o MVP, ele descobriu se existia uma demanda para esse tipo de serviço e o quão grande ela era. O protótipo também permitia o contato com clientes reais, o que tornava mais fácil o aprendizado sobre a dor e as necessidades deles.</p>
+
+<p>A plataforma cresceu tanto que, posteriormente, foi vendida para a Amazon por 1,2 bilhão de dólares.</p>
+
+<p>Outro grande exemplo de sucesso foi o MVP do Groupon, site de compras coletivas, que começou com um blog que vendia apenas camisetas. Conforme foi gerando interesse entre as pessoas, os itens do blog aumentavam e o produto era validado. O valor de mercado do Groupon gira em torno de 1 bilhão de dólares e a empresa atua em mais de 375 cidades do mundo.</p>
+
+<p>Todo o processo que você estudou agora sobre a Lean Startup visa encontrar o&nbsp;<em>product/ market fit</em>, que permite a escalabilidade do negócio. Encontrar modelos escaláveis e aumentar a receita coloca a empresa na jornada do sucesso.</p>
+
+
+<h2><strong>Como experiências múltiplas ajudam a trilhar uma jornada empreendedora</strong></h2>
+
+<div><p>O empreendedor Daniel Arcoverde quando iniciou sua graduação em Administração de Empresas na Fundação Getúlio Vargas (FGV – SP) projetava um futuro no mercado financeiro. De forma natural, umas das suas experiências profissionais foi no segmento, mas a vontade de impactar a vida das pessoas já era algo presente em sua vida, e ele viu que a melhor forma de realizar esse desejo era por meio do empreendedorismo.</p>
+
+<p><em>“Eu sempre via pessoas de grande sucesso, de relevância, que estavam sempre aparecendo na mídia, grandes empresários, pessoas que criaram valor para alguém, construíram um negócio, dedicaram a vida aquilo, para fazer alguma coisa para ser consumida por um terceiro e que tem o potencial de impactar essas pessoas (…) o que eu busco é criar alguma coisa de valor que impacte a vida das pessoas”</em>, afirma o empreendedor.</p>
+
+<p>De certo, o envolvimento com iniciativas extra – curriculares e o trabalho no fundo de investimento o ajudaram a ganhar experiência para seguir seu sonho de empreender e desenvolver um negócio que impactasse a vida das pessoas.</p>
+
+<p>O&nbsp;<strong>Netshow.me</strong>&nbsp;surgiu nos corredores da universidade a partir das ideias de Daniel e seu colega de turma, Rafael Belmonte. Os jovens deram os primeiros passos como empreendedores com pouco conhecimento e sem experiência em desenvolvimento de software para desenvolver a plataforma. O&nbsp;<strong>Netshow.me</strong>&nbsp;é referência em software e produção&nbsp;<em>live streaming</em>&nbsp;para eventos.</p>
+
+<p>Segundo Arcoverde, a primeira versão do&nbsp;<strong>Netshow.me</strong>&nbsp;gerou grandes aprendizados em métodos e práticas para desenvolvimento de produtos.&nbsp;<em>“Decidimos desenhar o que vai ser mais ou menos a arquitetura do nosso sistema. A gente abriu no Power Point, começou a fazer quadradinho, flechinha, isso era nossa primeira wireframe, só que detalhe, a gente fez mais de 80 telas para fazer o MVP”.</em></p>
+
+<p>O&nbsp;<strong>Produto Mínimo Viável</strong>, conhecido como&nbsp;<strong>MVP</strong>, é defendido no método apresentado por&nbsp;<em>Eric Ries</em>&nbsp;no livro&nbsp;<strong>A Startup Enxuta</strong>. Nas palavras do autor,&nbsp;<em>“um produto mínimo viável (MVP) ajuda os empreendedores a começar o processo de aprendizagem o mais rápido possível. No entanto, não é necessariamente o menor produto imaginável; trata-se, apenas, da maneira mais rápida de percorrer o ciclo construir-medir-aprender de feedback com o menor esforço possível”</em>.</p>
+
+<p>Ainda de acordo com Ries, o&nbsp;<strong>MVP</strong>&nbsp;tem como objetivo começar o processo de aprendizagem e não terminá-lo, e é justamente isto que o diferencia de um protótipo ou teste de conceito, pois o MVP é projetado para testar hipóteses fundamentais do negócio, e não somente responder a perguntas técnicas ou de design do produto.</p>
+
+<p>O ideal é que o MVP seja desenvolvido com o menor custo possível, com as features básicas, para que possa ser apresentado ao mercado, dê início ao processo de validação e permita que a empresa meça com rapidez se está no caminho certo para então poder evoluir.</p>
+
+<p>A falta de conhecimento e experiência inicial dos empreendedores do&nbsp;<strong>Netshow.me</strong>&nbsp;acabou acarretando em muito mais trabalho quando precisaram explicar o projeto aos desenvolvedores.</p>
+
+<p><em>“Quando eles começaram a pontuar tudo o que a gente tinha pedido e solicitado, vimos que íamos gastar muito, mas muito mais do que a gente tinha contratado. E daí começou a primeira grande dor nossa, de começar a tesourar o que não era relevante para o software”</em>, pontua Daniel.</p>
+
+<p>Nesse ponto da jornada, os amigos empreendedores aprenderam conceitos de desenvolvimento ágil de software e a importância de priorizar o que de fato é relevante para desenvolver a plataforma de forma incremental para permitir que os testes de negócio e mercado sejam realizados.</p>
+
+<p>Segundo Arcoverde,&nbsp;<em>“o grande erro e aprendizado inicial foi querer fazer uma coisa gigantesca, a gente lançou um software que já tinha muita regra de negócio, já era bastante complexo para um modelo que a gente não tinha validado 100%, a gente estava em processo de validação”.</em></p>
+
+<p>Aplicar desde a primeira versão de um produto os conceitos de&nbsp;<strong>MVP</strong>, desenvolvimento ágil de software, priorizar requisitos e validação da proposta de valor com clientes ajuda a desenvolver produtos de forma mais rápida e assertiva, além de reduzir custos e esforços.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p></div>
+
+
+
