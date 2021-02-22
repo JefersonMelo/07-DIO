@@ -1479,6 +1479,123 @@ finanças e comercial, para que sejam definidas funcionalidades que ajudem essas
 
 <p>“A gente está agora contratando mais duas células e as duas vão seguir o mesmo caminho, então as duas vão ter uma pessoa de produto, uma pessoa Scrum Master e um time de 4 pessoas, a gente vai passar a operar com 3 esquadras, cada uma pegando um pedaço do nosso produto”&nbsp;conclui o CEO.</p>
 
+</div>
+<div>
+
+<h2>
+	<strong>Como liderar equipes distribuídas</strong>
+</h2>
+
+<p>Segundo Luis Novo, desde de sua criação, o&nbsp;<strong>Skore</strong>&nbsp;foi pensado como uma empresa distribuída, sem escritório. Isto porque, sem a necessidade de concentrar o time em um único local, o&nbsp;<strong>Skore</strong>&nbsp;consegue buscar talentos em todo o Brasil, tendo pessoas em&nbsp;setes&nbsp;cidades do país.</p>
+
+<p>Luis Novo se inspirou no modelo que o&nbsp;Buffer, serviço para gerenciamento de postagens em redes sociais, adotou. O&nbsp;Buffer&nbsp;tem uma equipe de&nbsp;25 pessoas, distribuídas por todo o mundo.</p>
+
+<p>Algumas ferramentas disponíveis no mercado ajudam a liderar equipes distribuídas, através da internet e vídeo-conferências, como o&nbsp;<em>Slack,&nbsp;Google Hangouts</em>&nbsp;e&nbsp;<em>Skype.&nbsp;</em>Para manter as tarefas e objetivos de cada funcionário em dia, ferramentas online disponíveis são o&nbsp;<em>Trello</em>&nbsp;e&nbsp;<em>Evernote</em>.</p>
+
+<p>Para liderar uma equipe distribuída como a do&nbsp;<strong>Skore</strong>&nbsp;ou do&nbsp;<strong>Buffer</strong>, é preciso ter uma&nbsp;cultura de comunicação forte, ou de supercomunicação. É importante que toda a equipe esteja disposta a colaborar.</p>
+
+<p>Luis Novo explica:&nbsp;“esse lance de juntar a equipe inteira toda semana e discutir a meta da semana, todo mundo na equipe distribuir as responsabilidades e dizer&nbsp;<em>‘Eu posso ajudar com isso, eu posso ajudar com aquilo’</em>”.</p>
+
+<p>Reuniões online, em que toda a equipe se reúne, são feitas toda a semana, onde as metas e objetivos da empresa para os próximos dias são discutidos e planejados. Essas reuniões são chamadas de&nbsp;<strong>Reuniões de Planejamento</strong>, ou&nbsp;<strong><em>Planning Meeting</em></strong>.</p>
+
+<p>Durante o&nbsp;<em>Planning Meeting</em>, o&nbsp;Product Owner&nbsp;descreve as funcionalidades de maior prioridade para a equipe. Coletivamente, é definido um objetivo que será trabalhado nos próximos dias. A equipe faz perguntas de modo que seja capaz de definir as funcionalidades em tarefas técnicas, &nbsp;formando as&nbsp;Esquadras.</p>
+
+<p>O processo seletivo é um passo importante para ter a certeza que os novos membros se adaptarão ao time distribuído do&nbsp;<strong>Skore</strong>, e se terão a atitude necessária para a cultura de comunicação da empresa.</p>
+
+<p>“A gente olha três coisas quando a gente entrevista alguém. Uma, é claro, a habilidade técnica dessa pessoa para o cargo que ela está entrando. […] A segunda é comportamental, então esse cara consegue trabalhar em equipe, esse cara consegue trabalhar remoto, esse cara é responsável? Que tipo de cultura ele está acostumado, que tipo de cultura ele gosta de trabalhar? […] E a terceira parte é ter certeza que ele entende o que é trabalhar para uma startup”&nbsp;comenta Luis Novo sobre o processo seletivo.</p>
+
+<p>Os colaboradores da&nbsp;<strong>Skore</strong>&nbsp;tendo autonomia individual, dentro das suas competências, e os times tendo autonomia própria através das Esquadras, criam um ambiente em que ter uma equipe distribuída não é um problema para o CEO.</p>
+
+<p>O&nbsp;<strong>Skore</strong>&nbsp;vende sua plataforma online através do modelo&nbsp;<strong>freemium</strong>, em que não há um vendedor ativo, batendo de porta em porta, vendendo a proposta da empresa.</p>
+
+<p>Em um modelo&nbsp;freemium,&nbsp;é a experiência proporcionada pelo produto que o vende, através de qualidade e demonstração de valor para o usuário. Manter essa qualidade de produto é essencial para o sucesso do&nbsp;<strong>Skore,</strong>&nbsp;e por isso, seu time estar sempre engajado no desenvolvimento do produto é um fator determinante.</p>
+
+<p>Para manter-se em dia com o andamento e desempenho do&nbsp;<strong>Skore</strong>&nbsp;no mercado, Luis Novo analisa três métricas com sua equipe:&nbsp;aquisição,&nbsp;engajamento&nbsp;e&nbsp;monetização.&nbsp;De acordo com o CEO, essas métricas encapsulam várias outras, mas raramente se faz necessário mergulhar em mais métricas.</p>
+
+<p>No entanto, quando há um desvio de performance, a equipe se reúne mais uma vez para discutir as métricas mais a fundo.</p>
+
+<p>Como explica o CEO:&nbsp;“então o número de empresas novas tem que crescer, o número de usuários ativos tem que crescer e o nosso percentual de monetização tem que ser bom e tem que continuar melhorando, fica mais fácil de gerir empresa desse jeito”.</p>
+</div>
+
+<div>
+
+<h3>
+	<strong>Aproveitar experiências para focar no modelo de negócio e alcançar mercados</strong>
+</h3>
+
+<p>O&nbsp;<strong>BeerOrCoffee</strong>&nbsp;é uma plataforma digital que reúne espaços de coworking por todo o Brasil e oferece às pessoas opções de planos para a utilização desses locais com o intuito de estimular o networking e a conexão entre pessoas em escritórios colaborativos.</p>
+
+<p>Quando começou a ser desenvolvido, seus fundadores decidiram aproveitar ao máximo da experiência anterior obtida durante a criação de outro aplicativo, o Tysdo – Things you should do. Assim, o&nbsp;<strong>MVP</strong>(Minimum Viable Product) do BeerOrCoffee já chegou aos primeiros usuários um pouco mais aprimorado do que normalmente os produtos iniciais entram no mercado.</p>
+
+<h3><strong>Aproveitar a experiência adquirida</strong></h3>
+
+<p>De acordo com a CEO do BeerOrCoffee, Roberta Vasconcellos, o background obtido com o Tysdo, plataforma digital lançada em 2013 que ajuda as pessoas a alcançarem seus objetivos e sonhos a partir do uso da tecnologia, permitiu que alguns estágios do desenvolvimento do BeerOrCoffee fossem acelerados.</p>
+
+<p><em>“Talvez o nosso MVP tenha sido um pouquinho adiantado pelas habilidades que a gente tinha internamente”</em>, diz a CEO referindo-se à metodologia e ao conhecimento adquirido sobre aplicativos.</p>
+
+<h3><strong>Como ter um bom MVP</strong></h3>
+
+<p>O Produto Mínimo Viável, conhecido como MVP, é esmiuçado por Eric Ries no best-seller&nbsp;<strong>A Startup Enxuta</strong>, livro de cabeceira de empreendedores digitais em todo o mundo e que apresenta um método enxuto para startups.</p>
+
+<p>Segundo Ries,&nbsp;<em>“um produto mínimo viável (MVP) ajuda os empreendedores a começar o processo de aprendizagem o mais rápido possível. No entanto, não é necessariamente o menor produto imaginável; trata-se, apenas, da maneira mais rápida de percorrer o ciclo construir-medir-aprender de feedback com o menor esforço possível”</em>.</p>
+
+<p>Ainda de acordo com Ries, o MVP tem como objetivo começar o processo de aprendizagem e não terminá-lo, e é justamente isto que o diferencia de um protótipo ou teste de conceito, pois o MVP é projetado para testar hipóteses fundamentais do negócio, e não somente responder a perguntas técnicas ou de design do produto.</p>
+
+<p>O ideal é que o MVP seja desenvolvido com o menor custo possível, com as features básicas, para que possa ser apresentado ao mercado, dê início ao processo de validação e permita que a empresa meça com rapidez se está no caminho certo para então poder evoluir.</p>
+
+<p>No caso do&nbsp;<strong>BeerOrCoffee</strong>, a experiência já acumulada pelos empreendedores acelerou o processo de MVP. Contudo, a CEO da startup chama a atenção para a etapa de validação, de ir às ruas expor o produto/serviço, conversar com outros empreendedores e usuários para coletar feedbacks, para então encontrar a solução mais viável para aquilo que propõe. Para a empreendedora, é importante validar o problema e, na sequência, a solução proposta.</p>
+
+<p><em>“Não necessariamente a sua primeira solução vai ser um software de cara, às vezes pode ser uma página do Facebook, pode ser um blog, você vai conseguir validar se aquela sua ideia tem aderência e aí sim você parte para um desenvolvimento. No início da startup, a gente tem pouco recurso, então é muito importante que essas fases sejam bem galgadas para não desperdiçar recursos. Dá para validar da mesma forma de um jeito muito simples no início e depois fazer da melhor forma possível”</em>, destaca Roberta.</p>
+
+<h3><strong>Validar para acertar</strong></h3>
+
+<p>Em&nbsp;<strong>A Startup Enxuta</strong>, Ries traz exemplo de várias empresas com as quais está envolvido de alguma forma em seus processos de criação e validação. Uma das experiências compartilhadas pelo empreendedor e que aborda como a validação é etapa fundamental para o sucesso ou fracasso de um negócio se refere a&nbsp;<strong>IMVU</strong>&nbsp;(rede social em que a interação acontece por meio de avatars criados em 3D).</p>
+
+<p>Após intenso processo para compreender o que de fato os clientes esperavam da IMVU, os fundadores do negócio foram capazes de aprimorar o produto. Segundo Ries, isso se tornava possível porque passaram a trabalhar com mais inteligência, alinhados com as necessidades reais dos clientes.&nbsp;<em>“Mudanças positivas nas métricas tornaram-se a validação quantitativa de que nossa aprendizagem era real”</em>, destaca o empreendedor em passagem do livro.</p>
+
+<p>No&nbsp;<strong>BeerOrCoffee</strong>, as validação e entendimento de mercado também foram fundamentais para evoluir o negócio. A ideia do BeerOrCoffee surgiu com o objetivo de conectar pessoas para desenvolverem juntas as melhores oportunidades, o propósito inicial do aplicativo era promover esse encontro, esse bate-papo, com direito a um café ou uma cerveja. Na sequência, o BeerOrCoffee se tornou uma plataforma que integra coworkings pelo Brasil ofertando os espaços colaborativos.</p>
+
+<p>Desse modo, o modelo de negócio do BeerOrCoffee foi pensado desde o começo para favorecer o networking envolvendo pessoas, estabelecimentos, café e cerveja, mas isso não significou que não haveria evolução.</p>
+
+<p><em>“A gente já nasceu com esse modelo de negócio, mas a gente testou, validou, viu que deu certo e continuamos tendo outras ideias para conseguir aumentar a recorrência, para conseguir garantir a receita antecipadamente”</em>&nbsp;explica Roberta.</p>
+
+<p>A startup nasceu em Belo Horizonte (MG), mas hoje já está em quase 100 cidades do país. O maior mercado é a capital paulista, onde o BeerOrCoffee atua em comunidades como o CUBO, a Plug, ImpactHub, WTC e GBG – Google Business Group.</p>
+
+<p>Roberta destaca que o potencial do BeerOrCoffee é muito grande e como foi iniciado por meio de envios de convites, a base de usuários é considerável e as métricas são constantemente analisadas o entendimento e adoção das estratégias do negócio.</p>
+</div>
+
+<div>
+
+<h3>
+	<strong>Oportunidades e conexões para desenvolver o ecossistema</strong>
+</h3>
+
+<p>Roberta Vasconcellos compartilha também experiências valiosas em razão da participação da startup em programas de aceleração. O primeiro foi o&nbsp;<strong>Startup Chile</strong>, em Santiago.</p>
+
+<p>Segundo a CEO, o programa do governo chileno disponibiliza investimento a fundo perdido com direito a mentorias e contato com outros empreendedores, o que para ela é o mais valioso nesse tipo de programa.</p>
+
+<p>Como contrapartida, os empreendedores precisam de alguma forma retornar o que recebem à comunidade local, por meio de palestras e eventos, por exemplo.</p>
+
+<p>A segunda oportunidade de aceleração para o&nbsp;<strong>BeerOrCoffee</strong>&nbsp;aconteceu em 2016 na 3ª rodada do&nbsp;<strong>Seed</strong>(Startups and Entrepreneurship Ecosystem Development), programa de aceleração mantido pelo Governo do Estado de Minas Gerais e baseado no modelo do Startup Chile.</p>
+
+<p><em>“O melhor de qualquer programa como esse, são os outros empreendedores que estão no programa, então, o máximo de troca que a gente puder ter entre os empreendedores é o mais rico que pode acontecer em um programa de aceleração”</em>, afirma a CEO.</p>
+
+<p>Além dos dois programas, Roberta ainda destaca como alternativa aos empreendedores o Sebrae Tech, que, de acordo com ela, dependendo do projeto, o Sebrae Tech oferece o financiamento com uma contrapartida de 20% que o empreendedor deve retornar ao órgão.</p>
+
+<p>Outra forma que Roberta busca para se desenvolver e desenvolver o seu negócio é sempre estar conectada com diversas comunidades, inclusive de abrangência internacional.</p>
+
+<h3><strong>Participação em comunidades empreendedoras</strong></h3>
+
+<p>A rede&nbsp;<strong>Global Shapers</strong>&nbsp;é um dos exemplos citados pela empreendedora, por onde tem acesso a pessoas em várias partes do mundo que também fazem parte desta comunidade e que compartilham de propósitos semelhantes que se alinham pela ideia de ter no empreendedorismo um meio para transformações sociais e econômicas. Global Shapers é uma iniciativa do Fórum Econômico Mundial. A rede é composta por jovens líderes entre 20 e 30 anos de idade de todo o mundo.</p>
+
+<p><em>“No final das contas, enfrentamos problemas parecidos, apesar da cultura ser diferentes, os desafios às vezes serem diferentes, mas a gente pode se ajudar com soluções mútuas, isso me faz pensar em algo global, isso me faz pensar em uma rede que pode estar conectada e que seja muito mais fácil do que a gente imagina de resolver os problemas que estão do nosso lado</em>”, ressalta a CEO.</p>
+
+<p>Outra rede da qual Roberta Vasconcellos participa é a&nbsp;<strong>Young Leaders of the Americas Initiative (YLAI)</strong>, programa criado na gestão de Barack Obama com o propósito de estreitar os laços entre jovens líderes de toda a América através de uma rede de empreendedores promovendo formação, ferramentas, networking e recursos que contribuam para o desenvolvimento econômico e social do continente.</p>
+
+<p>Em&nbsp;<strong>A Startup Enxuta</strong>, o autor também reserva um espaço para apresentar diversas redes de empreendedorismo espalhadas pelo mundo, além sugerir blogs e livros sobre o tema que agregam tanto para o desenvolvimento de negócios quanto habilidades profissionais do empreendedor.</p>
+
+<p>Ries, assim como a CEO do BeerOrCoffee, considera que estar integrado num ecossistema de startups é parte importante do empreendedorismo, e hoje se tornou acessível em qualquer parte do planeta, através de comunidades, grupos e meetups que se consolidam e exercem um papel importante para alavancar o empreendedorismo como agente transformador.</p>
+
 <p>&nbsp;</p>
 
 <p>&nbsp;</p></div>
