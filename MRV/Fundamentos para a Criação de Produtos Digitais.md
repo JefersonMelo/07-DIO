@@ -1,20 +1,48 @@
-<h1><strong>Fundamentos para a Criação de Produtos Digitais</strong></h1>
+<h1>
+	<strong>Fundamentos para a Criação de Produtos Digitais</strong>
+</h1>
 
-<h2><strong>O que é gestão de produto</strong></h2>
+<h2>
+	<strong>O que é gestão de produto</strong>
+</h2>
 
-<div><p>Neste estudo de caso vamos analisar como Daniel Almeida, cofundador do<strong>&nbsp;Stayfilm</strong>, faz a gestão de produto alinhada à estratégia do negócio. A ferramenta possibilita que os usuários criem filmes com recursos visuais inovadores e qualidade de cinema através das fotos salvas – seja no computador, celular ou nas redes sociais – e compartilhem com amigos.</p>
+<div>
+	<p>
+		Neste estudo de caso vamos analisar como Daniel Almeida, cofundador do<strong>&nbsp;Stayfilm</strong>, 
+		faz a gestão de produto alinhada à estratégia do negócio. A ferramenta possibilita que os usuários criem 
+		filmes com recursos visuais inovadores e qualidade de cinema através das fotos salvas – seja no computador, 
+		celular ou nas redes sociais – e compartilhem com amigos.
+	</p>	
 
-<p>Já foram mais de<strong>&nbsp;700 mil downloads e 2 milhões de vídeos produzidos</strong>&nbsp;pelo aplicativo, criado em 2012.</p>
+<p>
+	Já foram mais de<strong>&nbsp;700 mil downloads e 2 milhões de vídeos produzidos</strong>&nbsp;pelo aplicativo, criado em 2012.
+</p>
 
-<p>Para complementar os conceitos, a aula tem como base o livro “Product Leadership”, dos autores Richard Banfield, Martin Eriksson e Nate Walkingshaw, os três com décadas de experiência em design de produtos e desenvolvimento. Após estudarem mais de 100 líderes de projetos, os autores trazem na obra abordagens sobre estilos, percepções e técnicas de sucesso dos melhores gerentes de produtos.</p>
+<p>
+	Para complementar os conceitos, a aula tem como base o livro “Product Leadership”, dos autores Richard Banfield, Martin Eriksson 
+	e Nate Walkingshaw, os três com décadas de experiência em design de produtos e desenvolvimento. Após estudarem mais de 100 líderes 
+	de projetos, os autores trazem na obra abordagens sobre estilos, percepções e técnicas de sucesso dos melhores gerentes de produtos.
+</p>
 
-<p>A gestão de produto é uma das funções mais importantes de qualquer empresa. É responsável pelo alinhamento do negócio com a estratégia e de áreas como marketing, finanças e tecnologia, visando atingir os objetivos da empresa.</p>
+<p>
+	A gestão de produto é uma das funções mais importantes de qualquer empresa. É responsável pelo alinhamento do negócio com a estratégia 
+	e de áreas como marketing, finanças e tecnologia, visando atingir os objetivos da empresa.
+</p>
 
-<h3><strong>Gestão de Produto</strong></h3>
+<h3>
+<strong>Gestão de Produto</strong>
+</h3>
 
-<p>Antes de falar sobre gestão de produto é preciso entender o que é o produto como um todo. No caso do Stayfilm, ele possui dois produtos: o site e o aplicativo. Oferecer aos usuários a possibilidade de criar vídeos é o serviço.</p>
+<p>
+	Antes de falar sobre gestão de produto é preciso entender o que é o produto como um todo. No caso do Stayfilm, ele possui dois produtos: 
+	o site e o aplicativo. Oferecer aos usuários a possibilidade de criar vídeos é o serviço.
+</p>
 
-<p><strong>Este produto tem que estar alinhado à estratégia do negócio.</strong>&nbsp;Para Daniel Almeida o propósito do Stayfilm é criar a maior plataforma de vídeos do mundo sem possuir uma câmera. E é com essa estratégia, suas iniciativas e indicadores de desempenho que o produto tem que estar alinhado.</p>
+<p>
+	<strong>Este produto tem que estar alinhado à estratégia do negócio.</strong>&nbsp;Para Daniel Almeida o propósito do Stayfilm é criar 
+	a maior plataforma de vídeos do mundo sem possuir uma câmera. E é com essa estratégia, suas iniciativas e indicadores de desempenho que 
+	o produto tem que estar alinhado.
+</p>
 
 <p>A gestão de produto é responsável por fazer a&nbsp;<strong>conexão de todas as áreas da empresa</strong>, entre elas marketing, finanças e comercial, para que sejam definidas funcionalidades que ajudem essas áreas a atingir seus objetivos estratégicos de negócio.</p>
 
