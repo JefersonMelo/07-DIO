@@ -420,13 +420,7 @@
 	O primeiro funcionário contratado foi da área de desenvolvimento e que, posteriormente, tornou-se mais um sócio do negócio.
 </p>
 
-<p>
-	<em>
-		“A gente tem uma filosofia bastante meritocrática e que é compartilhada. À medida que a gente cresce, a gente quer que as pessoas 
-		que entram no barco com a gente cresçam também e virem nossos sócios”
-	</em>
-, explica Daniel.
-</p>
+<p><em>“A gente tem uma filosofia bastante meritocrática e que é compartilhada. À medida que a gente cresce, a gente quer que as pessoas que entram no barco com a gente cresçam também e virem nossos sócios”</em>, explica Daniel.</p>
 
 <p>&nbsp;</p>
 
