@@ -1221,3 +1221,134 @@ finanças e comercial, para que sejam definidas funcionalidades que ajudem essas
 </p>
 
 </div>
+
+<div>
+
+<h3><strong>Como o relacionamento com o cliente ajuda a aprimorar o produto</strong></h3>
+
+<p>
+	Enquanto desenvolviam a metodologia, os sócios da&nbsp;<strong>Worthix</strong>&nbsp;não estavam no estágio de pensar na plataforma, 
+	na usabilidade ou propriamente no produto mínimo viável (MVP ou Minimum Viable Product), pois a prioridade era pensar em resolver o problema. 
+	O&nbsp;<strong>MVP</strong>&nbsp;é um conjunto de testes primários feitos para validar a viabilidade do negócio, ou seja, é a versão 
+	mais simples de um produto que pode ser lançada com uma quantidade mínima de esforço e desenvolvimento.
+</p>
+
+<p>
+	A partir do momento em que o “problema estava resolvido em termo de metodologia”, o time da Worthix focou seus esforços em projetar 
+	uma plataforma de fácil navegação e que fosse intuitiva para quem fosse usá-la, permitindo que o valor do produto fosse capturado 
+	pelos usuários.
+</p>
+
+<h3>
+	<strong>Metodologia Lean Startup</strong>
+</h3>
+
+<p>
+	A opção foi desenvolver um MVP simples, bem básico, com poucas features no primeiro estágio do negócio. 
+	A plataforma tinha um dashboard simples onde o cliente podia acompanhar sem qualquer dificuldade o andamento 
+	da pesquisa de satisfação que estava sendo aplicada.
+</p>
+
+<p>
+	O resultado foi super positivo, os sócios da Worthix colheram feedbacks satisfatórios que mostravam que os 
+	clientes estavam conseguindo utilizar corretamente a plataforma, validando assim o MVP.
+</p>
+
+<p>
+	De acordo com Cerqueira, as avaliações dos clientes foram muito importantes para o aperfeiçoamento do produto. 
+	Foi fundamental entender na prática a experiência que as empresas estavam tendo com a plataforma, entender quais 
+	pontos precisavam ser melhorados e quais foram assertivos. Era uma forma de avaliar todos os aspectos do produto e 
+	aperfeiçoa-lo antes de lançá-lo ao mercado.
+</p>
+
+<p>
+	A Worthix baseou-se no modelo lean startup desenvolvido por&nbsp;<em>Eric Ries</em>. A base dessa metodologia está esmiuçada no 
+	best-seller&nbsp;<strong>A Startup Enxuta</strong>&nbsp;e traz conceitos e exemplos práticos da adoção desse formato voltado 
+	para startups. O propósito do método lean é ajudar empreendedores a serem mais eficientes, gastar menos e conseguir extrair o 
+	máximo do maior ativo da empresa, que são as pessoas.
+</p>
+
+<p>
+	Na visão do autor, uma startup é uma organização humana desenhada para criar um novo produto ou serviço em um ambiente de 
+	extrema incerteza, por isso é necessário ser capaz de experimentar e aprender rapidamente.
+</p>
+
+<h3>
+	<strong>Aplicando o ciclo construir-mensurar- aprender</strong>
+</h3>
+
+<p>
+	Para Ries, mais do que aprender, é preciso validar constantemente os aprendizados para se ter certeza de que com o passar do 
+	tempo ainda são verdadeiros, exatamente como fizeram os sócios da Worthix nos primeiros estágios da empresa. Para isso, a metodologia 
+	lean startup trabalha com o ciclo construir-mensurar e aprender, pois segundo Eric Ries&nbsp;
+	<em>“à medida que os clientes interagem, com os produtos, geram feedbacks e dados”</em>. 
+	Este ciclo tem que ser permanente durante todo o tempo em uma startup e é considerado o principal pilar da startup enxuta.
+</p>
+
+<p>
+	O MVP é a primeira parte desse ciclo, é a construção do produto, que mesmo não sendo a versão final, precisa gerar valor ao cliente. 
+	A partir disso, é necessário validá-lo junto ao usuário e monitorar todos os seus resultados, o que inclui métricas realmente 
+	necessárias para a compreensão do desempenho e progresso. A partir desse conjunto de dados, provenientes dos números e feedbacks, 
+	o aprendizado acontece, seja para prosseguir no caminho em curso ou para traçar uma mudança de rota (pivotar).
+</p>
+
+<p>
+	<em>“(…) Apesar de escrevermos o ciclo de feedback como construir-medir-aprender, pois as atividades acontecem nessa sequência, 
+	nosso planejamento, na realidade, funciona na ordem inversa: descobrimos o que precisamos aprender, utilizamos a contabilidade 
+	associada à inovação para definir o que precisamos medir a fim de saber se estamos obtendo aprendizagem validada e, em seguida, 
+	descobrimos que produto precisamos desenvolver para executar aquele experimento e obter aquela medição”</em>, destaca Ries sobre o 
+	processo do ciclo.
+</p>
+
+<h3>
+	<strong>Da validação para o mercado</strong>
+</h3>
+
+<p>
+	Na sequência desse primeiro ciclo de aprendizado, a Worthix lançou a primeira versão melhorada da plataforma a partir 
+	dos apontamentos do MVP. Era o momento de começar a cobrar pelo produto. A precifiação é sempre um dilema para o empreendedor e 
+	vem normalmente acompanhada de alguns questionamentos:
+</p>
+
+<p>
+	• Qual o valor do seu produto?<br>
+	• Quanto o mercado está disposto a pagar por ele?
+</p>
+
+<p>
+	A forma encontrada por Cerqueira para responder a essas dúvidas foi testar a elasticidade do preço do produto até chegar 
+	ao valor que considerava justo e correto pelo que oferece ao cliente.
+</p>
+
+<p>
+	A questão da monetização do negócio também é abordada pela metodologia lean startup. Assim como a Worthix que rapidamente 
+	buscou monetizar seu produto, Eric Ries também ressalta em seu livro a necessidade de encontrar um modelo de negócios e geração de receitas. 
+	Na visão do autor, é melhor ter alguma receita, mesmo que ela seja pouca, do que gastar muito tempo tentando descobrir algo 
+	pelo qual as pessoas vão pagar um dia.
+</p>
+
+<p>
+	A dica de Ries para descobrir um modelo de negócios é interagir sempre com os usuários e potenciais clientes para capturar qual 
+	o valor que o seu negócio entrega a eles. Além disso, desde o início da empresa é importante criar metas de receita, ainda que baixas, 
+	para que seja viável acompanhar e medir o crescimento desses dados.
+</p>
+
+<h3>
+	<strong>Priorizar as demandas</strong>
+</h3>
+
+<p>
+	As avaliações e feedbacks dos clientes também fizeram o CEO da&nbsp;<strong>Worthix</strong>&nbsp;refletir sobre como atender às demandas apresentadas.
+</p>
+
+<p>
+	A tendência é sempre providenciar os pedidos dos clientes, mobilizar a equipe de desenvolvimento para que resolva o problema, 
+	entretanto, Cerqueira ressalta que à frente da Worthix essa postura mudou um pouco.
+</p>
+
+<p>
+	Ele passou a avaliar se a feature que determinado cliente está solicitando é uma necessidade de pelo menos 80% de todos os clientes, 
+	se a resposta for negativa, não é vantajoso mobilizar o setor de desenvolvimento para trabalhar no projeto. Caso no futuro essa demanda 
+	se torne realmente uma necessidade, aí sim é a hora de desenvolvê-la e ofertá-la ao cliente.
+</p>
+</div>
