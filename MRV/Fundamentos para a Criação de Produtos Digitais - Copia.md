@@ -1425,3 +1425,60 @@ finanças e comercial, para que sejam definidas funcionalidades que ajudem essas
 <p>O investimento inicial na empresa foi dos próprios sócios, seguindo um planejamento, com metas definidas e métricas de faturamento e custo para mensurar progresso e acompanhar resultados.</p>
 </div>
 
+<div>
+
+<h2>
+	<strong>Como os times ágeis de produto são organizados</strong>
+</h2>
+
+<p>No mundo atual, as coisas estão em constante evolução e mudando muito rápido. Isso, claramente, se reflete no mundo do empreendedorismo também, em que novidades e inovações são esperadas cada vez mais frequentemente.</p>
+
+<p>A partir da necessidade de estar em constante movimento que o meio exige dos empreendedores, surgiu a filosofia de criar&nbsp;times ágeis&nbsp;para a produção e a manutenção dos produtos.</p>
+
+<p>O&nbsp;<strong>Skore</strong>&nbsp;é uma ferramenta de múltiplos propósitos na área de Educação e que atende corporações, professores, times de pesquisa, etc. O objetivo da empresa é ajudar corporações e profissionais a encontrar conteúdo na internet, curar e organizar todo esse material para que ele tenha valor para quem precisar depois.</p>
+
+<p>Luis Novo, CEO do&nbsp;<strong>Skore</strong>, conta que para manter a plataforma online da empresa sempre atualizada e seguindo em frente, adotou a formação de times ágeis para a produção de conteúdo e manutenção do serviço.</p>
+
+<p>Uma reunião com toda a equipe é feita uma vez por semana, em que se discute as metas seguintes.&nbsp;Sabendo do objetivo que precisam atingir, a equipe se organiza sozinha em times, através de suas melhores habilidades.</p>
+
+<p>Este modelo de organização é citado no livro&nbsp;<em><strong>Design Sprint – A Practical Guidebook for Building Great Digital Products</strong></em>, de Richard Banfield, C. Todd Lombardo e Trace Wax.</p>
+
+<p>No livro, os autores destacam quais as melhores práticas para atingir o modelo de times ágeis. No período de cinco dias, os times, distribuídos por suas melhores competências, devem pensar em conjunto para atingir os objetivos da empresa.</p>
+
+<p>Estes times ágeis são chamados de&nbsp;<strong>Esquadras</strong>. As&nbsp;Esquadras&nbsp;são compostas por funcionários multidisciplinares e com as especialidades competentes para atingir o objetivo de negócios.</p>
+
+<p>O objetivo de negócios pode ser, por exemplo, buscar aumentar o número de visitas no site da empresa. Então, compõe-se um time de pessoas que tenham competências relevantes para isso, como um especialista em marketing digital, um designer e etc.</p>
+
+<p>No livro&nbsp;<em>Design Sprint – A Practical Guidebook for Building Great Digital Products</em>, os autores citam que o processo para a solucionar um problema ou atingir um objeitvo deve passar por seis etapas:</p>
+
+<ul>
+	<li>Preparar:&nbsp;Formação da equipe especializada, ou Esquadra, que irá propor uma solução para alcançar o objetivo proposto</li>
+	<li>Compreender:&nbsp;Os membros da Esquadra devem tentar compreender o background da situação, coletando feedback de usuários ou através de pesquisa</li>
+	<li>Divergir:&nbsp;Ideias devem ser jogadas na mesa, através de um brainstorm, o time tem que discutir possíveis soluções para o objetivo que desejam atingir</li>
+	<li>Converger:&nbsp;Com base nas ideias propostas, a Esquadra deve concordar qual o melhor caminho de ação e começar a segui-lo</li>
+	<li>Prototipar: Criação de um mínimo conceito viável, com base no caminho escolhido para atingir o objetivo</li>
+	<li>Testar:&nbsp;Efetivamente testar a proposta de solução com o produto final e verificar sua aceitação</li>
+	<li>Prosseguir:&nbsp;Continuar para um novo objetivo</li>
+</ul>
+
+<p>“A gente estrutura equipe de produto em Esquadras. Hoje a gente está com um time só, o esquadro é bem pequeno. A gente tem 12 funcionários, então tem um time de produto de seis pessoas”&nbsp;explica Luis Novo.</p>
+
+<p>Além do time de desenvolvimento, as&nbsp;Esquadras&nbsp;também devem possuir um&nbsp;<strong>Product Owner</strong>&nbsp;e um&nbsp;<strong>Scrum Master</strong>. O&nbsp;Product Owner&nbsp;faz o papel de ponte entre a área de negócios e a&nbsp;Esquadra, e vai atuar como gestor do produto ao mesmo tempo que se comunica com o time de desenvolvimento.</p>
+
+<p>No&nbsp;<strong>Skore</strong>, Luis Novo diz ter um&nbsp;Product Owner&nbsp;estelar, por &nbsp;assumir tanto o papel de&nbsp;designer&nbsp;dentro da&nbsp;Esquadra,&nbsp;quanto de&nbsp;Product Owner.</p>
+
+<p>Já o&nbsp;Scrum Master&nbsp;atua como líder do projeto, assumindo papel de facilitador da equipe de desenvolvimento. Sua autoridade não é o mesmo tipo de autoridade que um gerente,&nbsp;em vez disso ele ajuda a equipe a definir e aderir ao processo para que o trabalho seja feito da melhor forma possível.</p>
+
+<p>A&nbsp;Spotify, aplicativo de streaming de músicas que já soma mais de&nbsp;20 milhões&nbsp;de usuários, é um grande adepto das&nbsp;Esquadras&nbsp;para manter seu modelo de negócio ágil.</p>
+
+<p>Na&nbsp;Spotify, cada&nbsp;Esquadra&nbsp;é responsável por diferentes partes da experiência do usuário: software para Android, software para iPhone, player de músicas, catálogos, etc.</p>
+
+<p>No caso da&nbsp;Spotify, que possui uma equipe de colaboradores grandes, ainda há a divisão por&nbsp;<strong>Tribos</strong>.&nbsp;Tribos&nbsp;são um grupo de várias&nbsp;Esquadras&nbsp;que trabalham em produtos relacionados.</p>
+
+<p>O&nbsp;<strong>Skore</strong>&nbsp;ainda está crescendo, mas Luis Novo já enxerga um futuro parecido com o da&nbsp;Spotify&nbsp;para seus funcionários, seguindo sempre o modelo de Esquadras para organizar times ágeis de produto.</p>
+
+<p>“A gente está agora contratando mais duas células e as duas vão seguir o mesmo caminho, então as duas vão ter uma pessoa de produto, uma pessoa Scrum Master e um time de 4 pessoas, a gente vai passar a operar com 3 esquadras, cada uma pegando um pedaço do nosso produto”&nbsp;conclui o CEO.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p></div>
