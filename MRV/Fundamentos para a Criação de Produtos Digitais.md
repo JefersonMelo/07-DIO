@@ -1,3 +1,5 @@
+<h1><strong>Fundamentos para a Criação de Produtos Digitais</strong></h1>
+
 <div><p>Neste estudo de caso vamos analisar como Daniel Almeida, cofundador do<strong>&nbsp;Stayfilm</strong>, faz a gestão de produto alinhada à estratégia do negócio. A ferramenta possibilita que os usuários criem filmes com recursos visuais inovadores e qualidade de cinema através das fotos salvas – seja no computador, celular ou nas redes sociais – e compartilhem com amigos.</p>
 
 <p>Já foram mais de<strong>&nbsp;700 mil downloads e 2 milhões de vídeos produzidos</strong>&nbsp;pelo aplicativo, criado em 2012.</p>
