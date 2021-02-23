@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuitando", "Tuitando.csproj", "{B3B034E6-8693-4963-9143-CFFC2B3E92C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3B034E6-8693-4963-9143-CFFC2B3E92C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B034E6-8693-4963-9143-CFFC2B3E92C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B034E6-8693-4963-9143-CFFC2B3E92C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B034E6-8693-4963-9143-CFFC2B3E92C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E1BA7CB-23C2-4043-B3F7-6B1CDF24412C}
+	EndGlobalSection
+EndGlobal
