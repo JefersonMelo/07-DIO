@@ -401,6 +401,30 @@ traduzido do inglês, significa Prova Social. O termo é utilizado quando algué
 
 <p>O CEO Guilherme Cerqueira ainda desenvolve este conceito ao explicar que se você começar cobrando pelo seu produto antes de ter um nome de peso ligado a ele, a curva de venda, e o atrito gerado por ela, pode ser tão grande que a empresa acaba quebrando por não conseguir fechar muitos negócios.</p>
 
+</div>
+
+<div>
+<h2>
+<strong>Os benefícios de acelerar as vendas através de parceiros</strong>
+</h2>
+<p>O serviço de pesquisa de comportamento do consumidor da&nbsp;<strong>Worthix</strong>&nbsp;já é utilizado por grandes empresas nacionais e internacionais, como&nbsp;<strong>IBM</strong>,&nbsp;<strong>Siemens</strong>,&nbsp;<strong>Vivo</strong>,&nbsp;<strong>TAM</strong>,&nbsp;<strong>C&amp;A</strong>, entre outras.</p>
+
+<p>“Construir essa reputação através dos próprios clientes foi o nosso primeiro passo, até para gente ser respeitado, até para gente ser ouvido e até para você ir de uma empresa falar para outra”&nbsp;comenta Guilherme Cerqueira sobre a estratégia adotada pela Worthix.</p>
+
+<p>O CEO ainda adiciona que tendo esta&nbsp;“vitrine”&nbsp;de grandes empresas para mostrar seu produto, fica muito mais fácil vende-lo para pequenas e médias empresas, onde está a maior parte dos clientes e do lucro.</p>
+
+<p>Porém, Cerqueira adverte que o contrário nem sempre é verdadeiro. Muitas vezes não é porque pequenas e médias empresas estão usando seu serviço, que as grandes irão se interessar em usar.</p>
+
+<p>Ao acelerar as vendas através de parceiros, Guilherme Cerqueira também conseguiu fortalecer a marca da&nbsp;<strong>Worthix</strong>&nbsp;no mercado, criando uma reputação forte para a empresa logo no começo de sua atuação, ao trabalhar com empresas de grande porte.</p>
+
+<p>A estratégia usada por Guilherme Cerqueira para construir a reputação da Worthix é apresentada como um dos canais de atração de clientes no livro&nbsp;<em><strong>Traction: How Any Startup Can Achieve Explosive Customer Growth, de Gabriel Weinberg e Justin Mares</strong></em>.</p>
+
+<p>Os autores explicam no livro que existem vários canais de tração que devem ser considerados quando se está montando uma estratégia para atrair seu público para sua marca.&nbsp;O livro cita&nbsp;<strong>dezenove canais de tração</strong>, sendo que definir o canal ideal vai depender do objetivo e da área de atuação do seu negócio.</p>
+
+<p>No caso da Worthix, os empreendedores optaram de forma inteligente pela utilização do&nbsp;<strong>programa de parceiros</strong><strong>,&nbsp;</strong>um dos canais apresentados por Weinberg e Mares,<strong>&nbsp;</strong>como maneira de construir reputação, ao mesmo tempo em que novas parcerias eram estabelecidas pelo canal. Nesses casos, a técnica utilizada pela Worthix as empresas era oferecer o serviço gratuitamente, ou por uma fração do valor, e estas empresas parceiras divulgavam o produto para seus clientes, propagando com mais rapidez a marca e o serviço da Worthix.</p>
+
+<p>Um dos exemplos citados por Cerqueira referente à utilização dessa estratégia é a parceria com grandes consultorias que já estão utilizando o serviço da&nbsp;<strong>Worthix&nbsp;</strong>e, assim, constituem a&nbsp;ponta da flecha para atingir outros clientes, levando a marca da empresa até novos públicos e endossando o seu nome.</p>
+
 <p>&nbsp;</p>
 
 <p>&nbsp;</p></div>
