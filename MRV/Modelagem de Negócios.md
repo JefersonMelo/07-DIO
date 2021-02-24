@@ -301,3 +301,57 @@ b) Qual é o custo para alcançar essa receita.</p>
 <p>Todo final de mês ao analisar o&nbsp;<strong>Net Promoter Score (NPS)</strong>, metodologia utilizada para medir a satisfação do cliente sobre a empresa ou produto, cada integrante da equipe de atendimento tem como missão converter um cliente detrator (não satisfeito) em promotor (fã da empresa). Essa é umas das metas do Méliuz. Para isso, é necessário empenho, diálogo e criatividade. É uma forma de motivar a equipe, mantê-la engajada e promover a cultura de paixão pelo cliente.</p>
 
 </div>
+
+<div>
+<h2>
+<strong>Marketing para o crescimento do negócio e Bullseye Framework</strong>
+</h2>
+<p>“Marketing é fazer, metrificar e entender o que são aquelas métricas”, a afirmação é do CEO da Gama Academy, Guilherme Junqueira. Segundo ele, as ações de marketing adotadas na startup não foram definidas com base em fórmulas prontas, mas sim na prática, o que rendeu muitos aprendizados a equipe e resultados surpreendentes.</p>
+
+<p>“O nosso primeiro vídeo teve mais de 25 mil visualizações em menos de três semanas, então, foi bizarro quando viralizou, eu acho que a gente aprendeu muito a usar conceitos de marketing digital”, destaca o CEO.</p>
+
+<p>Nesse contexto, um dos aprendizados foi a importância de medir, entender e agir rápido quando necessário, contando com a interação e iniciativa de toda a equipe, e tendo como principal desafio comunicar situações diferentes com eficiência.</p>
+
+<p>Junqueira revela que uma das estratégias para atrair pessoas para seu negócio é ter um mote a ser explorado e que seja capaz de entregar sua proposta de valor em um anúncio, por exemplo. Outra dica é propor essa ação direcionada a um público específico, mas não extremamente delimitado.</p>
+
+<p>O professor Francisco Rolfsen Belda enfoca o papel do marketing para as organizações. Fundamental nas estratégias de comunicação, ele atua frente a todos os relacionamentos que uma empresa pode manter, ou seja, junto aos colaboradores, fornecedores, consumidores, entre outros.</p>
+
+<p>Belda classifica o marketing como imprescindível para a construção da marca e para a disseminação das informações necessárias para despertar a motivação dos potenciais clientes e também renovar o interesse dos já existentes.</p>
+
+<p>A Gama Academy utilizou o&nbsp;“Bullseye framework”&nbsp;é uma metodologia&nbsp;para potencializar o alcance da empresa junto ao seu público.</p>
+
+<p>Em inglês,&nbsp;<em>bullseye</em>&nbsp;significa&nbsp;“no olho do touro”,&nbsp; expressão que traz o mesmo sentido que a expressão&nbsp;“acertar na mosca”. O propósito com essa técnica é selecionar os canais certos para ganhar tração.</p>
+
+<p>O Bullseye apresenta e analisa 19 canais de aquisição de clientes, desses, segundo a técnica, o empreendedor precisa selecionar os três mais relevantes para o negócio.&nbsp;Para chegar a esses três canais prioritários existe um passo a passo que auxilia na decisão.</p>
+
+<p>Os 19 canais analisados pelo&nbsp;Bullseye Framework&nbsp;são:</p>
+
+<ol>
+	<li>Marketing viral:&nbsp;criar mensagens que façam com que seus clientes tragam novos clientes, sem que você tenha que direcionar publicidade para este público novo.</li>
+	<li>Assessoria de imprensa:&nbsp;entrar em contato com revistas, jornais, blogs e outras formas de mídia para que eles publiquem histórias falando da sua empresa e seu produto ou serviço.</li>
+	<li>Assessoria de imprensa não-convencional:&nbsp;“não-convencional” pode ser qualquer maneira que resulte em uma grande quantidade de publicidade, mesmo que negativa ou polêmica.</li>
+	<li>Search Engine Marketing (SEM):&nbsp;o Google Adwords ainda é a maior rede de publicidade online e comprar anúncios em mecanismos de busca, como o Google é uma maneira de atrair atenção.</li>
+	<li>Publicidade online:&nbsp;podem ser propagandas que aparecem em redes sociais, como Facebook ou Twitter, ou banners que aparecem em outros sites.</li>
+	<li>Publicidade tradicional:&nbsp;você conhece, os outdoors, banners, panfletos, etc. A publicidade online é mais barata, mas a tradicional ainda não está morta.</li>
+	<li>Search Engine Optimization (SEO):&nbsp;uma boa otimização do seu site para que aparece em mecanismos de busca, pode gerar visitas de graça através das palavras-chave certas.</li>
+	<li>Marketing de conteúdo:&nbsp;criar conteúdo que seus clientes possam estar interessados e oferecer ele de graça ou a um preço baixo para chamar atenção para o seu produto ou serviço.</li>
+	<li>E-mail marketing:&nbsp;o e-mail é o jeito mais efetivo de reengajar usuários e clientes existentes. Se alguém comprar de você, ele deve ser colocado em uma campanha de marketing por e-mail</li>
+	<li>Engenharia como marketing:&nbsp;desenvolvimento de software e aplicações que possam ser usados em paralelo ao seu produto ou serviço.</li>
+	<li>Blogs direcionados:&nbsp;Embora possa ser classificado como assessoria de imprensa, criar relações fortes com blogs que atinjam o mesmo nicho do seu produto ou serviço, pode direciona-los a sua empresa.</li>
+	<li>Desenvolvimento de negócios:&nbsp;estabelecer parcerias e acordos com outras empresas para que uma possa promover o produto da outra de forma conjunta.</li>
+	<li>Vendas:&nbsp;Gerar leads para seu negócio e continuamente fazer a prospecção ativa de clientes.</li>
+	<li>Programa de afiliados:&nbsp;recompensar um cliente fidelizado quando este trazer ou indicar um novo cliente para o seu negócio.</li>
+	<li>Plataformas existentes:&nbsp;utilizar plataformas que já existem, especialmente online, para promover seu negócio. Por exemplo, o Facebook ou YouTube.</li>
+	<li>Trade Shows:&nbsp;um exemplo antigo de como ganhar clientes em fase inicial, mas ainda efetivo. Participar de eventos de divulgação e networking para expor seu produto ou serviço.</li>
+	<li>Eventos:&nbsp;caso não queira esperar pelo próximo trade show, você pode fazer seu próprio evento para divulgar sua empresa, como aulas, eventos, conferências e etc.</li>
+	<li>Palestras:&nbsp;entre os trade shows e seus próprios eventos, busque aceitar a oportunidade de falar em apresentações e palestras para poder promover seu produto ou serviço.</li>
+	<li>Criação de comunidade:&nbsp;criar e incentivar comunidades e fóruns de pessoas que se relacionem com sua empresa ou do mesmo nicho.</li>
+</ol>
+
+<p>A técnica do Bullseye foi apresentada no livro&nbsp;<em>Traction: How Any Startup Can Achieve Explosive Customer Growth</em>, dos autores Gabriel Weinberg e Justin Mares.&nbsp;Para aprender mais sobre o Bullseye Framework,&nbsp;<strong><a href="https://www.academiapme.com.br/blog/bullseye-framework-estrategia-de-tracao/">confira nosso artigo sobre o assunto</a></strong>.</p>
+
+<p>A Gama Academy apostou nessa técnica para cumprir uma meta audaciosa de alcançar 5 mil candidatos num prazo de um mês.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p></div>
