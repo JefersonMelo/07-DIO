@@ -147,6 +147,34 @@
 
 <p>Ou seja, o investidor já possui experiência prévia na criação de empresas com modelo de negócio similar, o que ajuda a&nbsp;<strong>acelerar as tomadas de decisão e o crescimento do negócio</strong>.</p>
 
-<p>&nbsp;</p>
+</div>
 
-<p>&nbsp;</p></div>
+<div>
+
+<h2>
+<strong>O que é o Business Model Canvas</strong>
+</h2>
+
+<p style="margin-left:0cm; margin-right:0cm">O Business Model Canvas foi criado pelo suíço Alex Osterwalder como uma ferramenta para organizar e ajudar na construção do plano de negócio. O modelo Canvas é uma tela em branco composta por nove elementos-chave: segmento de clientes; oferta de valor; canais; relacionamento; fontes de renda; recursos-chave; atividades-chave; parcerias-chave; estrutura de custos.</p>
+
+<p style="margin-left:0cm; margin-right:0cm">O que faz o Business Model Canvas ser uma ferramenta muito usada pelos empreendedores é a sua praticidade e facilidade na manutenção, já que ela permite uma visualização completa de todos os setores do negócio e pode ser alterada no decorrer do desenvolvimento do negócio.</p>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+</div>
+
+<div>
+
+<h2>
+<strong>O que é a ferramenta Canvanizer</strong>
+</h2>
+
+<p style="margin-left:0cm; margin-right:0cm">Algumas plataformas disponibilizam&nbsp;a tela do Business Model Canvas pronta, apenas para o empreendedor preencher os nove elementos. Dentre os modelos disponíveis, o mais utilizado é o da&nbsp;plataforma Canvanizer, onde o usuário pode fazer o download gratuitamente do modelo e começar a organizar os blocos principais do seu modelo de negócio.</p>
+
+<p style="margin-left:0cm; margin-right:0cm">Para conhecer a plataforma, acesse: https://canvanizer.com/</p>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p></div>
