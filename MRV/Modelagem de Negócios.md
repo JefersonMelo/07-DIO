@@ -374,3 +374,33 @@ b) Qual é o custo para alcançar essa receita.</p>
 traduzido do inglês, significa Prova Social. O termo é utilizado quando alguém ou um grupo é influenciado pelo comportamento de outros para tomar alguma decisão.</p>
 
 </div>
+
+<div>
+<h2>
+<strong>A importância de uma estratégia de construção de reputação</strong>
+</h2>
+<p>Guilherme Cerqueira, CEO da&nbsp;<strong>Worthix</strong>,&nbsp;primeira empresa de pesquisa do comportamento do consumidor utilizando inteligência artificial do mundo, enfatiza a importância da construção de reputação, mais do que a obtenção inicial de lucros.</p>
+
+<p>Como já dizia&nbsp;<strong><em>Philip Kotler</em></strong>, considerado um dos pais do marketing,&nbsp;“venda valor, não preço”. E essa é a filosofia que a&nbsp;<strong>Worthix</strong>&nbsp;decidiu seguir com sua maneira de se posicionar no mercado.</p>
+
+<p><strong>Philip Kotler</strong>&nbsp;também cita que&nbsp;“não consumimos produtos, mas sim a imagem que temos deles”. Isto significa que o desafio das organizações é transmitir seus princípios através de sua marca, para que sejam facilmente identificados pelo seus consumidores.</p>
+
+<p>Nesse sentido, é fundamental para a existência da marca, e consequentemente da empresa, a construção da sua reputação, ainda mais no contexto atual guiado pela competitividade de mercado e de diálogo constante proporcionado pela circulação da informação que se intensifica, sobretudo, pela tecnologia. Assim, é vital que cada organização se preocupe e invista na construção e manutenção de uma boa reputação.</p>
+
+<p>A maneira que Cerqueira e seus sócios encontraram para desenvolver a reputação da empresa foi ofertar o produto a empresas já consolidadas no mercado. A intenção era construir uma boa avaliação da&nbsp;<strong>Worthix</strong>&nbsp;junto a essas grandes companhias, de modo que outros potenciais clientes também se interessassem pelo produto.&nbsp;A reputação empresarial se constrói a partir da opinião de terceiros sobre sua empresa ou produto e a influência que essa opinião exerce sobre potenciais públicos e mercados.</p>
+
+<p>Essa aproximação com os primeiros grandes clientes se deu através de uma oferta de pouco atrito, ou seja, a&nbsp;<strong>Worthix</strong>&nbsp;oferecia seu produto a um preço muito barato, em forma de trial gratuito, ou até de graça, dependendo do interesse na empresa, retomando à filosofia de vender valor defendida por&nbsp;<strong>Kotler</strong>.</p>
+
+<p>“Eu estou concentrado em conquistar empresas grandes utilizando o nosso produto, dizendo que gostam dando depoimentos positivos em relação a ele. E para isso, a gente está dando utilização gratuita para boa parte delas, simplesmente para poder traçar marcas de peso dizendo para o mercado ‘Olha, esse negócio que esses caras inventaram funciona’”, comenta Guilherme Cerqueira.</p>
+
+<p>O professor Carlos Henrique Aiello ao complementar o Estudo de Caso, também enfatiza a importância de uma marca com boa reputação.</p>
+
+<p>Aiello destaca que uma marca forte é o que diferencia seu produto ou serviço dos demais no mercado competitivo, tornando-se atraente para o cliente.</p>
+
+<p>“[…] é importantíssimo trabalhar com essa reputação, porque sabemos que a marca é o maior bem intangível de uma organização, em que a gente leva anos para conquistar, para atingir o mercado, e segundos para perde-la. Então a reputação é de extrema importância”&nbsp;adiciona o professor.</p>
+
+<p>O CEO Guilherme Cerqueira ainda desenvolve este conceito ao explicar que se você começar cobrando pelo seu produto antes de ter um nome de peso ligado a ele, a curva de venda, e o atrito gerado por ela, pode ser tão grande que a empresa acaba quebrando por não conseguir fechar muitos negócios.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p></div>
