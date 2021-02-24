@@ -278,6 +278,26 @@ b) Qual é o custo para alcançar essa receita.</p>
 
 <p>“(…) um bom monitoramento dos dados, um bom acompanhamento rigoroso dessa experiência do usuário através de métricas, que podem ser analisadas racionalmente, é talvez o fator preponderante na hora de um planejamento racional de marketing estratégico”, salienta o professor Belda.</p>
 
-<p>&nbsp;</p>
+</div>
 
-<p>&nbsp;</p></div>
+<div>
+<h2>
+<strong>O que é Marketing de Relacionamento</strong>
+</h2>
+<p>Israel Salmen comenta com orgulho sobre a&nbsp;<strong>equipe de atendimento do Méliuz</strong>, onde, de fato, o objetivo predominante de cada um dos profissionais é atender o cliente, resolver seus problemas e garantir a melhor experiência que o Méliuz possa proporcionar ao usuário nesse relacionamento. Nesse sentido, uma das estratégias adotadas por empresas é o&nbsp;<strong>Marketing de Relacionamento</strong>.</p>
+
+<p>O Marketing de Relacionamento tem como propósito aprofundar o relacionamento com o cliente e proporcionar à empresa o desenvolvimento de autoridade e reputação no mercado em que atua e, por consequência, a construção de uma grande marca.</p>
+
+<p>Contudo, é importante considerar que o Marketing de Relacionamento é estratégico para resultados a longo prazo, pois para que seja bem feito é preciso tempo, criatividade e estabelecer um alto grau de afinidade entre a marca e seu público-alvo.&nbsp;<em>O objetivo do Marketing de Relacionamento é construir um vínculo contínuo e progressivo, elevando clientes ao patamar de fãs da empresa.</em></p>
+
+<p>No Méliuz, essas diretrizes são levadas à risca, tanto que como resultado dessa&nbsp;<strong>cultura de paixão pelo cliente</strong>, por resolver problemas e comprometimento por atender com excelência o consumidor, a empresa figura sempre entre as melhores posições no ranking do&nbsp;ReclameAqui.</p>
+
+<p><em>“A gente já faz o dever de casa, que é resolver os problemas dos usuários, de atender bem, e tentar evitar problemas, a gente faz isso muito bem feito aqui dentro de casa, mas, mesmo quando sai de casa, a gente tenta brilhar e fazer do atendimento o melhor momento possível, realmente demonstrar paixão pelo cliente, então esta é nossa cultura”</em>, destaca o CEO.</p>
+
+<p>O que o Méliuz busca é o que tem se propagado atualmente como a entrega do&nbsp;<strong>Momento UAU</strong>. Para chegar a este estágio de encantamento do cliente pelo valor da sua empresa ou a plena satisfação com seu produto/solução, é muito importante conhecer a fundo o seu usuário, reconhecer suas expectativas para que possam ser superadas e prestar atenção nos detalhes para saber como superá-las.</p>
+
+<p>Para finalizar este estudo de caso, uma prática adotada pelo Méliuz tem garantido bom retorno para a empresa e pode ser facilmente reproduzida por outros empreendedores que buscam estreitar seu relacionamento com os clientes.</p>
+
+<p>Todo final de mês ao analisar o&nbsp;<strong>Net Promoter Score (NPS)</strong>, metodologia utilizada para medir a satisfação do cliente sobre a empresa ou produto, cada integrante da equipe de atendimento tem como missão converter um cliente detrator (não satisfeito) em promotor (fã da empresa). Essa é umas das metas do Méliuz. Para isso, é necessário empenho, diálogo e criatividade. É uma forma de motivar a equipe, mantê-la engajada e promover a cultura de paixão pelo cliente.</p>
+
+</div>
