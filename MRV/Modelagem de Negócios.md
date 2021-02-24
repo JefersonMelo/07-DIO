@@ -352,6 +352,25 @@ b) Qual é o custo para alcançar essa receita.</p>
 
 <p>A Gama Academy apostou nessa técnica para cumprir uma meta audaciosa de alcançar 5 mil candidatos num prazo de um mês.</p>
 
+</div>
+
+<div>
+<h2>
+<strong>Associar técnicas da área de marketing e comunicação para escalar o negócio</strong>
+</h2>
+<p>De acordo com o CEO Guilherme Junqueira, ao adotar o&nbsp;Bullseye&nbsp;a estratégia de marketing passou a ser pautada por identificar os canais mais promissores, utilizar o&nbsp;<em>Social Proof</em>&nbsp;da Gama e também explorar ações de Assessoria de Imprensa, emplacando na mídia reportagens de alto interesse social construídas a partir de informações da Gama Academy.</p>
+
+<p>Com a boa repercussão orgânica das ações de Assessoria de Imprensa, Junqueira soube aproveitar a oportunidade e reforçar ainda mais a presença da Gama na mídia através de uma arrojada estratégia de publicidade. Ele destaca a importância de sincronizar a mensagem nos diversos canais selecionados para a estratégia de tração da empresa.</p>
+
+<p>Uma das consequências das técnicas adotadas pela Gama Academy foi o endosso da marca,&nbsp;pois a comunidade começou a falar sobre a empresa, a dar depoimentos sobre o serviço por ela prestado, criando assim uma excelente reputação e construindo a autoridade da Gama em relação ao mercado educacional.</p>
+
+<p>Belda ressalta que a estratégia utilizada pela Gama de contar com o trabalho da Assessoria de Imprensa foi assertiva e é muito utilizada por outras empresas. O relacionamento da companhia ou marca com os veículos de comunicação é intermediado por assessores, que em contato direto com jornalistas nas redações conseguem discutir pautas, transmitir a mensagem da empresa e conquistar publicações de interesse público a custo zero, o que é conhecido como mídia espontânea.</p>
+
+<p>Contudo, quando se trata de uma empresa em fase inicial, esse relacionamento com os veículos de comunicação acaba sendo realizado pelo próprio empreendedor que necessita desenvolver essa habilidade ou uma alternativa recomendada pelo professor é a contratação de um mesmo serviço especializado por diversas pequenas empresas ou startups, o que possibilitaria a divisão dos custos entre os usuários do serviço.</p>
+
 <p>&nbsp;</p>
 
-<p>&nbsp;</p></div>
+<p><strong>.Social Proof.</strong><br>
+traduzido do inglês, significa Prova Social. O termo é utilizado quando alguém ou um grupo é influenciado pelo comportamento de outros para tomar alguma decisão.</p>
+
+</div>
