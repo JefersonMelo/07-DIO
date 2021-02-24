@@ -177,4 +177,107 @@
 
 <p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
 
-<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p></div>
+<p style="margin-left:0cm; margin-right:0cm">&nbsp;</p>
+
+</div>
+
+<div>
+<h2>
+<strong>O que são canais de aquisição de clientes e a importância em sua estratégia de marketing</strong>
+</h2>
+<p>Quando um negócio está no início da sua jornada, geralmente faltam recursos e clientes e transformar este cenário é, sem dúvida, um dos principais desafios do empreendedor. No&nbsp;<strong>Méliuz</strong>, que hoje é o maior portal brasileiro de&nbsp;<em>cashback</em>, não foi diferente.</p>
+
+<p>O CEO da empresa, o empreendedor Israel Salmen, destaca que a escolha inicial da empresa para trazer seus primeiros usuários foi buscar por canais de atração de baixo custo ou, até mesmo, sem qualquer custo. O intuito era validar o produto com esses usuários para então começar a vislumbrar um crescimento no mercado.</p>
+
+<p>Salmen cita no estudo de caso dois canais de baixo custo que foram usados na primeira fase do negócio:&nbsp;<strong>Parcerias e SEO (Search Engine Optimization)</strong>, que são opções de baixo investimento e que, em geral, garantem usuários qualificados para o negócio.</p>
+
+<p>Em&nbsp;<strong>Traction: How any startup can achieve explosive customer growth</strong>, os autores&nbsp;<strong>Gabriel Weinberg</strong>e&nbsp;<strong>Justin Mares</strong>&nbsp;definem que os canais de aquisição de clientes são chamados de&nbsp;<em>Canais de Tração</em>.&nbsp;“São canais de marketing e distribuição através dos quais sua empresa pode ganhar tração, ou seja, o crescimento real de clientes”, explica trecho do livro.</p>
+
+<p>Os autores elencaram,&nbsp;após uma série de entrevistas realizadas com 40 fundadores de empresas bem-sucedidos, os&nbsp;<strong>19 canais de tração</strong>&nbsp;que são utilizados por empreendedores.&nbsp;<strong>Cada canal tem sua particularidade, capacidade de tração e indicação para ser explorado.</strong></p>
+
+<p>Os 19 canais são: Marketing viral; Assessoria de Imprensa; Assessoria de Imprensa não convencional; Search Engine Marketing (SEM); Publicidade online; Publicidade tradicional; Search Engine Optimization (SEO); Marketing de Conteúdo; E-mail Marketing; Engenharia como marketing; Blogs direcionados; Desenvolvimento de negócios; Vendas; Programas de Afiliados; Plataformas existentes; Trade Shows; Eventos; Palestras; e Criação de Comunidades.</p>
+
+<p>De acordo com o livro, é preciso definir um objetivo de tração a ser atingido. Nas empresas em estágios iniciais, normalmente, o objetivo é conseguir tração suficiente para aumentar o financiamento ou tornar-se rentável. Mas, em qualquer caso, é preciso definir os números que representam esse objetivo a ser conquistado. Por exemplo, quantos clientes você precisa e a qual taxa de crescimento.</p>
+
+<p>“A estratégia de tração deve sempre ser focada no objetivo de tração. Isso significa concentrar-se em ações de marketing que resultem em um impacto mensurável e significativo para o objetivo definido”, afirmam os autores.</p>
+
+<p>São consideradas três fases de uma empresa onde a estratégia de tração deve ser pensada de acordo com cada propósito:</p>
+
+<p><strong>1ª Fase – Criar algo que as pessoas querem</strong><br>
+<strong>2ª Fase – Colocar no mercado seu produto</strong><br>
+<strong>3ª Fase – Aumentar o seu negócio</strong></p>
+
+<p>A&nbsp;<strong>1ª fase</strong>&nbsp;é muito focada no produto. Ao mesmo tempo em que ele é desenvolvido, busca-se também a tração inicial. Seja através de palestras, e-mail, conferências, e basicamente qualquer coisa que te coloque frente a frente com o consumidor.</p>
+
+<p>Na&nbsp;<strong>2ª fase</strong>, você já terá um produto aprovado pelos consumidores, ou seja, já tem um product/market fit estabelecido. Refine sua posição e comunicação com o mercado.</p>
+
+<p>Ao atingir a&nbsp;<strong>3ª fase</strong>, seu modelo de negócios e sua posição estarão estabelecidos e seu foco será escalar para dominar o mercado e ter lucratividade.</p>
+
+<p>Em cada fase, a estratégia adotada também deve ser diferente, pois alguns canais podem funcionar bem na 1ª fase, mas nem tão bem na 3ª fase.</p>
+
+<p>Para auxiliar os empreendedores a descobrirem quais dos 19 canais de tração são os mais adequados para a fase e objetivo do negócio, Weinberg e Mares desenvolveram uma ferramenta chamada&nbsp;<strong>Bullseye</strong>, que, em português, significa “olho do touro”, e denomina também a parte central de um alvo de tiro. Expressões em português com significado similar seriam “acertar em cheio” e “acertar na mosca”.</p>
+
+<p>Pensando em negócios, o objetivo do&nbsp;<strong>Bullseye</strong>&nbsp;é mirar no canal de tração certo para atingir o público-alvo certeiro e destravar o próximo estágio de crescimento do seu negócio.</p>
+
+<p>Para encontrar o melhor canal de tração, o método&nbsp;<strong>Bullseye</strong>&nbsp;foi construído em cinco etapas:&nbsp;<strong>Brainstorm, Classificar, Priorizar, Testar e Focar.</strong></p>
+
+<p><strong>1. Brainstorm</strong><br>
+A equipe deve fazer um brainstorm e pensar como cada canal pode ser utilizado para trazer tração à empresa.</p>
+
+<p><strong>2. Classificar</strong><br>
+A segunda etapa organiza os resultados do brainstorm e é quando deve-se pensar mais criticamente em cada canal de tração. Cada um dos canais deve ser classificado em três categorias, que formam um alvo. No centro, os canais de maior potencial; seguido pelas possibilidades e na camada mais externa os canais de menor potencial.</p>
+
+<p>A) maior potencial -&gt;&nbsp;canais de tração que a equipe considera mais potencial, e através de pesquisa, pareçam ser os mais viáveis<br>
+B) possibilidade -&gt;&nbsp;Aqui são os canais que podem não ser tão certeiros, mas que têm algum potencial futuro<br>
+C) menor potencial -&gt;&nbsp;aqueles canais que fogem do foco da empresa</p>
+
+<p><strong>3. Priorizar</strong><br>
+Nesta etapa, deve-se analisar apenas o&nbsp;<strong>Bullseye</strong>&nbsp;do alvo, ou seja, o círculo central onde estão os canais de maior potencial. De todos os canais considerados no alvo, deve-se agora filtrar apenas três. Se você tem menos de três, a equipe deve-se concentrar em encontrar mais canais com grande potencial; caso tenha mais de três, concentre-se em reduzir.</p>
+
+<p><strong>4. Testar</strong><br>
+O objetivo desta etapa é descobrir em qual dos canais no&nbsp;<strong>Bullseye</strong>&nbsp;vale mais a pena focar. Essa decisão pode ser tomada baseada em testes relativamente fáceis e baratos, e pensados para responder algumas questões. Sendo estas:</p>
+
+<p>a) Qual será o custo de aquisição de cliente através deste canal?<br>
+b) Quantos clientes estão disponíveis neste canal?<br>
+c) Os clientes atraídos através deste canal são os que você busca?</p>
+
+<p><strong>5. Focar</strong><br>
+Se tudo ocorrer bem, os testes dos canais do&nbsp;<strong>Bullseye</strong>&nbsp;devem retornar bons resultados e, então, a empresa deverá focar os esforços no canal que mais se destacou.</p>
+
+<p>Em qualquer fase da vida de uma empresa, apenas um canal domina em termos de aquisição de clientes. É por isso que não é recomendado focar em mais de um canal por vez, isso deve ocorrer apenas depois que você tiver testado e comprovado que este canal é o ideal.</p>
+
+<p>Além de identificar os melhores canais e estratégias de tração, a dica de Salmen para empresas é conhecer bem os números e estar familiarizado com eles. Uma das informações mais importantes é ter claro qual o&nbsp;<strong>Unit Economics</strong>&nbsp;do seu negócio.&nbsp;“Conhecer o Unit Economics é a tarefa número 1 para você começar a escalar”, avalia o CEO.</p>
+
+<p><strong>Mas, afinal, o que é Unit Economics?</strong></p>
+
+<p>O conceito de&nbsp;<strong>Unit Economics</strong>&nbsp;é definido como “a receita direta e custos associados a um modelo de negócios, expressados com base em uma unidade”. A partir do conhecimento destes dados, é possível projetar a rentabilidade da empresa e quando essa lucratividade poderá ser alcançada.</p>
+
+<p>A unidade base varia de acordo com o modelo de negócio da empresa, mas, em geral, refere-se ao cliente/consumidor. Por exemplo, uma empresa que trabalha com assinatura mensal, a “unidade” é o assinante; já em uma companhia área, a “unidade” pode ser o número de assentos vendidos nos voos.</p>
+
+<p>Uma vez definida sua unidade base, o próximo passo é identificar:<br>
+a) Quanto da sua receita deriva da unidade base definida<br>
+b) Qual é o custo para alcançar essa receita.</p>
+
+<p>Duas métricas são comumente utilizadas para coletar os dados acima, são elas:&nbsp;<strong>LTV (Lifetime Value/ Tempo de Vida)</strong>&nbsp;que expressa a receita gerada pela cliente durante o período em que permaneceu no negócio ou produto; e o&nbsp;<strong>CAC (Customer Acquisition Cost/ Custo de aquisição do cliente)</strong>, que demonstra o quanto foi investido para atrair um novo cliente para seu negócio. As melhores práticas de negócio consideram que a melhor proporção entre essas duas métricas é de 3:1, ou seja, o valor do LTV três vezes maior que o CAC.</p>
+
+<p>Saber avaliar os dados do negócio é algo valioso para o desenvolvimento das estratégias de marketing. O professor Francisco Rolfsen Belda, neste estudo de caso, chama a atenção para a necessidade de acompanhamento das métricas para avaliar e planejar ações de comunicação de melhor desempenho.</p>
+
+<p>“(…) No ambiente das mídias digitais, existe todo um conjunto de dados que instrui essas decisões para que uma ação de marketing seja o mais efetiva e eficiente possível. Nesse sentido, o caso do Méliuz é emblemático pelo uso refinado dos dados sobre comportamento dos usuários de modo a amparar este planejamento no que se refere, por exemplo, as estratégias de aquisição do cliente e de manutenção desse cliente a partir de um relacionamento direto (…)”, destaca o especialista.</p>
+
+<p>Numa estratégia de canal de aquisição de clientes, é necessário sempre analisar e avaliar essas métricas em cada canal a fim de identificar qual a melhor oportunidade para investir no momento de escalar o seu negócio.</p>
+
+<p>Por isso, conhecer o&nbsp;<strong>Unit Economics</strong>&nbsp;pode render uma leitura mais correta sobre o estágio em que está o seu negócio. O importante é não procurar atalhos durante este processo de entendimento e avaliação do&nbsp;<strong>Unit Economics</strong>. Quando feito corretamente e continuamente, a análise do&nbsp;<strong>Unit Economics</strong>&nbsp;irá mostrar oportunidades, apresentar falhas a serem corrigidas e direcionar o empreendedor para melhores estratégias a fim de maximizar os lucros e resultados.</p>
+
+<p>Outro conceito super válido e também utilizado pelo time de marketing da&nbsp;Méliuz&nbsp;na hora de selecionar as melhores oportunidades para a empresa é a&nbsp;<strong>análise Cohort</strong>.</p>
+
+<p>Uma&nbsp;<strong>análise Cohort</strong>&nbsp;verifica o comportamento dos clientes, porém dividindo-os em grupos a partir de características semelhantes entre si. Com essa métrica é possível segmentar os usuários e acompanha-los, identificando como se relacionam com sua empresa ou produto e extraindo informações mais específicas sobre o comportamento do cliente.</p>
+
+<p>Por exemplo, uma análise de Cohort pode ser aplicada em um grupo de usuários de determinada plataforma digital no mês de maio, no mês de junho é possível ver como esse grupo se comportou, qual a recorrência na plataforma, quem continua utilizando, quem parou de usar. Conhecer essas informações irá auxiliar no planejamento de estratégias de canais mais certeiras.</p>
+
+<p><em>Uma estratégia de canal só é eficiente se estiver ligada a uma estratégia de engajamento, ou seja, sua capacidade de manter os clientes entusiasmados com o seu produto.</em></p>
+
+<p>“(…) um bom monitoramento dos dados, um bom acompanhamento rigoroso dessa experiência do usuário através de métricas, que podem ser analisadas racionalmente, é talvez o fator preponderante na hora de um planejamento racional de marketing estratégico”, salienta o professor Belda.</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p></div>
