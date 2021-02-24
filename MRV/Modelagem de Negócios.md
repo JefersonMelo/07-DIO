@@ -425,6 +425,44 @@ traduzido do inglês, significa Prova Social. O termo é utilizado quando algué
 
 <p>Um dos exemplos citados por Cerqueira referente à utilização dessa estratégia é a parceria com grandes consultorias que já estão utilizando o serviço da&nbsp;<strong>Worthix&nbsp;</strong>e, assim, constituem a&nbsp;ponta da flecha para atingir outros clientes, levando a marca da empresa até novos públicos e endossando o seu nome.</p>
 
+</div>
+
+<div>
+<h2>
+<strong>Como escolher o sócio ideal para sua empresa</strong>
+</h2>
+<h3>
+<strong>Sem medo de falar sobre sua ideia!</strong>
+</h3>
+
+<p>Grandes negócios nascem de boas ideias, que muitas vezes podem ser simples, mas que resolvem grandes problemas. Quando o CEO da MaxMilhas, Max Oliveira, teve a ideia que hoje sustenta o seu negócio, ele a considerava um hobby, embora tivesse noção de que poderia ajudar muitas pessoas, contudo não tinha dimensão do potencial do que acabava de criar.</p>
+
+<p>A MaxMilhas é uma plataforma digital que faz a intermediação entre compra e venda de milhas, possibilitando descontos de até 80% em passagens aéreas. Criada em 2013, em Belo Horizonte (MG), tem como proposta conectar quem quer voar, a preços mais acessíveis, a quem possui milhas e não tem tempo de utilizá-las antes do prazo de expiração e quer transformar essa vantagem em um benefício monetário. A plataforma tem seu próprio sistema de busca de voos, permitindo a comparação entre valores disponibilizados pelas companhias aéreas e aqueles encontrados por milhas no portal.</p>
+
+<p>Oliveira revela que antes de planejar e montar, de fato, uma empresa, sua atitude inicial foi dividir sua ideia com várias pessoas, expor o que pensava, o que pretendia resolver, e nesses bate papos foi colhendo feedbacks e insights que o ajudaram a desenvolver o negócio e a validar a ideia, pois percebeu que ela tinha sentido tanto para quem gostaria de viajar quanto para quem tinha milhas, mas não conseguia usá- las na integralidade.</p>
+
+<p>Agregando conhecimento a esta aula, o professor Francisco Rolfsen Belda também destaca a importância de buscar validar sempre a ideia, a inspiração ou hobby que o empreendedor acredita ter potencial para se transformar num bom negócio.</p>
+
+<p>Como uma boa dica nesse processo de validação da ideia, o especialista recomenda que o empreendedor procure dissemina-la, buscar feedbacks, tentar verificar a originalidade do projeto, enfim, checar a viabilidade e a potencialidade da ideia, para então dar o próximo passo, conquistar sócios ou investidores para o desenvolvimento do negócio.</p>
+
+<p><em>“É necessário testá-la, primeiro entre amigos, com a família, com colegas de trabalho, participando de eventos, apresentando uma palestra, vendo como aquela ideia ecoa dentro de um ambiente, se possível, com algumas pessoas que já tenham alguma experiência de mercado. Se essa ideia resistir ao primeiro teste de reconhecimento, então é hora de buscar um investidor, alguém que aposta não apenas verbalmente, acreditando naquele empreendimento, mas aposta efetivamente, colocando seu capital em risco”</em>, pontua o professor.</p>
+
+<h3><strong>Encontrando o sócio certo!</strong></h3>
+
+<p>Além de amadurecer a ideia, as rodadas de conversa também ajudaram Oliveira a encontrar sócios capazes de contribuir para o crescimento da empresa.</p>
+
+<p>Os dois sócios que começaram a MaxMilhas juntos com Oliveira foram Conrado Abreu e Hiran Cesar. Com o primeiro, por ter uma relação mais próxima com CEO, o contato foi imediato e, ao compartilhar a ideia, surgiu ali uma oportunidade. No caso de Hiran, que hoje já não integra mais a sociedade na empresa, a aproximação se deu por meio de indicações.</p>
+
+<p>Oliveira conta que hoje considera como um dos mais valiosos aprendizados do início da jornada da MaxMilhas, a importância de analisar muito bem o perfil das pessoas que trabalharão no negócio, em especial, aqueles que poderão se tornar sócios. De acordo com o CEO, para que o desenvolvimento da empresa possa fluir bem, é fundamental que todas as habilidades se complementem.</p>
+
+<h3><strong>Protegendo o negócio</strong></h3>
+
+<p>Em&nbsp;<em><strong>Venture Deals</strong></em>, livro focado em auxiliar empreendedores a conhecer as relações societárias e de investimentos, os autores Brad Feld e Jason Mendelson destacam que o relacionamento dos sócios, com o passar do tempo, geralmente sofre com algumas desavenças, com frequência em razão de estresse nos negócios, competência, personalidade ou então mudanças de prioridades para algumas das partes.</p>
+
+<p>Diante deste cenário, os autores, ressaltam que é comum um ou mais fundadores deixarem a empresa, e nem sempre com tranquilidade. Como forma de antecipar esse tipo de aborrecimentos e interferências para o bom andamento do negócio, é recomendado estruturar em documentos como serão esses procedimentos.</p>
+
+<p>De acordo com Feld e Mendelson, várias formas de contrato cobrem essas situações, levando em conta as perspectivas dos fundadores e também dos investidores. Um desses documentos é o Vesting, que será esmiuçado com mais detalhes a seguir.</p>
+
 <p>&nbsp;</p>
 
 <p>&nbsp;</p></div>
