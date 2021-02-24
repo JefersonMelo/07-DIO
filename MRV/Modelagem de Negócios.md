@@ -463,6 +463,31 @@ traduzido do inglês, significa Prova Social. O termo é utilizado quando algué
 
 <p>De acordo com Feld e Mendelson, várias formas de contrato cobrem essas situações, levando em conta as perspectivas dos fundadores e também dos investidores. Um desses documentos é o Vesting, que será esmiuçado com mais detalhes a seguir.</p>
 
+</div>
+
+<div>
+<h2>
+<strong>O que é Vesting?</strong>
+</h2>
+<p>Max Oliveira expõe que um bom mecanismo para ser utilizado para acordos societários é o contrato de&nbsp;<strong><em>Vesting</em></strong>, algo que ele não utilizou no início da&nbsp;<strong>MaxMilhas</strong>, mas que hoje já é parte do negócio.</p>
+
+<p>Vesting é um termo jurídico muito utilizado nos Estados Unidos, assim como por todos os tipos de Venture Capitals e startups. Ele define as condições da participação de cada um na empresa, considerando todos aqueles que são acionistas, mas que não compraram sua participação na startup, incluindo assim fundadores, funcionários, advisors, membros do conselho, etc.</p>
+
+<p>Com o Vesting, é possível atrelar a concessão do percentual acordado mediante a gatilhos, como, por exemplo, tempo de permanência na empresa.</p>
+
+<h3><strong>Vantagens</strong></h3>
+
+<p>Assim como o CEO da MaxMilhas, o professor Belda também destaca as vantagens do contrato de Vesting, que visa proteger o empreendedor. O especialista chama a atenção sobre como deve ser estabelecida a relação societária em um negócio, pois, muitas vezes, as expectativas sobre a empresa podem ser diferentes entre sócios e investidores, por exemplo.</p>
+
+<p><em>“O Vesting é um dos instrumentos jurídicos e administrativos mais adequados para fazer com que a participação de cada sócio seja proporcional aos resultados gerados. O regime de Vesting é uma forma do empreendedor se precaver contra sócios que não entregam aquilo que prometem. Portanto, é muito importante pactuar e estabelecer em que condições essas participações serão exercidas a médio e longo prazo”</em>, finaliza o professor.</p>
+
+<p>Os autores de&nbsp;<em><strong>Venture Deals</strong></em>&nbsp;também reservam um espaço em seu livro para tratar mais detalhadamente sobre o Vesting. Eles afirmam que apesar de ser um conceito simples, pode render implicações inesperadas. Ainda ressaltam que este é um recurso eficiente para a garantia de comprometimento a longo prazo na relação sócios e empresa.</p>
+
+<p>Numa forma mais clara, por exemplo, um sócio detém 50% das ações da empresa, e o Vesting adotado é de quatro anos.<br>
+Caso este sócio decida deixar o negócio na metade deste período, ou seja, ao final do segundo ano, ele só terá direito a 25% das suas ações no momento da saída.</p>
+
+<p>Nas considerações dos autores de Venture Deals, um contrato de Vesting deve ser entendido como uma ferramenta para alinhamento geral, que impacte e proteja fundadores, funcionários e investidores, e afirmam que&nbsp;<em>“uma abordagem equilibrada e consistência”</em>&nbsp;é fundamental para que este termo entre as partes seja duradouro.</p>
+
 <p>&nbsp;</p>
 
 <p>&nbsp;</p></div>
