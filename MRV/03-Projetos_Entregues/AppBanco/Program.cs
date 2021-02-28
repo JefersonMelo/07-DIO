@@ -7,7 +7,7 @@ namespace AppBanco
     class Program
     {
         static MenuOpcaoUsuario menu = new MenuOpcaoUsuario();
-        static List<Conta> listContas = new List<Conta>();
+        static List<Conta> listaContas = new List<Conta>();
 
         static void Main(string[] args)
         {
@@ -52,15 +52,15 @@ namespace AppBanco
         {
             Console.WriteLine("Listar contas");
 
-            if (listContas.Count == 0)
+            if (listaContas.Count == 0)
             {
                 Console.WriteLine("Nenhuma conta cadastrada.");
                 return;
             }
 
-            for (int i = 0; i < listContas.Count; i++)
+            for (int i = 0; i < listaContas.Count; i++)
             {
-                Conta conta = listContas[i];
+                Conta conta = listaContas[i];
                 Console.Write($"#{i} - ");
                 Console.WriteLine(conta);
             }
@@ -88,7 +88,7 @@ namespace AppBanco
                                         credito: entradaCredito,
                                         nome: entradaNome);
 
-            listContas.Add(novaConta);
+            listaContas.Add(novaConta);
         }
 
         private static void Transferir()
@@ -102,7 +102,7 @@ namespace AppBanco
             Console.Write("Digite o valor a ser transferido: ");
             double valorTransferencia = double.Parse(Console.ReadLine());
 
-            listContas[indiceContaOrigem].Transferir(valorTransferencia, listContas[indiceContaDestino]);
+            listaContas[indiceContaOrigem].Transferir(valorTransferencia, listaContas[indiceContaDestino]);
         }
 
         private static void Sacar()
@@ -113,7 +113,7 @@ namespace AppBanco
             Console.Write("Digite o valor a ser sacado: ");
             double valorSaque = double.Parse(Console.ReadLine());
 
-            listContas[indiceConta].Sacar(valorSaque);
+            listaContas[indiceConta].Sacar(valorSaque);
         }
 
         private static void Depositar()
@@ -124,7 +124,7 @@ namespace AppBanco
             Console.Write("Digite o valor a ser depositado: ");
             double valorDeposito = double.Parse(Console.ReadLine());
 
-            listContas[indiceConta].Depositar(valorDeposito);
+            listaContas[indiceConta].Depositar(valorDeposito);
         }
 
     }
