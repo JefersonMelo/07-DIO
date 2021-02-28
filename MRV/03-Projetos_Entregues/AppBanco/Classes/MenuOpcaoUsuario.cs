@@ -6,14 +6,9 @@ namespace AppBanco
 {
     class MenuOpcaoUsuario
     {
-        private char OpcaoUsuario { get; set; }
+        public char OpcaoUsuario { get; set; }
 
         public MenuOpcaoUsuario() { }
-
-        public MenuOpcaoUsuario(char opcaoUsuario)
-        {
-            this.OpcaoUsuario = opcaoUsuario;
-        }
 
         // Menu de opções de escolha do usuário
         public string ImprimirMenu()
