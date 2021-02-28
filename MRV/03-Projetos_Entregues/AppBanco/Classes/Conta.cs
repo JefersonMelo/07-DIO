@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace AppBanco.Classes
 {
@@ -30,7 +28,7 @@ namespace AppBanco.Classes
             this.Saldo -= valorSaque;
 
             Console.WriteLine($"Saldo atual da conta de {this.Nome} é {this.Saldo}");
-            
+
             return true;
         }
 
