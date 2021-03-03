@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Taxa_Crescimento_Cidades
 {
@@ -51,25 +52,32 @@ namespace Taxa_Crescimento_Cidades
                 pb = int.Parse(valores[1]);
 
                 //declare as variaveis corretamente
-                cpa =
-                cpb =
+                cpa = double.Parse(valores[2], CultureInfo.InvariantCulture);
+                cpb = double.Parse(valores[3], CultureInfo.InvariantCulture);
 
                 while ( pa <= pb )
                 {
-
                     //complete o while
+                    pa += ( int )( pa * cpa ) / 100;
+                    pb += ( int )( pb * cpb ) / 100;
+                    anos++;
 
                     if ( anos > 100 )
                     {
                         //complete a condicional
+                        break;
                     }
                 }
 
                 if ( anos <= 100 )
                 {
                     //complete a condicional
+                    Console.WriteLine($"{anos} anos.");
                 }
-
+                else
+                {
+                    Console.WriteLine("Mais de 1 seculo.");
+                }
             }
         }
     }
