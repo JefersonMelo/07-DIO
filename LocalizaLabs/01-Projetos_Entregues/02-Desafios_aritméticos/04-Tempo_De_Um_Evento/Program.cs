@@ -25,7 +25,7 @@ namespace Tempo_De_Um_Evento
         08 : 12 : 23            22 hora(s)
         Dia 9                   1 minuto(s)
         06 : 13 : 23            0 segundo(s)
-        https://codificandoonline.blogspot.com/2020/12/uri-1061-iniciante-tempo-de-um-evento-c.html
+       
          */
         static void Main(string[] args)
         {
@@ -37,25 +37,37 @@ namespace Tempo_De_Um_Evento
             string[] dadosInicio = Console.ReadLine().Split();
             diaInicio = Convert.ToInt32(dadosInicio[1]);
 
-            string[] dadosMomentoInicio = Console.ReadLine().Split();
+            string[] dadosMomentoInicio = Console.ReadLine().Split(':');
             horaMomentoInicio = Convert.ToInt32(dadosMomentoInicio[0]);
+            minutoMomentoInicio = Convert.ToInt32(dadosMomentoInicio[1]);
+            segundoMomentoInicio = Convert.ToInt32(dadosMomentoInicio[2]);
 
 
             string[] dadosTermino = Console.ReadLine().Split();
             diaTermino = Convert.ToInt32(dadosTermino[1]);
 
-            string[] dadosMomentoTermino = Console.ReadLine().Split();
+            string[] dadosMomentoTermino = Console.ReadLine().Split(':');
             horaMomentoTermino = Convert.ToInt32(dadosMomentoTermino[0]);
+            minutoMomentoTermino = Convert.ToInt32(dadosMomentoTermino[1]);
+            segundoMomentoTerminio = Convert.ToInt32(dadosMomentoTermino[2]);
 
 
-            int transformaSegundosInicio = ();
-            int transformaSegundosTermino = ();
+            int transformaSegundosInicio = segundoMomentoInicio + ( minutoMomentoInicio * 60 ) + ( horaMomentoInicio * 3600 ) + ( diaInicio * 86400 );
+            int transformaSegundosTermino = segundoMomentoTerminio + ( minutoMomentoTermino * 60 ) + ( horaMomentoTermino * 3600 ) + ( diaTermino * 86400 );
 
-            int somaTotalSegundos = (            );
-            int W =  / ();
+            int somaTotalSegundos = transformaSegundosTermino - transformaSegundosInicio;
+            int W = somaTotalSegundos / 86400;
+            somaTotalSegundos %= 86400;
+            int X = somaTotalSegundos / 3600;
+            somaTotalSegundos %= 3600;
+            int Y = somaTotalSegundos / 60;
+            somaTotalSegundos %= 60;
+            int Z = somaTotalSegundos;
 
-
-            Console.WriteLine("{0} dia(s)", W);
+            Console.WriteLine($"{W} dia(s)\n" +
+                              $"{X} hora(s)\n" +
+                              $"{Y} minuto(s)\n" +
+                              $"{Z} segundo(s)");
 
 
         }
