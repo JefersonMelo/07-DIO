@@ -20,16 +20,17 @@ namespace Comunicacao_Em_Piralandia
         Exemplo de Entrada 	    Exemplo de Saída
         1234                    4321
         9876543210              0123456789
+        https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/strings/
         */
         static void Main(string[] args)
         {
 
             string n = Console.ReadLine();
             //continue a solução
-
-            string v = new string(arr);
-            Console.WriteLine(v);
-
+            for ( int i = 0; i < n.Length; i++ )
+            {
+                Console.Write(n[n.Length -i -1]);
+            }
         }
     }
 }
