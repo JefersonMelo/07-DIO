@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Dividindo_X_Por_Y
 {
@@ -22,13 +23,14 @@ namespace Dividindo_X_Por_Y
         static void Main(string[] args)
         {
             double r;
-            int n, x, y;
-            n = int.Parse(Console.ReadLine());
+
+            int n = int.Parse(Console.ReadLine());
+
             for ( int i = 0; i < n; i++ )
             {
-                string[] s = Console.ReadLine().Split(' ');
-                x = int.Parse(s[0]);
-                y = int.Parse(s[1]);
+                string[] s = Console.ReadLine().Split();
+                int x = int.Parse(s[0]);
+                int y = int.Parse(s[1]);
 
                 if ( y == 0 )
                 {
@@ -36,8 +38,8 @@ namespace Dividindo_X_Por_Y
                 }
                 else
                 {
-                    r = ( double )x / y;
-                    Console.WriteLine($"{r:f1}");
+                    r = ( double ) x / y;
+                    Console.WriteLine($"{r.ToString("F1", CultureInfo.InvariantCulture)}");
                 }
             }
         }
