@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teorema_Divisao_Euclidiana", "Teorema_Divisao_Euclidiana.csproj", "{09EBD0F5-2D9D-464C-A30A-8E63E3604CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09EBD0F5-2D9D-464C-A30A-8E63E3604CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09EBD0F5-2D9D-464C-A30A-8E63E3604CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09EBD0F5-2D9D-464C-A30A-8E63E3604CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09EBD0F5-2D9D-464C-A30A-8E63E3604CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6230E683-74F9-46C1-A5A4-0F90AB0F40DD}
+	EndGlobalSection
+EndGlobal
