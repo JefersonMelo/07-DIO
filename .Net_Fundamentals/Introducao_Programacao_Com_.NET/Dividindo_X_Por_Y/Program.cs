@@ -31,7 +31,7 @@ namespace Dividindo_X_Por_Y
                 x = int.Parse(s[0], CultureInfo.InvariantCulture);
                 y = int.Parse(s[1], CultureInfo.InvariantCulture);
 
-                if ( y == 0 || x < 0 )
+                if ( y == 0 )
                 {
                     Console.WriteLine("divisao impossivel");
                 }
