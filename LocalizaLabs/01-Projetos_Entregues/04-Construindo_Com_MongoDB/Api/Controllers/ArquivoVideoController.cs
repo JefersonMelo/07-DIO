@@ -3,7 +3,6 @@ using Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
 
-//https://localhost:5001/arquivoVideo
 namespace Api.Controllers
 {
     [ApiController]
@@ -22,7 +21,7 @@ namespace Api.Controllers
         [HttpPost]
         public ActionResult SalvarArquivoVideo([FromBody] ArquivoVideoDTO dto)
         {
-            var arquivoVideo = new ArquivoVideo(dto.CodigoBarras, dto.DataLancamento, dto.Genero, dto.Sinpse);
+            var arquivoVideo = new ArquivoVideo(dto.DataLancamento, dto.Titulo, dto.CodigoBarras, dto.Genero, dto.Sinpse);
 
             _arquivoVideosCollection.InsertOne(arquivoVideo);
 

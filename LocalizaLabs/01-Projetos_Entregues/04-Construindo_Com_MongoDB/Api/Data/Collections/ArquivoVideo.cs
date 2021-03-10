@@ -5,16 +5,18 @@ namespace Api.Data.Collections
     public class ArquivoVideo
     {
         public DateTime DataLancamento { get; set; }
+        public string Titulo { get; set; }
         public string Genero { get; set; }
         public string Sinpse { get; set; }
         public string CodigoBarras { get; set; }
 
-        public ArquivoVideo(string codigoBarras, DateTime dataLancamento, string genero, string sinpse)
+        public ArquivoVideo(DateTime dataLancamento, string titulo, string genero, string sinpse, string codigoBarras)
         {
-            CodigoBarras = codigoBarras;
             DataLancamento = dataLancamento;
+            Titulo = titulo;
             Genero = genero;
-            Sinpse = sinpse;            
+            Sinpse = sinpse;
+            CodigoBarras = codigoBarras;
         }
     }
 }
