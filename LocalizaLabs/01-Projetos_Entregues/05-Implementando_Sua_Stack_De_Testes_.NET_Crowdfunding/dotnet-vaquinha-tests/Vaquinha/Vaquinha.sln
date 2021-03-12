@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vaquinha", "Vaquinha.csproj", "{E296EEBF-361B-4CE4-82E9-3C040D3315E0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Mvc", "0-Mvc", "{82D0A48E-C44D-41DA-9592-D3A27525AC77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Repository", "2-Repository", "{687C5297-79D9-43C8-A8B8-27F12D94ACB6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Service", "1-Service", "{07FBF091-8A56-4CE6-8533-E49E68C03436}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{2F1233C6-D3CB-45FB-A084-BD0B68116800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Tests", "4-Tests", "{2ACA2AD6-4DF3-482C-BC3E-03D4E9486644}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.Automated.UI.Tests", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\tests\Vaquinha.Automated.UI.Tests\Vaquinha.Automated.UI.Tests.csproj", "{132673A6-B5CA-4BA3-859E-DA0A46C040C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.Integration.Tests", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\tests\Vaquinha.Integration.Tests\Vaquinha.Integration.Tests.csproj", "{7F25B1D2-6C28-4806-9E92-C54A9091FD16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.Tests.Common", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\tests\Vaquinha.Tests.Common\Vaquinha.Tests.Common.csproj", "{142A8AB7-1FDE-444E-B0FC-FA10D715766E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.Unit.Tests", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\tests\Vaquinha.Unit.Tests\Vaquinha.Unit.Tests.csproj", "{18B82C35-8913-4883-9354-7BB2082F2441}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.MVC", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\src\Vaquinha.MVC\Vaquinha.MVC.csproj", "{005EB923-118F-4A4D-9BBC-9283B54CC881}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.Service", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\src\Vaquinha.Service\Vaquinha.Service.csproj", "{A2974BB7-D530-437C-BABC-EB495A66FE12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.Repository", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\src\Vaquinha.Repository\Vaquinha.Repository.csproj", "{D49FA137-358F-48CB-98E2-79186E9ABC6F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vaquinha.Domain", "..\..\..\..\..\..\..\..\Desktop\dotnet-vaquinha-tests\src\Vaquinha.Domain\Vaquinha.Domain.csproj", "{A9F1B0F0-20E4-4E6B-8C96-CB5931814177}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +35,51 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E296EEBF-361B-4CE4-82E9-3C040D3315E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E296EEBF-361B-4CE4-82E9-3C040D3315E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E296EEBF-361B-4CE4-82E9-3C040D3315E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E296EEBF-361B-4CE4-82E9-3C040D3315E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132673A6-B5CA-4BA3-859E-DA0A46C040C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132673A6-B5CA-4BA3-859E-DA0A46C040C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132673A6-B5CA-4BA3-859E-DA0A46C040C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132673A6-B5CA-4BA3-859E-DA0A46C040C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F25B1D2-6C28-4806-9E92-C54A9091FD16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F25B1D2-6C28-4806-9E92-C54A9091FD16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F25B1D2-6C28-4806-9E92-C54A9091FD16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F25B1D2-6C28-4806-9E92-C54A9091FD16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142A8AB7-1FDE-444E-B0FC-FA10D715766E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142A8AB7-1FDE-444E-B0FC-FA10D715766E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142A8AB7-1FDE-444E-B0FC-FA10D715766E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142A8AB7-1FDE-444E-B0FC-FA10D715766E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18B82C35-8913-4883-9354-7BB2082F2441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18B82C35-8913-4883-9354-7BB2082F2441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18B82C35-8913-4883-9354-7BB2082F2441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18B82C35-8913-4883-9354-7BB2082F2441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005EB923-118F-4A4D-9BBC-9283B54CC881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005EB923-118F-4A4D-9BBC-9283B54CC881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005EB923-118F-4A4D-9BBC-9283B54CC881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005EB923-118F-4A4D-9BBC-9283B54CC881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2974BB7-D530-437C-BABC-EB495A66FE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2974BB7-D530-437C-BABC-EB495A66FE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2974BB7-D530-437C-BABC-EB495A66FE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2974BB7-D530-437C-BABC-EB495A66FE12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D49FA137-358F-48CB-98E2-79186E9ABC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D49FA137-358F-48CB-98E2-79186E9ABC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D49FA137-358F-48CB-98E2-79186E9ABC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D49FA137-358F-48CB-98E2-79186E9ABC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F1B0F0-20E4-4E6B-8C96-CB5931814177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F1B0F0-20E4-4E6B-8C96-CB5931814177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F1B0F0-20E4-4E6B-8C96-CB5931814177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F1B0F0-20E4-4E6B-8C96-CB5931814177}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{132673A6-B5CA-4BA3-859E-DA0A46C040C9} = {2ACA2AD6-4DF3-482C-BC3E-03D4E9486644}
+		{7F25B1D2-6C28-4806-9E92-C54A9091FD16} = {2ACA2AD6-4DF3-482C-BC3E-03D4E9486644}
+		{142A8AB7-1FDE-444E-B0FC-FA10D715766E} = {2ACA2AD6-4DF3-482C-BC3E-03D4E9486644}
+		{18B82C35-8913-4883-9354-7BB2082F2441} = {2ACA2AD6-4DF3-482C-BC3E-03D4E9486644}
+		{005EB923-118F-4A4D-9BBC-9283B54CC881} = {82D0A48E-C44D-41DA-9592-D3A27525AC77}
+		{A2974BB7-D530-437C-BABC-EB495A66FE12} = {07FBF091-8A56-4CE6-8533-E49E68C03436}
+		{D49FA137-358F-48CB-98E2-79186E9ABC6F} = {687C5297-79D9-43C8-A8B8-27F12D94ACB6}
+		{A9F1B0F0-20E4-4E6B-8C96-CB5931814177} = {2F1233C6-D3CB-45FB-A084-BD0B68116800}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {095384AF-15CE-4B4F-BA27-2E46FDC365B3}

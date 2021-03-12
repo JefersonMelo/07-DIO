@@ -1,6 +1,6 @@
 using System;
 
-namespace Vaquinha.Models
+namespace Vaquinha.MVC.Models
 {
     public class ErrorViewModel
     {

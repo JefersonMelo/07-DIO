@@ -8,11 +8,17 @@ using Vaquinha.MVC.Extensions;
 
 namespace Vaquinha.MVC
 {
-    public class Startup
+    public class StartupWebTests
     {
-        public Startup(IConfiguration configuration)
+        public StartupWebTests(IWebHostEnvironment env)
         {
-            Configuration = configuration;
+            var builder = new ConfigurationBuilder()
+                     .SetBasePath(env.ContentRootPath)
+                     .AddJsonFile("appsettings.json")
+                     .AddJsonFile($"appsettings.{env.EnvironmentName}.json")
+                     .AddEnvironmentVariables();
+
+            Configuration = builder.Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -22,14 +28,14 @@ namespace Vaquinha.MVC
             services.AddControllersWithViews().AddNToastNotifyNoty(new NotyOptions
             {
                 ProgressBar = true,
-                Timeout = 5000                
+                Timeout = 5000
             }, new NToastNotifyOption
             {
                 DefaultSuccessTitle = "Yeah!",
                 DefaultSuccessMessage = "Operação realizada com sucesso!",
 
                 DefaultErrorTitle = "Ops!",
-                DefaultErrorMessage = "Algo deu errado!"               
+                DefaultErrorMessage = "Algo deu errado!"
 
             }).AddRazorRuntimeCompilation();
 
@@ -38,7 +44,6 @@ namespace Vaquinha.MVC
                 .AddIocConfiguration(Configuration)
                 .AddAutoMapper(Configuration)
                 .AddCustomConfiguration(Configuration);
-
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -66,7 +71,7 @@ namespace Vaquinha.MVC
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
 
-            app.UseNToastNotify();
+            app.UseNToastNotify();            
         }
     }
 }
