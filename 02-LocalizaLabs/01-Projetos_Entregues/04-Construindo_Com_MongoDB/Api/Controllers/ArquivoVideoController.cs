@@ -2,6 +2,7 @@
 using Api.Models;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using System.Threading.Tasks;
 
 namespace Api.Controllers
 {
@@ -32,6 +33,19 @@ namespace Api.Controllers
         public ActionResult ObterArquivoVideo( )
         {
             var arquivoVideo = _arquivoVideosCollection.Find(Builders<ArquivoVideo>.Filter.Empty).ToList();
+
+            return Ok(arquivoVideo);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<ArquivoVideo>> GetById(string codBarras)
+        {
+            var arquivoVideo = await _arquivoVideosCollection.FindAsync(Builders<ArquivoVideo>.Filter.And(codBarras));
+
+            if ( arquivoVideo == null )
+            {
+                return NotFound();
+            }
 
             return Ok(arquivoVideo);
         }
