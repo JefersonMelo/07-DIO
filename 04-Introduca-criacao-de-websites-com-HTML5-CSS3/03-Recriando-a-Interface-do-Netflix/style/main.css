@@ -1,0 +1,42 @@
+:root{
+    --vermelho: #E50914;
+    --preto:#141414;
+    --cinza: #A9A9A9;
+    --branco: #FFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: Arial Black, Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    margin: 10px;
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
+
