@@ -11,9 +11,11 @@
     box-sizing: border-box;
 }
 
+/*Elementos Base*/
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
+    color: var(--branco);
 }
 
 header .container{
@@ -40,3 +42,59 @@ header nav a:hover{
     color: var(--branco);
 }
 
+/*Filmes Pagina Inicial*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/capita-marvel.png);
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .sinopse{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 30%;
+}
+
+.filme-principal .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+}
+
+.filme-principal .botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--branco);
+
+    padding: 15px 30px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    transition: 2s ease all;
+}
+
+.filme-principal .botao:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+/*Carrosel de Filmes*/
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
