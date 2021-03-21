@@ -1,93 +1,399 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <title>Streaming Video</title>
+    <title>Streaming</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
 
+    <!-- Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
     <!-- owl css -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-
+    <!-- https://tutorialehtml.com/pt/html-tutorial-embed-video/ -->
 </head>
+
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">Streaming Video</h2>
+            <h2 class="logo"><a href="Index.html">Streaming</a></h2>
             <nav>
-                <a href="#" class="inicio">Inicio</a>
-                <a href="#" class="series">Séries</a>
-                <a href="#" class="filmes">Fimes</a>
-                <a href="#" class="documentarios">Documentários</a>
-                <a href="#" class="favoritos">Favoritos</a>
-                <a href="#" class="recomendados">Recomedação</a>
-                <a href="#" class="recentes">Recentes</a>
+                <a href="Index.html" class="inicio">Inicio</a>
+                <a href="pages/series.html" class="series">Séries</a>
+                <a href="pages/filmes.html" class="filmes">Fimes</a>
+                <a href="pages/documentarios.html" class="documentarios">Documentários</a>
+                <a href="pages/favoritos.html" class="favoritos">Favoritos</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <div class="filme-principal">
+        <div class="filme-destaque">
             <div class="container">
                 <h3 class="titulo">Capitã Marvel</h3>
                 <p class="sinopse">
-                    Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, 
-                    encontra-se no meio de uma batalha entre seu povo e os Skrulls. 
-                    Ao tentar impedir uma invasão de larga escala na Terra, em 1995, 
-                    ela tem memórias recorrentes de uma outra vida, como Carol Danvers, 
-                    agente da Força Aérea norte-americana. Com a ajuda de Nick Fury, 
-                    Capitã Marvel precisa descobrir os segredos de seu passado e pôr um fim ao 
+                    Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena,
+                    encontra-se no meio de uma batalha entre seu povo e os Skrulls.
+                    Ao tentar impedir uma invasão de larga escala na Terra, em 1995,
+                    ela tem memórias recorrentes de uma outra vida, como Carol Danvers,
+                    agente da Força Aérea norte-americana. Com a ajuda de Nick Fury,
+                    Capitã Marvel precisa descobrir os segredos de seu passado e pôr um fim ao
                     conflito intergalático com os Skrulls.
                 </p>
-                <button role="button" class="botao">
-                    <i class="fas fa-play"></i>
-                    Assistir Agora
-                </button>
-                <button role="button" class="botao">
-                    <i class="fas fa-info"></i>
-                    Mais Informações
-                </button>
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
             </div>
         </div>
     </main>
 
     <div class="carrosel-filmes">
+        <h3 class="cabecario"><a href="/pages/lancamentos.html">Lançamentos</a></h3>
         <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <img class="box-filme" src="img/sherlock-holmes-semelhante.png" alt="sherlock-holmes-semelhante" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/semelhante-NCIS.png" alt="semelhante-NCIS" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/johon-wick-recomenda.png" alt="johon-wick-recomenda" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/john-wick-2-recomenda.png" alt="john-wick-2-recomenda" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/iron-man-recomenda.png" alt="iron-man-recomenda" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/inuyasha.png" alt="inuyasha" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/glass-recomenda.png" alt="glass-recomenda" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/favorito-theBoys.png" alt="favorito-theBoys" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/favorito-mentalist.png" alt="mentalist" srcset="">
-                </div>
-                <div class="item">
-                    <img class="box-filme" src="img/favorito-csi.png" alt="favorito-csi" srcset="">
-                </div>
+            <div class="item">
+                <img class="box-filme" src="img/sherlock-holmes-semelhante.png" alt="sherlock-holmes-semelhante"
+                    srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/semelhante-NCIS.png" alt="semelhante-NCIS" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/johon-wick-recomenda.png" alt="johon-wick-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/john-wick-2-recomenda.png" alt="john-wick-2-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/iron-man-recomenda.png" alt="iron-man-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/inuyasha.png" alt="inuyasha" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/glass-recomenda.png" alt="glass-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/favorito-theBoys.png" alt="favorito-theBoys" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/favorito-mentalist.png" alt="mentalist" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/favorito-csi.png" alt="favorito-csi" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
         </div>
     </div>
-    
+    <div class="carrosel-filmes">
+        <h3 class="cabecario"><a href="/pages/lancamentos.html">Lançamentos</a></h3>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/sherlock-holmes-semelhante.png" alt="sherlock-holmes-semelhante"
+                    srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/semelhante-NCIS.png" alt="semelhante-NCIS" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/johon-wick-recomenda.png" alt="johon-wick-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/john-wick-2-recomenda.png" alt="john-wick-2-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/iron-man-recomenda.png" alt="iron-man-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/inuyasha.png" alt="inuyasha" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/glass-recomenda.png" alt="glass-recomenda" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/favorito-theBoys.png" alt="favorito-theBoys" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/favorito-mentalist.png" alt="mentalist" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/favorito-csi.png" alt="favorito-csi" srcset="">
+                <a target="_blank" href="https://www.youtube.com/embed/JhY6Yy4wtb4" allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-play"></i>
+                        Assistir Agora
+                    </button>
+                </a>
+                <a target="_blank" href="https://www.imdb.com/title/tt4154664/?ref_=nv_sr_srsg_0"
+                    allowfullscreen="true">
+                    <button role="button" class="botao-carro">
+                        <i class="fas fa-info"></i>
+                        Mais Informações
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
     <!-- icones -->
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
 
@@ -95,6 +401,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/setup.js"></script>
-    
+
 </body>
+
 </html>
