@@ -99,6 +99,32 @@ header nav a:hover{
     margin-right: 5px;
 }
 
+/*Pesquisar*/
+.botao-pesquisa{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--branco);
+
+    padding: 1px 2px;
+    margin-right: 1px;
+    border-radius: 7px;
+
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao-pesquisa:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.entrada-pesquisa{
+    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.20) 100%);
+    border-radius: 3px;
+    background-color: var(--branco);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
 .container{
     margin-left: 20px;
 }
