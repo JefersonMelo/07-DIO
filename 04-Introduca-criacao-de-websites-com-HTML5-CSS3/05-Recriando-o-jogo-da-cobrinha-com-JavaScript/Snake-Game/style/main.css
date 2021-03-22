@@ -1,0 +1,31 @@
+:root{
+    --vermelho: #E50914;
+    --preto:#141414;
+    --cinza: #A9A9A9;
+    --branco: #FFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--preto);
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    color: var(--cinza);
+}
+
+canvas{
+    padding: 20px;
+}
+
+h1{
+    padding-top: 20px;
+}
