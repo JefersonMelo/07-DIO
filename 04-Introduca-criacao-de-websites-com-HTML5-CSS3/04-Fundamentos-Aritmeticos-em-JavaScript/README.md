@@ -46,4 +46,5 @@
 		</tr>
 	</tbody>
 </table>
+[Resolução](https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/04-Fundamentos-Aritmeticos-em-JavaScript/01-Quantidade-de-Numeros-Positivos/js/Quantidade-de-Numeros-Positivos.js)
 </div> <br><br></div>
