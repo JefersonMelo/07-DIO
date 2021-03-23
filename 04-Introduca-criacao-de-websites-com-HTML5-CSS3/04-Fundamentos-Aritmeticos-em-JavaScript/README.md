@@ -1,6 +1,8 @@
 <h1>Fundamentos Aritméticos em JavaScript</h1> 
 
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/04-Fundamentos-Aritmeticos-em-JavaScript/01-Quantidade-de-Numeros-Positivos/js/Quantidade-de-Numeros-Positivos.js">
 <h2>Quantidade de Números Positivos</h2>
+</a>
 
 <div><div>
 <div>
@@ -46,7 +48,5 @@
 		</tr>
 	</tbody>
 </table>
-<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/04-Fundamentos-Aritmeticos-em-JavaScript/01-Quantidade-de-Numeros-Positivos/js/Quantidade-de-Numeros-Positivos.js">
-Solução
-</a>
+
 </div> <br><br></div>
