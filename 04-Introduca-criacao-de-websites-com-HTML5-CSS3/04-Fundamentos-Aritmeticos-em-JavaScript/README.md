@@ -98,7 +98,7 @@
 </table> <br></div>
 
 <h2>
-<a>target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/04-Fundamentos-Aritmeticos-em-JavaScript/03-Analise-de-Numeros/js/Analise-de-Numeros.js"
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/04-Fundamentos-Aritmeticos-em-JavaScript/03-Analise-de-Numeros/js/Analise-de-Numeros.js">
 03-Análise de Números
 </a>
 </h2>
