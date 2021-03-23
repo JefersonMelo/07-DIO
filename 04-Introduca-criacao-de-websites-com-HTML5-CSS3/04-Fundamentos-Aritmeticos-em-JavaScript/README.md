@@ -48,10 +48,12 @@
 	</tbody>
 </table>
 
-</div> <br><br></div>
+</div></div>
 
-<h2><atarget="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/04-Fundamentos-Aritmeticos-em-JavaScript/02-Exibindo-Numeros-Pares/js/Exibindo-Numeros-Pares.js
-">Exibindo Números Pares</a>
+<h2>
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/04-Fundamentos-Aritmeticos-em-JavaScript/02-Exibindo-Numeros-Pares/js/Exibindo-Numeros-Pares.js
+">Exibindo Números Pares
+</a>
 </h2>
 
 <div><div>
