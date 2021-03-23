@@ -290,6 +290,12 @@
 </table>
 
 <table>
+	<thead>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</thead>
 	<tbody>
 		<tr>
 			<td>
@@ -304,6 +310,12 @@
 </table>
 
 <table>
+	<thead>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</thead>
 	<tbody>
 		<tr>
 			<td>
