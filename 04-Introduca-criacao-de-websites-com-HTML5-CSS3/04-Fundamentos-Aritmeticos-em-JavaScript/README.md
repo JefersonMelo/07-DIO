@@ -292,8 +292,8 @@
 <table>
 	<thead>
 		<tr>
-			<td>				</td>
-			<td>				</td>
+			<td>Exemplo de Entrada</td>
+			<td>Exemplo de Saída</td>
 		</tr>
 	</thead>
 	<tbody>
@@ -312,8 +312,8 @@
 <table>
 	<thead>
 		<tr>
-			<td>				</td>
-			<td>				</td>
+			<td>Exemplo de Entrada</td>
+			<td>Exemplo de Saída</td>
 		</tr>
 	</thead>
 	<tbody>
