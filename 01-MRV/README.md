@@ -21,7 +21,11 @@ Exercício | Respostas
 - [Fundamentos para a Criação de Produtos Digitais](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/04-Fundamentos%20para%20a%20Cria%C3%A7%C3%A3o%20de%20Produtos%20Digitais)
 
 
-- 
+- [Modelagem de Negócios](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/05-Modelagem%20de%20Neg%C3%B3cios)
+
+
+- [Estratégia de Negócios com OKR](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/06-Estrat%C3%A9gia%20de%20Neg%C3%B3cios%20com%20OKR)
+
 
 - [Solucionando desafios intermediários em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios)
 
