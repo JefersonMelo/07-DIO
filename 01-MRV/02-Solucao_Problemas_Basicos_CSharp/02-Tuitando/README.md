@@ -26,7 +26,10 @@
 	<tbody>
 		<tr>
 			<td>
-			<p>RT @TheEllenShow: If only Bradley's arm was longer. Best photo ever. #oscars pic.twitter.com/C9U5NOtGap</p>
+			<p>RT @TheEllenShow: If only Bradley's <br>
+                arm was longer. Best photo ever. <br>
+                #oscars pic.twitter.com/C9U5NOtGap
+            </p>
 			</td>
 			<td>
 			<p>TWEET</p>
