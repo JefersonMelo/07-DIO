@@ -40,8 +40,18 @@
 
 <table>
 	<thead>
+		<tr>
+			<td>Exemplos de Entrada</td>
+			<td>Exemplos de Saída</td>
+		</tr>
 	</thead>
 	<tbody>
+	<thead>
+		<tr>
+			<td>Exemplos de Entrada</td>
+			<td>Exemplos de Saída</td>
+		</tr>
+	</thead>
 		<tr>
 			<td>
 			<p>-11 6</p>
