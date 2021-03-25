@@ -18,6 +18,11 @@ Exercício | Respostas
     - DESCRIÇÃO:
     Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
 
+- [Fundamentos para a Criação de Produtos Digitais](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/04-Fundamentos%20para%20a%20Cria%C3%A7%C3%A3o%20de%20Produtos%20Digitais)
+
+
+- 
+
 - [Solucionando desafios intermediários em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios)
 
 Exercício | Respostas
