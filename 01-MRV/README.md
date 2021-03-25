@@ -1,6 +1,4 @@
-# Repositório Com Atividades Realizadas Na [Digitalinnovation](https://digitalinnovation.one/)
-
-## MRV .NET Developer
+# MRV .NET Developer
 
 - [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
     - DESCRIÇÃO DA ATIVIDADE: 
@@ -20,4 +18,12 @@ Exercício | Respostas
     - DESCRIÇÃO:
     Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
 
-[Solucionando desafios intermediários em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios)
+- [Solucionando desafios intermediários em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios)
+
+Exercício | Respostas
+--------- | ------
+1         | R$ 10
+2         | R$ 8
+3         | R$ 7
+4         | R$ 8
+5         | R$ 8
