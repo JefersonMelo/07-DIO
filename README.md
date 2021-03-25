@@ -9,8 +9,8 @@
     Continuei no tema, pois tenho 3 anos de experiência em administrar este tipo de plataforma.Implementei o Cadastro de Filmes. Para isso, criei a classe menu para generalizar a lista de entradas e a adicionei na pasta Utilitário.
     Criei novas classes de Inserir, Atualizar... Agora, com as modificações é possível criar novas categorias de streaming.
 
-[Solução de problemas básicos em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp) |
------------------------- | ----------------
-- [Visita Na Feira](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/01-Visita_Na_Feira/Program.cs) |
-- [Tuitando](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/02-Tuitando/Program.cs) |
-- [Validação de Notas](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/03-Validacao_Nota/Program.cs) |
+[Solução de problemas básicos em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp)  | Respostas
+--------- | ------
+1 | [Visita Na Feira](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/01-Visita_Na_Feira/Program.cs)
+2 | [Tuitando](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/02-Tuitando/Program.cs)
+3 | [Validação de Notas](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/03-Validacao_Nota/Program.cs)
