@@ -10,6 +10,7 @@
     Criei novas classes de Inserir, Atualizar... Agora, com as modificações é possível criar novas categorias de streaming.
 
 - Solução de problemas básicos em C#
+
 [Soluções C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp)  | Respostas
 --------- | ------
 1 | [Visita Na Feira](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/01-Visita_Na_Feira/Program.cs)
