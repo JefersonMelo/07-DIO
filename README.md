@@ -7,7 +7,7 @@
     Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
 
 - [Solução de problemas básicos em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp)
-- 
+
 Exercício | Respostas
 --------- | ------
 1 | [Visita Na Feira](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/01-Visita_Na_Feira)
@@ -17,5 +17,5 @@ Exercício | Respostas
 - []()
     - DESCRIÇÃO:
     Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
-    - DESCRIÇÃO DA MINHA CONCLUSÃO:
+
     
