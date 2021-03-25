@@ -11,8 +11,6 @@
 
 [Solução de problemas básicos em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp)|
 ------------------------|
-[Visita Na Feira](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/01-Visita_Na_Feira/Program.cs)|
-
-[Tuitando](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/02-Tuitando/Program.cs)|
-
-[Validação de Notas](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/03-Validacao_Nota/Program.cs)|
+- [Visita Na Feira](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/01-Visita_Na_Feira/Program.cs)|
+- [Tuitando](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/02-Tuitando/Program.cs)|
+- [Validação de Notas](https://github.com/JefersonMelo/07-DIO/blob/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp/03-Validacao_Nota/Program.cs)|
