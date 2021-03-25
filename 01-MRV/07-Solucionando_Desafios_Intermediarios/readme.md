@@ -1,4 +1,4 @@
-# [Solucionando desafios intermediários em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios)
+# Solucionando desafios intermediários em C#
 
 Exercício | Respostas
 --------- | ------
