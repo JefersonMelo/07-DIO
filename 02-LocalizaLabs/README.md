@@ -19,7 +19,7 @@ Aprenda como criar um algoritmo simples de transferência bancária para exercer
 Exercício | Respostas
 --------- | ------
 1         | [Média](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/01-Notas_De_Um_Aluno)
-2         | [DDD](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/02-DDD)
+2         | [Crescimento Populacional](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/02-Crescimento_Populacional)
 3         | [Aumento de Salário](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/03-Aumento_Salario)
 4         | []()
 5         | []()
