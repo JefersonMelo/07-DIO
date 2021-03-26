@@ -1,4 +1,4 @@
-# [Multiplicação Simples](https://github.com/JefersonMelo/07-DIO/blob/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3/02-Introducao-a-Programacao-com-JavaScript/02-Multiplicacao-Simples/js/Multiplicacao-Simples.js)
+# [Multiplicação Simples](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/02-Multiplicacao-Simples/js/Multiplicacao-Simples.js)
 
 <div><div>
 <div>
