@@ -1,6 +1,6 @@
 # LocalizaLabs .NET Developer
 
-## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
+## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/04-Cadastro-Series)
 
 - DESCRIÇÃO DA ATIVIDADE: 
     Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
