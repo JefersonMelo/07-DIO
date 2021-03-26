@@ -2,7 +2,7 @@
 
 ## [MRV .NET Developer](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV)
 
-- O Bootcamp MRV .NET DEVELOPER é um programa gratuito para formação de desenvolvedores .NET com foco em soluções em C#, sendo a porta de entrada para conquistar uma oportunidade de contratação na MRV, a empresa parceira nos projetos da maior Construtora da América Latina.
+    O Bootcamp MRV .NET DEVELOPER é um programa gratuito para formação de desenvolvedores .NET com foco em soluções em C#, sendo a porta de entrada para conquistar uma oportunidade de contratação na MRV, a empresa parceira nos projetos da maior Construtora da América Latina.
 
 ## [LocalizaLabs.NET Developer](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs)
 
