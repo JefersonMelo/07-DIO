@@ -10,6 +10,10 @@ Exercício | Respostas
 2         | [DDD](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/02-DDD)
 3         | [Aumento de Salário](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/03-Aumento_Salario)
 
+## [Criando uma aplicação de transferências bancárias com .NET](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/03-AppBanco)
+
+Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
+
 ## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
 
 Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
@@ -33,10 +37,6 @@ Aprenda como criar soluções e negócios de alto valor para os clientes aplican
 ## [Estratégia de Negócios com OKR](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/06-Estrat%C3%A9gia%20de%20Neg%C3%B3cios%20com%20OKR)
 
 Aprenda as ferramentas aplicadas por empresas de alto desempenho na criação, execução e controle de estratégias de negócios.
-
-## [Criando uma aplicação de transferências bancárias com .NET](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/03-AppBanco)
-
-Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
 
 ## [Solucionando desafios intermediários em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios)
 
