@@ -2,6 +2,8 @@
 
 ## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
 
+    Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
+
 ## [Fundamentos para a Criação de Produtos Digitais](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/04-Fundamentos%20para%20a%20Cria%C3%A7%C3%A3o%20de%20Produtos%20Digitais)
 
 ## [Solução de problemas básicos em C#](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/02-Solucao_Problemas_Basicos_CSharp)
@@ -28,6 +30,6 @@ Exercício | Respostas
 4         | [Teorema da Divisão Euclidiana](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios/04-Teorema_Divisao_Euclidiana)
 5         | [Fórmula de Bhaskara](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/07-Solucionando_Desafios_Intermediarios/05-Formula_De_Bhaskara)
 
-## [Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Projetos_Entregues/05-Implementando_Stack_De_Testes_.NET)
+## [Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/08-Implementando_Stack_De_Testes_.NET)
 
-## [Construindo um projeto de uma API.NET integrada ao MongoDB](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/08-Construindo_Com_MongoDB)
+## [Construindo um projeto de uma API.NET integrada ao MongoDB](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/09-Construindo_Com_MongoDB)
