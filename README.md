@@ -10,4 +10,6 @@
 
 ## [.NET Fundamentals](https://github.com/JefersonMelo/07-DIO/tree/master/03-.Net_Fundamentals)
 
+>Aprenda a programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript para iniciar sua trajetória profissional em desenvolvimento web front-end.
+
 ## [HTML Web Developer](https://github.com/JefersonMelo/07-DIO/tree/master/04-Introduca-criacao-de-websites-com-HTML5-CSS3)
