@@ -36,8 +36,8 @@ Quer se sentir mais seguro nas entregas de suas aplicações? Aprenda a testar u
 
 Exercício | Respostas
 --------- | ------
-1         | [Média](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/01-Notas_De_Um_Aluno)
-2         | [Crescimento Populacional](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/02-Crescimento_Populacional)
+1         | [Coordenadas de um Ponto](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/06-Praticando_Programacao/01-Coordenadas_De_Um_Ponto)
+2         | [Compras no Supermercado](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/02-Crescimento_Populacional)
 3         | [Bazinga!](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/03-Bazinga)
 4         | [Tempo de um Evento](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/04-Tempo_De_Um_Evento)
 5         | [Comunicação em Piralândia](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/05-Comunicacao_Em_Piralandia)
