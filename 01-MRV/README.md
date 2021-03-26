@@ -2,7 +2,7 @@
 
 ## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
 
-    Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
+Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
 
 ## [Fundamentos para a Criação de Produtos Digitais](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/04-Fundamentos%20para%20a%20Cria%C3%A7%C3%A3o%20de%20Produtos%20Digitais)
 
