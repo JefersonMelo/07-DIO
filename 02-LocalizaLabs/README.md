@@ -10,9 +10,19 @@ Exercício | Respostas
 2         | [DDD](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/02-DDD)
 3         | [Aumento de Salário](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/03-Aumento_Salario)
 
-## [Criando uma aplicação de transferências bancárias com .NET](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/03-AppBanco)
+## [Criando uma aplicação de transferências bancárias com .NET](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/02-AppBanco)
 
 Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
+
+## [Desafios aritméticos em C#](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos)
+
+Exercício | Respostas
+--------- | ------
+1         | [Média](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/01-Notas_De_Um_Aluno)
+2         | [DDD](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/02-DDD)
+3         | [Aumento de Salário](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/03-Aumento_Salario)
+4         | []()
+5         | []()
 
 ## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
 
