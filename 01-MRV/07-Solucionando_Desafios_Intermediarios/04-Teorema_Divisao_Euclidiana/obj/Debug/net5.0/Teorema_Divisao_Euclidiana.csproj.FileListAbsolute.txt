@@ -1,0 +1,16 @@
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\bin\Debug\net5.0\Teorema_Divisao_Euclidiana.exe
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\bin\Debug\net5.0\Teorema_Divisao_Euclidiana.deps.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\bin\Debug\net5.0\Teorema_Divisao_Euclidiana.runtimeconfig.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\bin\Debug\net5.0\Teorema_Divisao_Euclidiana.runtimeconfig.dev.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\bin\Debug\net5.0\Teorema_Divisao_Euclidiana.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\bin\Debug\net5.0\ref\Teorema_Divisao_Euclidiana.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\bin\Debug\net5.0\Teorema_Divisao_Euclidiana.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.csprojAssemblyReference.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.AssemblyInfoInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.AssemblyInfo.cs
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.csproj.CoreCompileInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\ref\Teorema_Divisao_Euclidiana.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\07-Solucionando desafios intermediários\Teorema_Divisao_Euclidiana\obj\Debug\net5.0\Teorema_Divisao_Euclidiana.genruntimeconfig.cache

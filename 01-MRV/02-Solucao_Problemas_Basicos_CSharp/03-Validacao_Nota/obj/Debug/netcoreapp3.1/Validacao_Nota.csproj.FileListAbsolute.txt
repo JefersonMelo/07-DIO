@@ -1,0 +1,13 @@
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\bin\Debug\netcoreapp3.1\Validacao_Nota.exe
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\bin\Debug\netcoreapp3.1\Validacao_Nota.deps.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\bin\Debug\netcoreapp3.1\Validacao_Nota.runtimeconfig.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\bin\Debug\netcoreapp3.1\Validacao_Nota.runtimeconfig.dev.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\bin\Debug\netcoreapp3.1\Validacao_Nota.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\bin\Debug\netcoreapp3.1\Validacao_Nota.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\obj\Debug\netcoreapp3.1\Validacao_Nota.csprojAssemblyReference.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\obj\Debug\netcoreapp3.1\Validacao_Nota.AssemblyInfoInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\obj\Debug\netcoreapp3.1\Validacao_Nota.AssemblyInfo.cs
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\obj\Debug\netcoreapp3.1\Validacao_Nota.csproj.CoreCompileInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\obj\Debug\netcoreapp3.1\Validacao_Nota.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\obj\Debug\netcoreapp3.1\Validacao_Nota.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Validacao_Nota\obj\Debug\netcoreapp3.1\Validacao_Nota.genruntimeconfig.cache

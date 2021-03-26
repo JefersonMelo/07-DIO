@@ -1,0 +1,13 @@
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\bin\Debug\netcoreapp3.1\AppBanco.exe
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\bin\Debug\netcoreapp3.1\AppBanco.deps.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\bin\Debug\netcoreapp3.1\AppBanco.runtimeconfig.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\bin\Debug\netcoreapp3.1\AppBanco.runtimeconfig.dev.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\bin\Debug\netcoreapp3.1\AppBanco.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\bin\Debug\netcoreapp3.1\AppBanco.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\obj\Debug\netcoreapp3.1\AppBanco.csprojAssemblyReference.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\obj\Debug\netcoreapp3.1\AppBanco.AssemblyInfoInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\obj\Debug\netcoreapp3.1\AppBanco.AssemblyInfo.cs
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\obj\Debug\netcoreapp3.1\AppBanco.csproj.CoreCompileInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\obj\Debug\netcoreapp3.1\AppBanco.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\obj\Debug\netcoreapp3.1\AppBanco.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\03-Projetos_Entregues\AppBanco\obj\Debug\netcoreapp3.1\AppBanco.genruntimeconfig.cache

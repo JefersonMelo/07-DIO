@@ -1,0 +1,12 @@
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\bin\Debug\netcoreapp3.1\Tuitando.exe
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\bin\Debug\netcoreapp3.1\Tuitando.deps.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\bin\Debug\netcoreapp3.1\Tuitando.runtimeconfig.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\bin\Debug\netcoreapp3.1\Tuitando.runtimeconfig.dev.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\bin\Debug\netcoreapp3.1\Tuitando.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\bin\Debug\netcoreapp3.1\Tuitando.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\obj\Debug\netcoreapp3.1\Tuitando.AssemblyInfoInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\obj\Debug\netcoreapp3.1\Tuitando.AssemblyInfo.cs
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\obj\Debug\netcoreapp3.1\Tuitando.csproj.CoreCompileInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\obj\Debug\netcoreapp3.1\Tuitando.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\obj\Debug\netcoreapp3.1\Tuitando.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Tuitando\obj\Debug\netcoreapp3.1\Tuitando.genruntimeconfig.cache

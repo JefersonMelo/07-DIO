@@ -19,4 +19,3 @@ Exercício | Respostas
 ## [Fundamentos Aritméticos em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript)
 
 >Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
-

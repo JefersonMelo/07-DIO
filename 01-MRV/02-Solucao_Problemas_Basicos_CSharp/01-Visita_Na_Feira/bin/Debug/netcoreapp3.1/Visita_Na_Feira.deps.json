@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Visita_Na_Feira/1.0.0": {
+        "runtime": {
+          "Visita_Na_Feira.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Visita_Na_Feira/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

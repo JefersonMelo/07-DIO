@@ -1,0 +1,13 @@
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\obj\Debug\netcoreapp3.1\Visita_Na_Feira.csprojAssemblyReference.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\obj\Debug\netcoreapp3.1\Visita_Na_Feira.AssemblyInfoInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\obj\Debug\netcoreapp3.1\Visita_Na_Feira.AssemblyInfo.cs
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\obj\Debug\netcoreapp3.1\Visita_Na_Feira.csproj.CoreCompileInputs.cache
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\bin\Debug\netcoreapp3.1\Visita_Na_Feira.exe
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\bin\Debug\netcoreapp3.1\Visita_Na_Feira.deps.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\bin\Debug\netcoreapp3.1\Visita_Na_Feira.runtimeconfig.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\bin\Debug\netcoreapp3.1\Visita_Na_Feira.runtimeconfig.dev.json
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\bin\Debug\netcoreapp3.1\Visita_Na_Feira.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\bin\Debug\netcoreapp3.1\Visita_Na_Feira.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\obj\Debug\netcoreapp3.1\Visita_Na_Feira.dll
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\obj\Debug\netcoreapp3.1\Visita_Na_Feira.pdb
+C:\Users\jef_m\Documents\01-github\07-DIO\MRV\Solucao_Problemas_Basicos_CSharp\Visita_Na_Feira\obj\Debug\netcoreapp3.1\Visita_Na_Feira.genruntimeconfig.cache
