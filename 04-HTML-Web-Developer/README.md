@@ -16,3 +16,7 @@ Exercício | Respostas
 
 >PROPOSTA: Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
 
+## [Fundamentos Aritméticos em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript)
+
+>Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
+
