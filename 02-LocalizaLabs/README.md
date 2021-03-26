@@ -28,7 +28,7 @@ Exercício | Respostas
 
 Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
 
-## [Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/08-Implementando_Stack_De_Testes_.NET)
+## [Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/05-Implementando_Stack_De_Testes_.NET/dotnet-vaquinha-tests)
 
 Quer se sentir mais seguro nas entregas de suas aplicações? Aprenda a testar um projeto de crowdfunding (vaquinha online) desenvolvida em .Net Core com a arquitetura MVC. Você ira baixar uma aplicação completa feita por pelo expert e a sua missão será implementar a parte de testes desta aplicação. Veja na teoria e na prática os principais conceitos de testes para aumentar a qualidade de entrega de seus projetos com testes de unidade, integrados e TDD.
 
@@ -37,10 +37,8 @@ Quer se sentir mais seguro nas entregas de suas aplicações? Aprenda a testar u
 Exercício | Respostas
 --------- | ------
 1         | [Coordenadas de um Ponto](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/06-Praticando_Programacao/01-Coordenadas_De_Um_Ponto)
-2         | [Compras no Supermercado](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/02-Crescimento_Populacional)
-3         | [Bazinga!](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/03-Bazinga)
-4         | [Tempo de um Evento](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/04-Tempo_De_Um_Evento)
-5         | [Comunicação em Piralândia](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/05-Comunicacao_Em_Piralandia)
+2         | [Compras no Supermercado](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/06-Praticando_Programacao/02-Compras_Supermercado)
+3         | [Pink e Cérebro](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/06-Praticando_Programacao/03-Pink_E_Cerebro)
 
 ## [Construindo um projeto de uma API.NET integrada ao MongoDB](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/09-Construindo_Com_MongoDB)
 
