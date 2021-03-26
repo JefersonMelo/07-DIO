@@ -1,6 +1,14 @@
-# MRV .NET Developer
+# LocalizaLabs .NET Developer
 
-O Bootcamp MRV .NET DEVELOPER é um programa gratuito para formação de desenvolvedores .NET com foco em soluções em C#, sendo a porta de entrada para conquistar uma oportunidade de contratação na MRV, a empresa parceira nos projetos da maior Construtora da América Latina.
+O Bootcamp #LocalizaLabs é o laboratório de tecnologia e inovação da Localiza e conta com quase 700 colaboradores totalmente dedicados à tecnologia e a tudo o que ela nos possibilita na jornada de transformação. Acreditamos que a inovação, na prática, só é possível por meio da troca de compartilhamento de ideias, por isso, essa trilha é formada por conteúdos com experts em diferentes habilidades das skills esperadas no programa de contratação. Aqui você vai aprender e desenvolver competências buscadas no mercado de .NET utilizando C# e ainda pode conquistar uma oportunidade de integrar o time da maior locadora de veículos da América Latina.
+
+## [Solução de problemas em C#](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas)
+
+Exercício | Respostas
+--------- | ------
+1         | [Consumo Médio do Automóvel](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/01-Calcular_Consumo_Medio)
+2         | [DDD](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/02-DDD)
+3         | [Aumento de Salário](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Solucao_de_problemas/03-Aumento_Salario)
 
 ## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
 
