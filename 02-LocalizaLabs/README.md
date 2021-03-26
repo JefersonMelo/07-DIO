@@ -22,7 +22,7 @@ Exercício | Respostas
 2         | [Crescimento Populacional](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/02-Crescimento_Populacional)
 3         | [Bazinga!](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/03-Bazinga)
 4         | [Tempo de um Evento](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/04-Tempo_De_Um_Evento)
-5         | []()
+5         | [Comunicação em Piralândia](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/03-Desafios_aritmeticos/05-Comunicacao_Em_Piralandia)
 
 ## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
 
