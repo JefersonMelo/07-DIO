@@ -18,4 +18,8 @@ Exercício | Respostas
 
 ## [Fundamentos Aritméticos em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript)
 
->Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
+Exercício | Respostas
+--------- | ------
+1 | [Visita na Feira](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/01-Visita-na-Feira)
+2 | [Multiplicação Simples](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/02-Multiplicacao-Simples)
+3 | [Folha de Pagamento](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/03-Folha-de-Pagamento)

@@ -1,7 +1,7 @@
 <h1>Fundamentos Aritméticos em JavaScript</h1> 
 
 <h2>
-<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/01-Quantidade-de-Numeros-Positivos/js/Quantidade-de-Numeros-Positivos.js">
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/01-Quantidade-de-Numeros-Positivos">
 01-Quantidade de Números Positivos
 </a>
 </h2>
@@ -53,7 +53,7 @@
 </div><br></div>
 
 <h2>
-<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/02-Exibindo-Numeros-Pares/js/Exibindo-Numeros-Pares.js">
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/02-Exibindo-Numeros-Pares">
 02-Exibindo Números Pares
 </a>
 </h2>
@@ -98,7 +98,7 @@
 </table> <br></div>
 
 <h2>
-<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/03-Analise-de-Numeros/js/Analise-de-Numeros.js">
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/03-Analise-de-Numeros">
 03-Análise de Números
 </a>
 </h2>
@@ -151,7 +151,7 @@
 </div> <br></div>
 
 <h2>
-<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/04-Contagem-de-Cedulas/js/Contagem-de-Cedulas.js">
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/04-Contagem-de-Cedulas">
 04-Contagem de Cédulas</a>
 </h2>
 
@@ -256,7 +256,7 @@
 </div> <br></div>
 
 <h2>
-<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/05-Consumo-Medio-do-Automovel/js/Consumo-Medio-do-Automovel.js">
+<a target="_blank" href="https://github.com/JefersonMelo/07-DIO/blob/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/05-Consumo-Medio-do-Automovel">
 05-Consumo Médio do Automóvel</a>
 </h2>
 
