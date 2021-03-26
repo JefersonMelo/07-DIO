@@ -46,6 +46,12 @@
 </table>
 
 <table>
+	<thead>
+		<tr>
+			<td>Exemplo de Entrada</td>
+			<td>Exemplo de Saída</td>
+		</tr>
+	</thead>
 	<tbody>
 		<tr>
 			<td>
@@ -59,6 +65,12 @@
 </table>
 
 <table>
+	<thead>
+		<tr>
+			<td>Exemplo de Entrada</td>
+			<td>Exemplo de Saída</td>
+		</tr>
+	</thead>
 	<tbody>
 		<tr>
 			<td>
