@@ -1,6 +1,6 @@
 # MRV .NET Developer
 
-## - [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
+## [APP simples de cadastro de séries](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/01-Cadastro-Series)
 
 ## [Fundamentos para a Criação de Produtos Digitais](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/04-Fundamentos%20para%20a%20Cria%C3%A7%C3%A3o%20de%20Produtos%20Digitais)
 
