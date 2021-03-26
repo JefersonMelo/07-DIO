@@ -30,4 +30,4 @@ Exercício | Respostas
 
 ## [Implementando sua stack de testes de unidade e integrados em um projeto .NET de Crowdfunding](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/01-Projetos_Entregues/05-Implementando_Stack_De_Testes_.NET)
 
-## [Construindo um projeto de uma API.NET integrada ao MongoDB](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/04-Construindo_Com_MongoDB)
+## [Construindo um projeto de uma API.NET integrada ao MongoDB](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/08-Construindo_Com_MongoDB)
