@@ -24,8 +24,12 @@ Ecercício | Respostas
 4 | [Validador de senhas com requisitos](https://github.com/JefersonMelo/07-DIO/tree/master/03-.Net_Fundamentals/03-Solucao_De_Problemas_Com_.NET/04-Validador_De_Senhas_Com_Requisitos)
 5 | [Fila do Banco](https://github.com/JefersonMelo/07-DIO/tree/master/03-.Net_Fundamentals/03-Solucao_De_Problemas_Com_.NET/05-Fila_Do_Banco)
 
-
-# [Criando uma aplicação de transferências bancárias com .NET]()
+# [Criando uma aplicação de transferências bancárias com .NET](https://github.com/JefersonMelo/07-DIO/tree/master/03-.Net_Fundamentals/04-AppBanco)
 
 >Aprenda como criar um algoritmo simples de transferência bancária para exercer o pensamento orientado a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar enums.
 
+# [Criando um APP simples de cadastro de séries em .NET]()
+
+>DESCRIÇÃO: Aprenda como criar um algoritmo simples de cadastro de séries para praticar seus conhecimentos de orientação a objetos, o principal paradigma de programação utilizada no mercado. Nesse projeto você vai aprender: Como pensar orientado a objetos, como modelar o seu domínio, como utilizar recursos de coleção.
+
+>CONCLUSÃO: Continuei no tema, pois tenho 3 anos de experiência em administrar este tipo de plataforma.Implementei o Cadastro de Filmes. Para isso, criei a classe menu para generalizar a lista de entradas e a adicionei na pasta Utilitário. Criei novas classes de Inserir, Atualizar... Agora, com as modificações é possível criar novas categorias de streaming.
