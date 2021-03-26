@@ -40,6 +40,6 @@ Exercício | Respostas
 2         | [Compras no Supermercado](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/06-Praticando_Programacao/02-Compras_Supermercado)
 3         | [Pink e Cérebro](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/06-Praticando_Programacao/03-Pink_E_Cerebro)
 
-## [Construindo um projeto de uma API.NET integrada ao MongoDB](https://github.com/JefersonMelo/07-DIO/tree/master/01-MRV/09-Construindo_Com_MongoDB)
+## [Construindo um projeto de uma API.NET integrada ao MongoDB](https://github.com/JefersonMelo/07-DIO/tree/master/02-LocalizaLabs/07-Construindo_Com_MongoDB)
 
-Construiremos um projeto de uma API em .NET Core integrada a um cluster MongoDB, que também criaremos em tempo real no service cloud Mongo Atlas. Vamos repassar brevemente os conceitos básicos de front-end, back-end, bases de dados, NoSQL e MongoDB para fixar o entendimento e sua aplicabilidade.
+PROPOSTA: Construiremos um projeto de uma API em .NET Core integrada a um cluster MongoDB, que também criaremos em tempo real no service cloud Mongo Atlas. Vamos repassar brevemente os conceitos básicos de front-end, back-end, bases de dados, NoSQL e MongoDB para fixar o entendimento e sua aplicabilidade.
