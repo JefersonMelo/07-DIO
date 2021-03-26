@@ -12,3 +12,7 @@ Exercício | Respostas
 2 | [Multiplicação Simples](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/02-Multiplicacao-Simples)
 3 | [Folha de Pagamento](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/03-Folha-de-Pagamento)
 
+## [Recriando a Interface do Netflix](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/03-Recriando-a-Interface-do-Netflix)
+
+>PROPOSTA: Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins Jquery a favor da sua aplicação.
+
