@@ -20,6 +20,8 @@ Exercício | Respostas
 
 Exercício | Respostas
 --------- | ------
-1 | [Visita na Feira](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/01-Visita-na-Feira)
-2 | [Multiplicação Simples](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/02-Multiplicacao-Simples)
-3 | [Folha de Pagamento](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/03-Folha-de-Pagamento)
+1 | [Quantidade de Números Positivos](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/01-Quantidade-de-Numeros-Positivos)
+2 | [Exibindo Números Pares](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/02-Exibindo-Numeros-Pares)
+3 | [Análise de Números](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/03-Analise-de-Numeros)
+4 | [Contagem de Cédulas](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/04-Contagem-de-Cedulas)
+5 | [Consumo Médio do Automóvel](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/04-Fundamentos-Aritmeticos-em-JavaScript/05-Consumo-Medio-do-Automovel)
