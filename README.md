@@ -15,3 +15,7 @@
 ## [HTML Web Developer](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer)
 
 >Aprenda a programar páginas de internet e desenvolver websites utilizando HTML, CSS e JavaScript para iniciar sua trajetória profissional em desenvolvimento web front-end.
+
+## [JavaScript Game Developer](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer)
+
+>Aprenda de forma divertida a criar jogos com JavaScript para inciar a sua carreira em desenvolvimento front-end e se transformar em um dev de alto nível.
