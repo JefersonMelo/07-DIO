@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('./img/background.jpg');
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.wechat-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+
+.wechat-phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.wechat-phone img {
+    height: 45rem;
+}
+
+.wechat-continue {
+    display: flex;
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./img/background.jpg');
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid #140f0ab7;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.wechat-logo {
+    height: 4rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 7rem;
+}
+
+.wechat-login {
+    background-color: #140f0ab7;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.wechat-logout {
+    color: rgb(160, 160, 160);
+    margin-top: 1rem;
+}
+
+.not-account {
+    color: rgb(160, 160, 160);
+}
+
+.link-gray {
+    color: rgb(160, 160, 160);
+}
+
+.get-app {
+    color: rgb(160, 160, 160);
+}
+
+.get-the-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download {
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+.app-download:nth-child(1) {
+    background-image: url('./img/apple-button.png');
+}
+
+.app-download:nth-child(2) {
+    background-image: url('./img/googleplay-button.png');
+}
+
+/* media queries */
+
+
+@media (max-width: 1024px) {
+    .wechat-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: #140f0ab7;
+    }
+
+    .wechat-wrapper {
+        width: 90%;
+    }
+
+    .wechat-phone {
+        display: none;
+    }
+
+    .wechat-continue {
+        width: 100%;
+    }
+    
+    .group {
+        border: 1px #140f0ab7;
+    }
+}
