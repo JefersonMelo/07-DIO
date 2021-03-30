@@ -1,0 +1,172 @@
+:root{
+    --vermelho: #E50914;
+    --preto:#141414;
+    --cinza: #A9A9A9;
+    --branco: #FFFF;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Elementos Base*/
+body{
+    background: var(--preto);
+    font-family: 'Arial', 'Times New Roman', Times, serif;
+    color: var(--branco);
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo a{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header .logo-page a{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 30px;
+}
+
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--branco);
+}
+
+/*Filmes Pagina Inicial*/
+.filme-destaque{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/capita-marvel.png);
+    
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-destaque .sinopse{
+    background: linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20) 100%);
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.filme-destaque .titulo{
+    margin-top: 10%;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--branco);
+
+    padding: 10px 20px;
+    margin-right: 10px;
+
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.botao i{
+    margin-right: 5px;
+}
+
+/*Pesquisar*/
+.botao-pesquisa{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: var(--branco);
+
+    padding: 1px 2px;
+    margin-right: 1px;
+    border-radius: 7px;
+
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao-pesquisa:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.entrada-pesquisa{
+    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.20) 100%);
+    border-radius: 3px;
+    background-color: var(--branco);
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-destaque .container{
+    width: 70%;
+}
+
+/*Carrossel*/
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
+
+.carrosel-filmes .cabecario a{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    color: var(--cinza);
+    font-family: 'Arial Black', Times;
+    
+}
+
+.botao-carro{
+    background-color: rgba(1,2,3,.50);
+    border: none;
+    color: var(--branco);
+
+    padding: 5px 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+
+    cursor: pointer;
+    transition: .2s ease all;
+}
+
+.botao-carro:hover{
+    background-color: var(--branco);
+    color: var(--preto);
+}
