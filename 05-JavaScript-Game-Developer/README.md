@@ -17,3 +17,7 @@ Exercício | Respostas
 1 | [Visita na Feira](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/01-Visita-na-Feira)
 2 | [Multiplicação Simples](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/02-Multiplicacao-Simples)
 3 | [Folha de Pagamento](https://github.com/JefersonMelo/07-DIO/tree/master/04-HTML-Web-Developer/02-Introducao-a-Programacao-com-JavaScript/03-Folha-de-Pagamento)
+
+## [Construindo o seu primeiro jogo de naves]()
+
+>Uma das dificuldades dos desenvolvedores de jogos é encontrar uma plataforma de desenvolvimento compatível com os diversos dispositivos móveis no mercado e também com os diferentes navegadores (browsers). Utilizando o HTML5 juntamente com as folhas de estilo CSS3 e o JavaScript, é possível desenvolver jogos de forma rápida e compatível com diversas plataformas, incluindo dispositivos móveis. No projeto são discutidas as etapas de desenvolvimento de jogos em HTML5, CSS3 e JavaScript do início ao fim, utilizando a didática passo a passo em seu desenvolvimento. Neste projeto, especificamente, os jogos serão publicados de forma que possam ser acessados via browser.
