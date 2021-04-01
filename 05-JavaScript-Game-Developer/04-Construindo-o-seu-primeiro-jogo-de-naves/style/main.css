@@ -15,32 +15,31 @@
     --marrom: #603A03;
 }
 
-/*Formatação Fonte Padrão*/
 @font-face {
-    font-family: Font-Game;
+    font-family: Titulo;
     src: url(../font/ANODETONOONE.TTF);
 }
 
-h1{
-    font-family: Font-Game;
+h1 {
+    font-family: Titulo;
     font-size: 40px;
     color: var(--marrom);
 }
 
-/*Imagem de Fundo do Jogo*/
-body{
+body {
     background-image: url(../img/fundo.jpg);
 }
 
-#container{
+#container {
     width: 950px;
     height: auto;
     position: relative;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
 }
 
-#fundo-game{
+
+#fundo-game {
     width: 950px;
     height: 630px;
     background-image: url(../img/fundo_game.jpg);
@@ -49,7 +48,48 @@ body{
     border-radius: 11px;
 }
 
-#inicio{
+#jogador {
+    width: 256px;
+    height: 66px;
+    position: absolute;
+    left: 8px;
+    top: 179px;
+    background-image: url(../img/resgate-aereo.png);
+
+}
+
+/*inimigo-1*/
+#inimigo-aereo {
+    width: 256px;
+    height: 66px;
+    position: absolute;
+    left: 689px;
+    top: 253px;
+    background-image: url(../img/inimigo-aereo.png);
+
+}
+
+/*inimigo-2*/
+#inimigo-terrestre {
+    width: 165px;
+    height: 70px;
+    position: absolute;
+    left: 775px;
+    top: 447px;
+    background-image: url(../img/inimigo-terrestre.png);
+}
+
+/*Amigo*/
+#soldado {
+    width: 44px;
+    height: 51px;
+    position: absolute;
+    left: 10px;
+    top: 464px;
+    background-image: url(../img/soldado.png);
+}
+
+#inicio {
     width: 350px;
     height: 200px;
     background-color: var(--branco);
@@ -61,43 +101,137 @@ body{
     border-color: var(--cinza);
     border-style: groove;
     border-radius: 11px;
+
 }
 
-#jogador{
-    width: 256px;
-    height: 65px;
-    position: absolute;
-    left: 8px;
-    top: 179px;
-    background-image: url(../img/equipe-resgate.png);
+/*Animação Helicoptero de Resgate*/
+.animacao-resgate-aereo {
+    background-image: url(../img/resgate-aereo.png);
+    animation: play .5s steps(2) infinite;
+
+    -webkit-animation: play .5s steps(2) infinite;
+    -moz-animation: play .5s steps(2) infinite;
+    -ms-animation: play .5s steps(2) infinite;
+    -o-animation: play .5s steps(2) infinite;
 }
 
-/*Amigo*/
-#soldado{
-    width: 44px;
-    height: 51px;
-    position: absolute;
-    left: 10px;
-    top: 464px;
-    background-image: url(../img/soldado.png);
+@keyframes play {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -512px;
+    }
 }
 
-/*inimigo-1*/
-#inimigo-aereo{
-    width: 256px;
-    height: 65px;
-    position: absolute;
-    left: 8px;
-    top: 253px;
+
+@-webkit-keyframes play {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -512px;
+    }
+}
+
+@-moz-keyframes play {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -512px;
+    }
+}
+
+@-ms-keyframes play {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -512px;
+    }
+}
+
+@-o-keyframes play {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -512px;
+    }
+}
+
+/*Animação Inimigo Aéreo*/
+.animacao-inimigo-aereo {
     background-image: url(../img/inimigo-aereo.png);
+    animation: play .5s steps(2) infinite;
+    -webkit-animation: play .5s steps(2) infinite;
+    -moz-animation: play .5s steps(2) infinite;
+    -ms-animation: play .5s steps(2) infinite;
+    -o-animation: play .5s steps(2) infinite;
 }
 
-/*inimigo-2*/
-#inimigo-terrestre{
-    width: 256px;
-    height: 65px;
-    position: absolute;
-    left: 775px;
-    top: 447px;
-    background-image: url(../img/inimigo-terrestre.png);
+/*Animação Amigo*/
+.animacao-soldado {
+    background-image: url(../img/soldado.png);
+    animation: play-soldado .9s steps(12) infinite;
+    -webkit-animation: play-soldado .9s steps(12) infinite;
+    -moz-animation: play-soldado .9s steps(12) infinite;
+    -ms-animation: play-soldado .9s steps(12) infinite;
+    -o-animation: play-soldado .9s steps(12) infinite;
+}
+
+@keyframes play-soldado {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -528px;
+    }
+}
+
+@-webkit-keyframes play-soldado {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -528px;
+    }
+}
+
+@-moz-keyframes play-soldado {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -528px;
+    }
+}
+
+@-ms-keyframes play-soldado {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -528px;
+    }
+}
+
+@-o-keyframes play-soldado {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -528px;
+    }
 }
