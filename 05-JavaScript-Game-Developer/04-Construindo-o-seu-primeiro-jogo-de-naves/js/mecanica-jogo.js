@@ -9,6 +9,8 @@ function start() { // Inicio da função start()
 
     //Principais variáveis do jogo
     var jogo = {};
+    var velocidade = 5;
+    var posicaoY = parseInt(Math.random() * 334);
     var Tecla = {
         SetaCima: 38,
         SetaBaixo: 40,
@@ -34,6 +36,7 @@ function start() { // Inicio da função start()
 
         movefundo();
         movejogador();
+        moveInimigoAereo();
 
     } // Fim da função loop()
 
@@ -51,12 +54,25 @@ function start() { // Inicio da função start()
             var topo = parseInt($("#jogador").css("top"));
             $("#jogador").css("top", topo - 10);
 
+            //limita o jogadador não ultrapassar tela superior
+            if (topo <= 0) {
+
+                $("#jogador").css("top", topo + 10);
+            }
+
         }
 
         if (jogo.pressionou[Tecla.SetaBaixo]) {
 
             var topo = parseInt($("#jogador").css("top"));
             $("#jogador").css("top", topo + 10);
+
+            //limita o jogadador não ultrapassar tela inferior
+            if (topo >= 434) {
+                $("#jogador").css("top", topo - 10);
+
+            }
+
         }
 
         if (jogo.pressionou[Tecla.D]) {
@@ -65,5 +81,20 @@ function start() { // Inicio da função start()
         }
 
     } // fim da função movejogador()
+
+    function moveInimigoAereo() {
+
+        posicaoX = parseInt($("#inimigo-aereo").css("left"));
+        $("#inimigo-aereo").css("left", posicaoX - velocidade);
+        $("#inimigo-aereo").css("top", posicaoY);
+
+        if (posicaoX <= 0) {
+            posicaoY = parseInt(Math.random() * 334);
+            $("#inimigo-aereo").css("left", 694);
+            $("#inimigo-aereo").css("top", posicaoY);
+
+        }
+
+    } //Fim da função moveInimigoAereo()
 
 } // Fim da função start
