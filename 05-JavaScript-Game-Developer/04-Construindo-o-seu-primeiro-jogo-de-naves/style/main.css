@@ -1,4 +1,4 @@
-/*Reset*/
+/*Reset html*/
 * {
     margin: 0;
     padding: 0;
@@ -101,6 +101,26 @@ body {
     border-color: var(--cinza);
     border-style: groove;
     border-radius: 11px;
+
+}
+
+#setas{
+
+    background-color: var(--branco);
+    margin-left: auto;
+    margin-right: 5px;
+    padding: 2px;
+    border-color: var(--cinza);
+    border-style: groove;
+    border-radius: 7px;
+
+}
+
+#p-icone{
+        background-color: var(--branco);
+    margin-left: 5px;
+    margin-right: 10px;
+    padding: 2px;
 
 }
 
@@ -235,3 +255,4 @@ body {
         background-position: -528px;
     }
 }
+
