@@ -1,0 +1,103 @@
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/*Cores Padrão*/
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #A9A9A9;
+    --branco: #FFFF;
+    --marrom: #603A03;
+}
+
+/*Formatação Fonte Padrão*/
+@font-face {
+    font-family: Font-Game;
+    src: url(../font/ANODETONOONE.TTF);
+}
+
+h1{
+    font-family: Font-Game;
+    font-size: 40px;
+    color: var(--marrom);
+}
+
+/*Imagem de Fundo do Jogo*/
+body{
+    background-image: url(../img/fundo.jpg);
+}
+
+#container{
+    width: 950px;
+    height: auto;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#fundo-game{
+    width: 950px;
+    height: 630px;
+    background-image: url(../img/fundo_game.jpg);
+    border-color: var(--cinza);
+    border-style: solid;
+    border-radius: 11px;
+}
+
+#inicio{
+    width: 350px;
+    height: 200px;
+    background-color: var(--branco);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    border-color: var(--cinza);
+    border-style: groove;
+    border-radius: 11px;
+}
+
+#jogador{
+    width: 256px;
+    height: 65px;
+    position: absolute;
+    left: 8px;
+    top: 179px;
+    background-image: url(../img/equipe-resgate.png);
+}
+
+/*Amigo*/
+#soldado{
+    width: 44px;
+    height: 51px;
+    position: absolute;
+    left: 10px;
+    top: 464px;
+    background-image: url(../img/soldado.png);
+}
+
+/*inimigo-1*/
+#inimigo-aereo{
+    width: 256px;
+    height: 65px;
+    position: absolute;
+    left: 8px;
+    top: 253px;
+    background-image: url(../img/inimigo-aereo.png);
+}
+
+/*inimigo-2*/
+#inimigo-terrestre{
+    width: 256px;
+    height: 65px;
+    position: absolute;
+    left: 775px;
+    top: 447px;
+    background-image: url(../img/inimigo-terrestre.png);
+}
