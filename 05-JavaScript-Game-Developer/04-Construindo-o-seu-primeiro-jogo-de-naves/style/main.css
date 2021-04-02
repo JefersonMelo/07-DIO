@@ -38,7 +38,6 @@ body {
     margin-right: auto;
 }
 
-
 #fundo-game {
     width: 950px;
     height: 630px;
@@ -48,6 +47,7 @@ body {
     border-radius: 11px;
 }
 
+/* Resgate */
 #jogador {
     width: 256px;
     height: 66px;
@@ -56,6 +56,13 @@ body {
     top: 179px;
     background-image: url(../img/resgate-aereo.png);
 
+}
+
+#disparo {
+    width: 50px;
+    height: 8px;
+    position: absolute;
+    background-image: url(../img/disparo.png);
 }
 
 /*inimigo-1*/
@@ -104,7 +111,7 @@ body {
 
 }
 
-#setas{
+#setas {
 
     background-color: var(--branco);
     margin-left: auto;
@@ -116,8 +123,8 @@ body {
 
 }
 
-#p-icone{
-        background-color: var(--branco);
+#p-icone {
+    background-color: var(--branco);
     margin-left: 5px;
     margin-right: 10px;
     padding: 2px;
@@ -255,4 +262,3 @@ body {
         background-position: -528px;
     }
 }
-
