@@ -37,6 +37,8 @@ function start() { // Inicio da função start()
         movefundo();
         movejogador();
         moveInimigoAereo();
+        moveInimigoTerrestre();
+        moveSoldado();
 
     } // Fim da função loop()
 
@@ -83,7 +85,6 @@ function start() { // Inicio da função start()
     } // fim da função movejogador()
 
     function moveInimigoAereo() {
-
         posicaoX = parseInt($("#inimigo-aereo").css("left"));
         $("#inimigo-aereo").css("left", posicaoX - velocidade);
         $("#inimigo-aereo").css("top", posicaoY);
@@ -96,5 +97,29 @@ function start() { // Inicio da função start()
         }
 
     } //Fim da função moveInimigoAereo()
+
+    function moveInimigoTerrestre() {
+        posicaoX = parseInt($("#inimigo-terrestre").css("left"));
+        $("#inimigo-terrestre").css("left", posicaoX - 3);
+
+        if (posicaoX <= 0) {
+
+            $("#inimigo-terrestre").css("left", 775);
+
+        }
+
+    } // Fim da função moveinimigo-terrestre()
+
+    function moveSoldado() {
+        posicaoX = parseInt($("#soldado").css("left"));
+        $("#soldado").css("left", posicaoX + 1);
+
+        if (posicaoX > 906) {
+
+            $("#soldado").css("left", 0);
+
+        }
+
+    } // fim da função moveSoldado()
 
 } // Fim da função start
