@@ -40,7 +40,7 @@ function start() { // Inicio da função start()
         moveInimigoAereo();
         moveInimigoTerrestre();
         moveSoldado();
-        
+
     } // Fim da função loop()
 
     //Função que movimenta o fundo do jogo
@@ -54,6 +54,7 @@ function start() { // Inicio da função start()
     function movejogador() {
 
         if (jogo.pressionou[Tecla.SetaCima]) {
+
             var topo = parseInt($("#jogador").css("top"));
             $("#jogador").css("top", topo - 10);
 
@@ -81,17 +82,19 @@ function start() { // Inicio da função start()
         if (jogo.pressionou[Tecla.D]) {
 
             //Chama função Disparo
-            disparo();	
+            disparo();
         }
 
     } // fim da função movejogador()
 
     function moveInimigoAereo() {
+
         posicaoX = parseInt($("#inimigo-aereo").css("left"));
         $("#inimigo-aereo").css("left", posicaoX - velocidade);
         $("#inimigo-aereo").css("top", posicaoY);
 
         if (posicaoX <= 0) {
+
             posicaoY = parseInt(Math.random() * 334);
             $("#inimigo-aereo").css("left", 694);
             $("#inimigo-aereo").css("top", posicaoY);
@@ -101,6 +104,7 @@ function start() { // Inicio da função start()
     } //Fim da função moveInimigoAereo()
 
     function moveInimigoTerrestre() {
+
         posicaoX = parseInt($("#inimigo-terrestre").css("left"));
         $("#inimigo-terrestre").css("left", posicaoX - 3);
 
@@ -113,6 +117,7 @@ function start() { // Inicio da função start()
     } // Fim da função moveinimigo-terrestre()
 
     function moveSoldado() {
+
         posicaoX = parseInt($("#soldado").css("left"));
         $("#soldado").css("left", posicaoX + 1);
 
@@ -132,8 +137,8 @@ function start() { // Inicio da função start()
 
             topo = parseInt($("#jogador").css("top"))
             posicaoX = parseInt($("#jogador").css("left"))
-            tiroX = posicaoX + 190;
-            topoTiro = topo + 37;
+            tiroX = posicaoX + 185;
+            topoTiro = topo + 50;
             $("#fundo-game").append("<div id='disparo'></div");
             $("#disparo").css("top", topoTiro);
             $("#disparo").css("left", tiroX);
@@ -143,6 +148,7 @@ function start() { // Inicio da função start()
         } //Fecha podeAtirar
 
         function executaDisparo() {
+
             posicaoX = parseInt($("#disparo").css("left"));
             $("#disparo").css("left", posicaoX + 15);
 
