@@ -11,6 +11,7 @@ function start() { // Inicio da função start()
     var jogo = {};
     var velocidade = 5;
     var podeAtirar = true;
+    var fimdejogo = false;
     var posicaoY = parseInt(Math.random() * 334);
     var Tecla = {
         SetaCima: 38,
@@ -169,8 +170,13 @@ function start() { // Inicio da função start()
     function colisao() {
 
         var colisaoInimigoAereo = ($("#jogador").collision($("#inimigo-aereo")));
-        // jogador com o inimigo-aereo
+        var colisaoInimigoTerrestre = ($("#jogador").collision($("#inimigo-terrestre")));
+        var colisaoDisparoAereo = ($("#disparo").collision($("#inimigo-aereo")));
+        var colisaoDisparoTerrestre = ($("#disparo").collision($("#inimigo-terrestre")));
+        var colisaoInimigoTerrestreSoldado = ($("#jogador").collision($("#soldado")));
+        var colisao6 = ($("#inimigo-terrestre").collision($("#soldado")));
 
+        // Colisão jogador com o inimigo-aereo
         if (colisaoInimigoAereo.length > 0) {
 
             inimigoAereoX = parseInt($("#inimigo-aereo").css("left"));
@@ -182,13 +188,64 @@ function start() { // Inicio da função start()
             $("#inimigo-aereo").css("top", posicaoY);
         }
 
+        // Colisão jogador com o inimigo2 
+        if (colisaoInimigoTerrestre.length > 0) {
+
+            InimigoTerrestreX = parseInt($("#inimigo-terrestre").css("left"));
+            InimigoTerrestreY = parseInt($("#inimigo-terrestre").css("top"));
+            explosaoInimigoTerrestre(InimigoTerrestreX, InimigoTerrestreY);
+
+            $("#inimigo-terrestre").remove();
+
+            reposicionaInimigoTerresre();
+
+        }
+
+        // Colisão Disparo com o inimigo1
+        if (colisaoDisparoAereo.length > 0) {
+
+            InimigoAereoX = parseInt($("#inimigo-aereo").css("left"));
+            InimigoAereoY = parseInt($("#inimigo-aereo").css("top"));
+
+            explosao1(InimigoAereoX, InimigoAereoY);
+            $("#disparo").css("left", 950);
+
+            posicaoY = parseInt(Math.random() * 334);
+            $("#inimigo-aereo").css("left", 694);
+            $("#inimigo-aereo").css("top", posicaoY);
+
+        }
+
+        // Disparo com o inimigo2
+        if (colisaoDisparoTerrestre.length > 0) {
+
+            InimigoTerrestreX = parseInt($("#inimigo-terrestre").css("left"));
+            InimigoTerrestreY = parseInt($("#inimigo-terrestre").css("top"));
+            $("#inimigo-terrestre").remove();
+
+            explosaoInimigoTerrestre(InimigoTerrestreX, InimigoTerrestreY);
+            $("#disparo").css("left", 950);
+
+            reposicionaInimigoTerresre();
+
+        }
+
+        // jogador com o amigo
+        if (colisaoInimigoTerrestreSoldado.length > 0) {
+
+            reposicionaSoldado();
+            $("#soldado").remove();
+
+        }
+
+
     } //Fim da função colisao()
 
     //Explosão 1
     function explosaoInimigoAereo(inimigoAereoX, inimigoAereoY) {
 
         $("#fundo-game").append("<div id='explosaoInimigoAereo'></div");
-        $("#explosaoInimigoAereo").css("background-image", "url(../img/explosao.png)");
+        $("#explosaoInimigoAereo").css("background-image", "url(img/explosao.png)");
         var div = $("#explosaoInimigoAereo");
         div.css("top", inimigoAereoY);
         div.css("left", inimigoAereoX);
@@ -208,5 +265,70 @@ function start() { // Inicio da função start()
         }
 
     } // Fim da função explosaoInimigoAereo()
+
+    //Explosão2
+    function explosaoInimigoTerrestre(InimigoTerrestreX, InimigoTerrestreY) {
+
+        $("#fundo-game").append("<div id='explosaoInimigoTerrestre'></div");
+        $("#explosaoInimigoTerrestre").css("background-image", "url(img/explosao.png)");
+        var div2 = $("#explosaoInimigoTerrestre");
+        div2.css("top", InimigoTerrestreY);
+        div2.css("left", InimigoTerrestreX);
+        div2.animate({
+            width: 200,
+            opacity: 0
+        }, "slow");
+
+        var tempoexplosaoInimigoTerrestre = window.setInterval(removeexplosaoInimigoTerrestre, 1000);
+
+        function removeexplosaoInimigoTerrestre() {
+
+            div2.remove();
+            window.clearInterval(tempoexplosaoInimigoTerrestre);
+            tempoexplosaoInimigoTerrestre = null;
+
+        }
+
+    } // Fim da função explosaoInimigoTerrestre()
+
+
+    //Reposiciona Inimigo2
+    function reposicionaInimigoTerresre() {
+
+        var tempocolisaoDisparoTerrestre = window.setInterval(reposiciona4, 5000);
+
+        function reposiciona4() {
+            window.clearInterval(tempocolisaoDisparoTerrestre);
+            tempocolisaoDisparoTerrestre = null;
+
+            if (fimdejogo == false) {
+
+                $("#fundo-game").append("<div id=inimigo2></div");
+
+            }
+
+        }
+
+    } // Fim da função reposicionaInimigoTerresre()
+
+    //Reposiciona Amigo
+    function reposicionaSoldado() {
+
+        var tempoAmigo = window.setInterval(reposiciona6, 6000);
+
+        function reposiciona6() {
+            window.clearInterval(tempoAmigo);
+            tempoAmigo = null;
+
+            if (fimdejogo == false) {
+
+                $("#fundo-game").append("<div id='soldado' class='anima3'></div>");
+
+            }
+
+        }
+
+    } // Fim da função reposicionaSoldado()
+
 
 } // Fim da função start

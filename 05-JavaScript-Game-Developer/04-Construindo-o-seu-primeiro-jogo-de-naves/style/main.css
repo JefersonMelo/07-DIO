@@ -96,6 +96,21 @@ body {
     background-image: url(../img/soldado.png);
 }
 
+/*Inimigo 1*/
+#explosaoInimigoAereo {
+    width: 15px;
+    height: 87px;
+    position: absolute;
+}
+
+/*Inimigo 2*/
+#explosaoInimigoTerrestre {
+    width: 15px;
+    height: 87px;
+    position: absolute;
+
+}
+
 #inicio {
     width: 350px;
     height: 200px;
