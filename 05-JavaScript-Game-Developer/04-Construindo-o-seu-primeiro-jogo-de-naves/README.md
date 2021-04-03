@@ -7,8 +7,8 @@
 ## Tabela com o código de cada tecla
 
 | Key Pressed      | Key Code |
-| ---------------- | -------- |
-| backspace        | 8        |
+| ---------------- | -------- || home             | 36       |
+| backspace        | 8        || left arrow       | 37       |
 | tab              | 9        |
 | enter            | 13       |
 | shift            | 16       |
@@ -20,8 +20,6 @@
 | page up          | 33       |
 | page down        | 34       |
 | end              | 35       |
-| home             | 36       |
-| left arrow       | 37       |
 | up arrow         | 38       |
 | right arrow      | 39       |
 | down arrow       | 40       |
