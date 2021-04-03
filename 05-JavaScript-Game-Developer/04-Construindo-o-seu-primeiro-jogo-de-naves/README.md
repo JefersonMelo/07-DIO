@@ -7,9 +7,9 @@
 ## Tabela com o código de cada tecla
 
 | Key Pressed      | Key Code |
-| ---------------- | -------- || home             | 36       |
-| backspace        | 8        || left arrow       | 37       |
-| tab              | 9        |
+| ---------------- | -------- |-------              |           |
+| backspace        | 8        || home             | 36       |
+| tab              | 9        || left arrow       | 37       |
 | enter            | 13       |
 | shift            | 16       |
 | ctrl             | 17       |
