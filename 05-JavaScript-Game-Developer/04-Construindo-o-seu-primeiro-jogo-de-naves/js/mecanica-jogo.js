@@ -12,6 +12,7 @@ function start() { // Inicio da função start()
 
     //Principais variáveis do jogo
     var jogo = {};
+    var terrestre;
     var velocidade = 5;
     var energiaAtual = 3;
     var pontos = 0;
@@ -25,8 +26,19 @@ function start() { // Inicio da função start()
         SetaBaixo: 40,
         D: 68
     }
-
     jogo.pressionou = [];
+    var somDisparo = document.getElementById("somDisparo");
+    var somExplosao = document.getElementById("somExplosao");
+    var musica = document.getElementById("musica");
+    var somGameover = document.getElementById("somGameover");
+    var somPerdido = document.getElementById("somPerdido");
+    var somResgate = document.getElementById("somResgate");
+    //Música em loop
+    musica.addEventListener("ended", function () {
+        musica.currentTime = 0;
+        musica.play();
+    }, false);
+    musica.play();
 
     //Verifica se o usuário pressionou alguma Tecla	
     $(document).keydown(function (e) {
@@ -92,8 +104,9 @@ function start() { // Inicio da função start()
 
         if (jogo.pressionou[Tecla.D]) {
 
-            //Chama função Disparo
+            //Chama função Disparo            
             disparo();
+
         }
 
     } // fim da função movejogador()
@@ -182,11 +195,13 @@ function start() { // Inicio da função start()
         var colisaoInimigoTerrestre = ($("#jogador").collision($("#inimigo-terrestre")));
         var colisaoDisparoAereo = ($("#disparo").collision($("#inimigo-aereo")));
         var colisaoDisparoTerrestre = ($("#disparo").collision($("#inimigo-terrestre")));
-        var colisaoJogadorSoldado = ($("#jogador").collision($("#soldado")));
+        var resgateSoldado = ($("#jogador").collision($("#soldado")));
         var colisaoInimigoTerrestreSoldado = ($("#inimigo-terrestre").collision($("#soldado")));
 
         // Colisão jogador com o inimigo-aereo
         if (colisaoInimigoAereo.length > 0) {
+
+            somExplosao.play();
 
             /*Perca de Energia por colisão*/
             energiaAtual--;
@@ -202,6 +217,8 @@ function start() { // Inicio da função start()
 
         // Colisão jogador com o inimigo2 
         if (colisaoInimigoTerrestre.length > 0) {
+
+            somExplosao.play();
 
             /*Perca de Energia por colisão*/
             energiaAtual--;
@@ -237,8 +254,6 @@ function start() { // Inicio da função start()
         // Disparo com o inimigo2
         if (colisaoDisparoTerrestre.length > 0) {
 
-            var terrestre;
-
             /*Pontos Por Abater Inimigo Terrestre*/
             pontos = pontos + 50;
 
@@ -255,14 +270,16 @@ function start() { // Inicio da função start()
             if (terrestre < 3) {
                 terrestre++;
                 velocidade = velocidade + 0.8;
-            }else{
+            } else {
                 terrestre = 0;
             }
 
         }
 
         // jogador com o amigo
-        if (colisaoJogadorSoldado.length > 0) {
+        if (resgateSoldado.length > 0) {
+
+            somResgate.play();
 
             /*Soldados Salvos*/
             salvos++;
@@ -277,6 +294,8 @@ function start() { // Inicio da função start()
 
         //Inimigo2 com o soldado
         if (colisaoInimigoTerrestreSoldado.length > 0) {
+
+            somPerdido.play();
 
             /*Soldados Mortos Por Atropelamento*/
             perdidos++;
