@@ -40,6 +40,7 @@ function start() { // Inicio da função start()
         moveInimigoAereo();
         moveInimigoTerrestre();
         moveSoldado();
+        colisao();
 
     } // Fim da função loop()
 
@@ -164,5 +165,48 @@ function start() { // Inicio da função start()
         } // Fecha executaDisparo()
 
     } // Fecha disparo()
+
+    function colisao() {
+
+        var colisaoInimigoAereo = ($("#jogador").collision($("#inimigo-aereo")));
+        // jogador com o inimigo-aereo
+
+        if (colisaoInimigoAereo.length > 0) {
+
+            inimigoAereoX = parseInt($("#inimigo-aereo").css("left"));
+            inimigoAereoY = parseInt($("#inimigo-aereo").css("top"));
+            explosaoInimigoAereo(inimigoAereoX, inimigoAereoY);
+
+            posicaoY = parseInt(Math.random() * 334);
+            $("#inimigo-aereo").css("left", 694);
+            $("#inimigo-aereo").css("top", posicaoY);
+        }
+
+    } //Fim da função colisao()
+
+    //Explosão 1
+    function explosaoInimigoAereo(inimigoAereoX, inimigoAereoY) {
+
+        $("#fundo-game").append("<div id='explosaoInimigoAereo'></div");
+        $("#explosaoInimigoAereo").css("background-image", "url(../img/explosao.png)");
+        var div = $("#explosaoInimigoAereo");
+        div.css("top", inimigoAereoY);
+        div.css("left", inimigoAereoX);
+        div.animate({
+            width: 200,
+            opacity: 0
+        }, "slow");
+
+        var tempoExplosao = window.setInterval(removeExplosao, 1000);
+
+        function removeExplosao() {
+
+            div.remove();
+            window.clearInterval(tempoExplosao);
+            tempoExplosao = null;
+
+        }
+
+    } // Fim da função explosaoInimigoAereo()
 
 } // Fim da função start
