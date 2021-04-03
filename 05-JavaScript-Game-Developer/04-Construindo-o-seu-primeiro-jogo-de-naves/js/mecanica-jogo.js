@@ -30,6 +30,8 @@ function start() { // Inicio da função start()
     var somDisparo = document.getElementById("somDisparo");
     var somExplosao = document.getElementById("somExplosao");
     var musica = document.getElementById("musica");
+    var som_helicoptero = document.getElementById("som_helicoptero");
+    var som_caminhao = document.getElementById("som_caminhao");
     var somGameover = document.getElementById("somGameover");
     var somPerdido = document.getElementById("somPerdido");
     var somResgate = document.getElementById("somResgate");
@@ -39,6 +41,20 @@ function start() { // Inicio da função start()
         musica.play();
     }, false);
     musica.play();
+
+    //Som Helicóptero em loop
+    som_helicoptero.addEventListener("ended", function () {
+        som_helicoptero.currentTime = 0;
+        som_helicoptero.play();
+    }, false);
+    som_helicoptero.play();
+
+    //Som Caminão em loop
+    som_helicoptero.addEventListener("ended", function () {
+        som_helicoptero.currentTime = 0;
+        som_helicoptero.play();
+    }, false);
+    som_helicoptero.play();
 
     //Verifica se o usuário pressionou alguma Tecla	
     $(document).keydown(function (e) {
@@ -157,6 +173,8 @@ function start() { // Inicio da função start()
 
         if (podeAtirar == true) {
 
+            somDisparo.play();
+
             podeAtirar = false;
 
             topo = parseInt($("#jogador").css("top"))
@@ -238,6 +256,7 @@ function start() { // Inicio da função start()
 
             /*Pontos Por Abater Inimigo Aéreo*/
             pontos = pontos + 100;
+            somExplosao.play();
 
             InimigoAereoX = parseInt($("#inimigo-aereo").css("left"));
             InimigoAereoY = parseInt($("#inimigo-aereo").css("top"));
@@ -256,6 +275,7 @@ function start() { // Inicio da função start()
 
             /*Pontos Por Abater Inimigo Terrestre*/
             pontos = pontos + 50;
+            somExplosao.play();
 
             InimigoTerrestreX = parseInt($("#inimigo-terrestre").css("left"));
             InimigoTerrestreY = parseInt($("#inimigo-terrestre").css("top"));
@@ -451,9 +471,42 @@ function start() { // Inicio da função start()
             $("#energia").css("background-image", "url(img/energia0.png)");
 
             //Game Over
+            gameOver();
+
         }
 
     } // Fim da função energia()
 
+    //Função GAME OVER
+    function gameOver() {
+
+        fimdejogo = true;
+        musica.pause();
+        som_caminhao.pause();
+        som_helicoptero.pause();
+        somGameover.play();
+
+        window.clearInterval(jogo.timer);
+        jogo.timer = null;
+
+        $("#jogador").remove();
+        $("#inimigo-aereo").remove();
+        $("#inimigo-terrestre").remove();
+        $("#soldado").remove();
+
+        $("#fundo-game").append("<div id='fim'></div>");
+
+        $("#fim").html("<h1> <p id='p-game-over'> Game Over </p> </h1> <p>Sua pontuação foi: " + pontos + "</p>" + "<div id='reinicia' onClick=reiniciaJogo()><h3>Jogar Novamente</h3></div>");
+
+    } // Fim da função gameOver()
 
 } // Fim da função start
+
+//Reinicia o Jogo		
+function reiniciaJogo() {
+
+    somGameover.pause();
+    $("#fim").remove();
+    start();
+
+} //Fim da função reiniciaJogo

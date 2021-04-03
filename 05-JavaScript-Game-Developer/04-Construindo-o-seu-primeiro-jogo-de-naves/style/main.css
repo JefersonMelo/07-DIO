@@ -47,6 +47,29 @@ body {
     border-radius: 11px;
 }
 
+#inicio {
+    width: 350px;
+    height: 200px;
+    background-color: var(--branco);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+    border-color: var(--cinza);
+    border-style: groove;
+    border-radius: 11px;
+
+}
+
+#iniciar {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    font-family: Titulo;
+    color: var(--cinza);
+}
+
 /* Resgate */
 #jogador {
     width: 256px;
@@ -133,18 +156,10 @@ h2 {
     top: 7px;
 }
 
-#inicio {
-    width: 350px;
-    height: 200px;
-    background-color: var(--branco);
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    text-align: center;
-    padding: 10px;
-    border-color: var(--cinza);
-    border-style: groove;
-    border-radius: 11px;
+h3 {
+    font-family: Titulo;
+    font-size: 20px;
+    color: var(--marrom);
 
 }
 
@@ -165,6 +180,36 @@ h2 {
     margin-right: 10px;
     padding: 2px;
 
+}
+
+
+#fim {
+    width: 350px;
+    height: 180px;
+    background-color: var(--branco);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    text-align: center;
+    padding: 10px;
+    padding: 2px;
+    border-radius: 7px;
+    border-color: var(--cinza);
+    border-style: groove;
+
+}
+
+#reinicia {
+    margin: 20px;
+    padding: 2px;
+    border-color: var(--cinza);
+    border-style: groove;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#p-game-over {
+    margin-top: 20px;
 }
 
 /*Animação Helicoptero de Resgate*/
