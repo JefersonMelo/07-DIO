@@ -277,3 +277,72 @@ body {
         background-position: -528px;
     }
 }
+
+/*explosao 3*/
+#explosao-soldado {
+    width: 44px;
+    height: 51px;
+    position: absolute;
+}
+
+/*Animação 4*/
+.animacaoAtropeloSoldado {
+    width: 44px;
+    height: 51px;
+    background-image: url(../img/amigo_morte.png);
+    animation: play3 .5s steps(7) infinite;
+    -webkit-animation: play3 .5s steps(7) infinite;
+    -moz-animation: play3 .5s steps(7) infinite;
+    -ms-animation: play3 .5s steps(7) infinite;
+    -o-animation: play3 .5s steps(7) infinite;
+}
+
+@keyframes play3 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -308px;
+    }
+}
+
+@-webkit-keyframes play3 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -308px;
+    }
+}
+
+@-moz-keyframes play3 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -308px;
+    }
+}
+
+@-ms-keyframes play3 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -308px;
+    }
+}
+
+@-o-keyframes play3 {
+    from {
+        background-position: 0px;
+    }
+
+    to {
+        background-position: -308px;
+    }
+}

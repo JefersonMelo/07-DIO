@@ -173,8 +173,8 @@ function start() { // Inicio da função start()
         var colisaoInimigoTerrestre = ($("#jogador").collision($("#inimigo-terrestre")));
         var colisaoDisparoAereo = ($("#disparo").collision($("#inimigo-aereo")));
         var colisaoDisparoTerrestre = ($("#disparo").collision($("#inimigo-terrestre")));
-        var colisaoInimigoTerrestreSoldado = ($("#jogador").collision($("#soldado")));
-        var colisao6 = ($("#inimigo-terrestre").collision($("#soldado")));
+        var colisaoJogadorSoldado = ($("#jogador").collision($("#soldado")));
+        var colisaoInimigoTerrestreSoldado = ($("#inimigo-terrestre").collision($("#soldado")));
 
         // Colisão jogador com o inimigo-aereo
         if (colisaoInimigoAereo.length > 0) {
@@ -207,7 +207,7 @@ function start() { // Inicio da função start()
             InimigoAereoX = parseInt($("#inimigo-aereo").css("left"));
             InimigoAereoY = parseInt($("#inimigo-aereo").css("top"));
 
-            explosao1(InimigoAereoX, InimigoAereoY);
+            explosaoInimigoAereo(InimigoAereoX, InimigoAereoY);
             $("#disparo").css("left", 950);
 
             posicaoY = parseInt(Math.random() * 334);
@@ -231,10 +231,22 @@ function start() { // Inicio da função start()
         }
 
         // jogador com o amigo
-        if (colisaoInimigoTerrestreSoldado.length > 0) {
+        if (colisaoJogadorSoldado.length > 0) {
 
             reposicionaSoldado();
             $("#soldado").remove();
+
+        }
+
+        //Inimigo2 com o soldado
+        if (colisaoInimigoTerrestreSoldado.length > 0) {
+
+            soldadoX = parseInt($("#soldado").css("left"));
+            soldadoY = parseInt($("#soldado").css("top"));
+            explosaoSoldado(soldadoX, soldadoY);
+            $("#soldado").remove();
+
+            reposicionaSoldado();
 
         }
 
@@ -303,7 +315,7 @@ function start() { // Inicio da função start()
 
             if (fimdejogo == false) {
 
-                $("#fundo-game").append("<div id=inimigo2></div");
+                $("#fundo-game").append("<div id=inimigo-terrestre></div");
 
             }
 
@@ -314,21 +326,37 @@ function start() { // Inicio da função start()
     //Reposiciona Amigo
     function reposicionaSoldado() {
 
-        var tempoAmigo = window.setInterval(reposiciona6, 6000);
+        var tempoSoldado = window.setInterval(reposiciona6, 6000);
 
         function reposiciona6() {
-            window.clearInterval(tempoAmigo);
-            tempoAmigo = null;
+            window.clearInterval(tempoSoldado);
+            tempoSoldado = null;
 
             if (fimdejogo == false) {
 
-                $("#fundo-game").append("<div id='soldado' class='anima3'></div>");
+                $("#fundo-game").append("<div id='soldado' class='animacao-soldado'></div>");
 
             }
 
         }
 
     } // Fim da função reposicionaSoldado()
+
+    //Explosão3
+    function explosaoSoldado(soldadoX, soldadoY) {
+        $("#fundo-game").append("<div id='explosao-soldado' class='animacaoAtropeloSoldado'></div");
+        $("#explosao-soldado").css("top", soldadoY);
+        $("#explosao-soldado").css("left", soldadoX);
+        var tempoExplosaoSoldado = window.setInterval(resetaexplosaoSoldado, 1000);
+
+        function resetaexplosaoSoldado() {
+            $("#explosao-soldado").remove();
+            window.clearInterval(tempoExplosaoSoldado);
+            tempoExplosaoSoldado = null;
+
+        }
+
+    } // Fim da função explosaoSoldado
 
 
 } // Fim da função start
