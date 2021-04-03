@@ -6,10 +6,17 @@ function start() { // Inicio da função start()
     $("#fundo-game").append("<div id='inimigo-aereo' class='animacao-inimigo-aereo'></div>");
     $("#fundo-game").append("<div id='inimigo-terrestre'></div>");
     $("#fundo-game").append("<div id='soldado' class='animacao-soldado'></div>");
+    $("#fundo-game").append("<div id='placar'></div>");
+    $("#fundo-game").append("<div id='energia'></div>");
+
 
     //Principais variáveis do jogo
     var jogo = {};
     var velocidade = 5;
+    var energiaAtual = 3;
+    var pontos = 0;
+    var salvos = 0;
+    var perdidos = 0;
     var podeAtirar = true;
     var fimdejogo = false;
     var posicaoY = parseInt(Math.random() * 334);
@@ -42,6 +49,8 @@ function start() { // Inicio da função start()
         moveInimigoTerrestre();
         moveSoldado();
         colisao();
+        placar();
+        energia();
 
     } // Fim da função loop()
 
@@ -179,6 +188,9 @@ function start() { // Inicio da função start()
         // Colisão jogador com o inimigo-aereo
         if (colisaoInimigoAereo.length > 0) {
 
+            /*Perca de Energia por colisão*/
+            energiaAtual--;
+
             inimigoAereoX = parseInt($("#inimigo-aereo").css("left"));
             inimigoAereoY = parseInt($("#inimigo-aereo").css("top"));
             explosaoInimigoAereo(inimigoAereoX, inimigoAereoY);
@@ -190,6 +202,9 @@ function start() { // Inicio da função start()
 
         // Colisão jogador com o inimigo2 
         if (colisaoInimigoTerrestre.length > 0) {
+
+            /*Perca de Energia por colisão*/
+            energiaAtual--;
 
             InimigoTerrestreX = parseInt($("#inimigo-terrestre").css("left"));
             InimigoTerrestreY = parseInt($("#inimigo-terrestre").css("top"));
@@ -203,6 +218,9 @@ function start() { // Inicio da função start()
 
         // Colisão Disparo com o inimigo1
         if (colisaoDisparoAereo.length > 0) {
+
+            /*Pontos Por Abater Inimigo Aéreo*/
+            pontos = pontos + 100;
 
             InimigoAereoX = parseInt($("#inimigo-aereo").css("left"));
             InimigoAereoY = parseInt($("#inimigo-aereo").css("top"));
@@ -219,6 +237,11 @@ function start() { // Inicio da função start()
         // Disparo com o inimigo2
         if (colisaoDisparoTerrestre.length > 0) {
 
+            var terrestre;
+
+            /*Pontos Por Abater Inimigo Terrestre*/
+            pontos = pontos + 50;
+
             InimigoTerrestreX = parseInt($("#inimigo-terrestre").css("left"));
             InimigoTerrestreY = parseInt($("#inimigo-terrestre").css("top"));
             $("#inimigo-terrestre").remove();
@@ -228,18 +251,35 @@ function start() { // Inicio da função start()
 
             reposicionaInimigoTerresre();
 
+            /* Aumento da dificuldade Por Apelar Matando Apenas Terrestre*/
+            if (terrestre < 3) {
+                terrestre++;
+                velocidade = velocidade + 0.8;
+            }else{
+                terrestre = 0;
+            }
+
         }
 
         // jogador com o amigo
         if (colisaoJogadorSoldado.length > 0) {
 
+            /*Soldados Salvos*/
+            salvos++;
+
             reposicionaSoldado();
             $("#soldado").remove();
+
+            /* Aumento da dificuldade */
+            velocidade = velocidade + 0.3;
 
         }
 
         //Inimigo2 com o soldado
         if (colisaoInimigoTerrestreSoldado.length > 0) {
+
+            /*Soldados Mortos Por Atropelamento*/
+            perdidos++;
 
             soldadoX = parseInt($("#soldado").css("left"));
             soldadoY = parseInt($("#soldado").css("top"));
@@ -283,10 +323,11 @@ function start() { // Inicio da função start()
 
         $("#fundo-game").append("<div id='explosaoInimigoTerrestre'></div");
         $("#explosaoInimigoTerrestre").css("background-image", "url(img/explosao.png)");
-        var div2 = $("#explosaoInimigoTerrestre");
-        div2.css("top", InimigoTerrestreY);
-        div2.css("left", InimigoTerrestreX);
-        div2.animate({
+
+        var divInimigoTerrestre = $("#explosaoInimigoTerrestre");
+        divInimigoTerrestre.css("top", InimigoTerrestreY);
+        divInimigoTerrestre.css("left", InimigoTerrestreX);
+        divInimigoTerrestre.animate({
             width: 200,
             opacity: 0
         }, "slow");
@@ -295,7 +336,7 @@ function start() { // Inicio da função start()
 
         function removeexplosaoInimigoTerrestre() {
 
-            div2.remove();
+            divInimigoTerrestre.remove();
             window.clearInterval(tempoexplosaoInimigoTerrestre);
             tempoexplosaoInimigoTerrestre = null;
 
@@ -307,9 +348,10 @@ function start() { // Inicio da função start()
     //Reposiciona Inimigo2
     function reposicionaInimigoTerresre() {
 
-        var tempocolisaoDisparoTerrestre = window.setInterval(reposiciona4, 5000);
+        var tempocolisaoDisparoTerrestre = window.setInterval(reposicionaTerrestre, 5000);
 
-        function reposiciona4() {
+        function reposicionaTerrestre() {
+
             window.clearInterval(tempocolisaoDisparoTerrestre);
             tempocolisaoDisparoTerrestre = null;
 
@@ -326,9 +368,10 @@ function start() { // Inicio da função start()
     //Reposiciona Amigo
     function reposicionaSoldado() {
 
-        var tempoSoldado = window.setInterval(reposiciona6, 6000);
+        var tempoSoldado = window.setInterval(reposicionandoSoldado, 6000);
 
-        function reposiciona6() {
+        function reposicionandoSoldado() {
+
             window.clearInterval(tempoSoldado);
             tempoSoldado = null;
 
@@ -344,12 +387,15 @@ function start() { // Inicio da função start()
 
     //Explosão3
     function explosaoSoldado(soldadoX, soldadoY) {
+
         $("#fundo-game").append("<div id='explosao-soldado' class='animacaoAtropeloSoldado'></div");
         $("#explosao-soldado").css("top", soldadoY);
         $("#explosao-soldado").css("left", soldadoX);
+
         var tempoExplosaoSoldado = window.setInterval(resetaexplosaoSoldado, 1000);
 
         function resetaexplosaoSoldado() {
+
             $("#explosao-soldado").remove();
             window.clearInterval(tempoExplosaoSoldado);
             tempoExplosaoSoldado = null;
@@ -357,6 +403,38 @@ function start() { // Inicio da função start()
         }
 
     } // Fim da função explosaoSoldado
+
+    function placar() {
+
+        $("#placar").html("<h2> Pontos: " + pontos + " Salvos: " + salvos + " Perdidos: " + perdidos + "</h2>");
+
+    } //fim da função placar()
+
+    function energia() {
+
+        if (energiaAtual == 3) {
+
+            $("#energia").css("background-image", "url(img/energia3.png)");
+        }
+
+        if (energiaAtual == 2) {
+
+            $("#energia").css("background-image", "url(img/energia2.png)");
+        }
+
+        if (energiaAtual == 1) {
+
+            $("#energia").css("background-image", "url(img/energia1.png)");
+        }
+
+        if (energiaAtual == 0) {
+
+            $("#energia").css("background-image", "url(img/energia0.png)");
+
+            //Game Over
+        }
+
+    } // Fim da função energia()
 
 
 } // Fim da função start

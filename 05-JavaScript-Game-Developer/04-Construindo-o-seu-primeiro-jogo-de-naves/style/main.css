@@ -111,6 +111,28 @@ body {
 
 }
 
+#placar {
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    left: 5px;
+    top: 570px;
+}
+
+h2 {
+    font-family: Titulo;
+    font-size: 20px;
+    color: var(--cinza);
+}
+
+#energia {
+    width: 140px;
+    height: 38px;
+    position: absolute;
+    left: 750px;
+    top: 7px;
+}
+
 #inicio {
     width: 350px;
     height: 200px;
@@ -127,7 +149,6 @@ body {
 }
 
 #setas {
-
     background-color: var(--branco);
     margin-left: auto;
     margin-right: 5px;
@@ -278,7 +299,7 @@ body {
     }
 }
 
-/*explosao 3*/
+/*explosão 3*/
 #explosao-soldado {
     width: 44px;
     height: 51px;
