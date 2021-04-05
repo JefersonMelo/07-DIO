@@ -9,3 +9,5 @@
 * [HTML básico](https://www.w3schools.com/html/)
 * [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+![alt](https://github.com/JefersonMelo/07-DIO/blob/master/05-JavaScript-Game-Developer/06-Criando-seu-jogo-de-memoria-estilo-Genius/img/imagen-game-genius.png?raw=true)
