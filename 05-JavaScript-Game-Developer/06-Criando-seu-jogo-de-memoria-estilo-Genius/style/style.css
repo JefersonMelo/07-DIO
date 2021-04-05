@@ -29,7 +29,7 @@ body {
 
 .genius {
     display: grid;
-    grid-template-areas: '_black _grey''_whit _red';
+    grid-template-areas: 'preto cinza' 'branco vermelho';
     grid-gap: 10px;
     background-color: var(--chumbo);
     border-radius: 100%;
@@ -38,28 +38,28 @@ body {
 }
 
 .preto {
-    grid-area: _black;
+    grid-area: preto;
     background-color: var(--preto);
     border-top-left-radius: 100%;
     border: 2px solid var(--chumbo);
 }
 
 .vermelho {
-    grid-area: _red;
+    grid-area: vermelho;
     background-color: var(--vermelho);
     border-bottom-right-radius: 100%;
     border: 2px solid var(--chumbo);
 }
 
 .branco {
-    grid-area: _whit;
+    grid-area: branco;
     background-color: var(--branco);
     border-bottom-left-radius: 100%;
     border: 2px solid var(--chumbo);
 }
 
 .cinza {
-    grid-area: _grey;
+    grid-area: cinza;
     background-color: var(--cinza);
     border-top-right-radius: 100%;
     border: 2px solid var(--chumbo);
