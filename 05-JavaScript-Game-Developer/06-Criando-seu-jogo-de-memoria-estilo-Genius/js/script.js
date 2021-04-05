@@ -14,7 +14,7 @@ const preto = document.querySelector('.preto');
 const vermelho = document.querySelector('.vermelho');
 const branco = document.querySelector('.branco');
 
-//Cria cordem aleatória de cores
+//cria ordem aletoria de cores
 let shuffleOrder = () => {
     let colorOrder = Math.floor(Math.random() * 4);
     order[order.length] = colorOrder;
@@ -26,15 +26,14 @@ let shuffleOrder = () => {
     }
 }
 
-
 //acende a proxima cor
 let lightColor = (element, number) => {
     number = number * 500;
     setTimeout(() => {
-        element.classList.add('selecionado');
+        element.classList.add('selected');
     }, number - 250);
     setTimeout(() => {
-        element.classList.remove('selecionado');
+        element.classList.remove('selected');
     });
 }
 
@@ -55,32 +54,23 @@ let checkOrder = () => {
 //funcao para o clique do usuario
 let click = (color) => {
     clickedOrder[clickedOrder.length] = color;
-    createColorElement(color).classList.add('selecionado');
+    createColorElement(color).classList.add('selected');
 
     setTimeout(() => {
-        createColorElement(color).classList.remove('selecionado');
+        createColorElement(color).classList.remove('selected');
         checkOrder();
     }, 250);
 }
 
-/**
- * 0-Cinza
- * 1-Preto
- * 2-Vermelho
- * 3-Branco
- */
 //funcao que retorna a cor
 let createColorElement = (color) => {
     if (cor == 0) {
         return cinza;
-    }
-    if (cor == 1) {
+    } else if (cor == 1) {
         return preto;
-    }
-    if (cor == 2) {
+    } else if (cor == 2) {
         return vermelho;
-    }
-    if (cor == 3) {
+    } else if (cor == 3) {
         return branco;
     }
 }
@@ -107,13 +97,8 @@ let playGame = () => {
 
     nextLevel();
 }
+
 //eventos de clique para as cores
-/**
- * 0-Cinza
- * 1-Preto
- * 2-Vermelho
- * 3-Branco
- */
 cinza.onclick = () => click(0);
 preto.onclick = () => click(1);
 vermelho.onclick = () => click(2);
