@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #afafaf;
+    --branco: #FFFF;
+    --chumbo: #4f5055f1;
+}
+
+body {
+    margin: 0;
+    background-color: var(--chumbo);
+}
+
+.main-game {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.genius {
+    display: grid;
+    grid-template-areas: '_black _grey''_whit _red';
+    grid-gap: 10px;
+    background-color: var(--chumbo);
+    border-radius: 100%;
+    width: 600px;
+    height: 600px;
+}
+
+.preto {
+    grid-area: _black;
+    background-color: var(--preto);
+    border-top-left-radius: 100%;
+    border: 2px solid var(--chumbo);
+}
+
+.vermelho {
+    grid-area: _red;
+    background-color: var(--vermelho);
+    border-bottom-right-radius: 100%;
+    border: 2px solid var(--chumbo);
+}
+
+.branco {
+    grid-area: _whit;
+    background-color: var(--branco);
+    border-bottom-left-radius: 100%;
+    border: 2px solid var(--chumbo);
+}
+
+.cinza {
+    grid-area: _grey;
+    background-color: var(--cinza);
+    border-top-right-radius: 100%;
+    border: 2px solid var(--chumbo);
+}
+
+.selecionado {
+    opacity: 0.5;
+}

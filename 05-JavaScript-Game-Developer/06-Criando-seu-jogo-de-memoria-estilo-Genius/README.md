@@ -2,7 +2,7 @@
 
 ## Ei, Genius!
 
->Esse repositório foi criado para entrega do Jogo Genius no módulo ***Criando seu jogo de memória estilo Genius***
+>Esse repositório foi criado para entrega do Jogo Genius no módulo ***Criando seu jogo de memória estilo Genius*** O jogo buscava estimular a memorização de cores e sons. Com um formato semelhante a um OVNI, possuía botões coloridos e harmônicos que se iluminavam em sequência.
 
 ## Material de Apoio:
 
