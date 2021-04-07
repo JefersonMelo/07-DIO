@@ -1,11 +1,11 @@
-:root{
+:root {
     --vermelho: #E50914;
-    --preto:#141414;
+    --preto: #141414;
     --cinza: #A9A9A9;
     --branco: #FFFF;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,27 +13,35 @@
 }
 
 /*Elementos Base*/
-body{
+body {
     background: var(--preto);
     font-family: 'Arial', 'Times New Roman', Times, serif;
     color: var(--branco);
 }
 
-header .container{
+header {
+    position: fixed;
+    top: 0;
+    background-color: var(--preto);
+    width: 100%;
+    float: left;
+}
+
+header .container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-header .logo a{
+header .logo a {
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
 }
 
-header .logo-page a{
+header .logo-page a {
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
@@ -41,21 +49,21 @@ header .logo-page a{
 }
 
 
-header nav a{
+header nav a {
     text-decoration: none;
     color: var(--cinza);
     margin-right: 10px;
 }
 
-header nav a:hover{
+header nav a:hover {
     color: var(--branco);
 }
 
 /*Filmes Pagina Inicial*/
-.filme-destaque{
+.filme-destaque {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50) 100%), url(../img/capita-marvel.png);
-    
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50) 100%), url(../img/capita-marvel.png);
+
     height: 400px;
     background-size: cover;
 
@@ -65,21 +73,21 @@ header nav a:hover{
     align-items: flex-start;
 }
 
-.filme-destaque .sinopse{
-    background: linear-gradient(rgba(0,0,0,.20), rgba(0,0,0,.20) 100%);
+.filme-destaque .sinopse {
+    background: linear-gradient(rgba(0, 0, 0, .20), rgba(0, 0, 0, .20) 100%);
     margin-top: 10px;
     margin-bottom: 30px;
     border-radius: 3px;
 }
 
-.filme-destaque .titulo{
+.filme-destaque .titulo {
     margin-top: 10%;
     font-size: 30px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.botao{
-    background-color: rgba(0,0,0,.50);
+.botao {
+    background-color: rgba(0, 0, 0, .50);
     border: none;
     color: var(--branco);
 
@@ -90,18 +98,18 @@ header nav a:hover{
     transition: .2s ease all;
 }
 
-.botao:hover{
+.botao:hover {
     background-color: var(--branco);
     color: var(--preto);
 }
 
-.botao i{
+.botao i {
     margin-right: 5px;
 }
 
 /*Pesquisar*/
-.botao-pesquisa{
-    background-color: rgba(0,0,0,.50);
+.botao-pesquisa {
+    background-color: rgba(0, 0, 0, .50);
     border: none;
     color: var(--branco);
 
@@ -113,48 +121,48 @@ header nav a:hover{
     transition: .2s ease all;
 }
 
-.botao-pesquisa:hover{
+.botao-pesquisa:hover {
     background-color: var(--branco);
     color: var(--preto);
 }
 
-.entrada-pesquisa{
-    background: linear-gradient(rgba(0,0,0,.70), rgba(0,0,0,.20) 100%);
+.entrada-pesquisa {
+    background: linear-gradient(rgba(0, 0, 0, .70), rgba(0, 0, 0, .20) 100%);
     border-radius: 3px;
     background-color: var(--branco);
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
 
-.container{
+.container {
     margin-left: 20px;
 }
 
-.filme-destaque .container{
+.filme-destaque .container {
     width: 70%;
 }
 
 /*Carrossel*/
-.box-filme{
+.box-filme {
     height: 100%;
     width: 100%;
     display: block;
     cursor: pointer;
 }
 
-.carrosel-filmes{
+.carrosel-filmes {
     margin-top: 10px;
 }
 
-.carrosel-filmes .cabecario a{
+.carrosel-filmes .cabecario a {
     margin-bottom: 10px;
     margin-left: 15px;
     color: var(--cinza);
     font-family: 'Arial Black', Times;
-    
+
 }
 
-.botao-carro{
-    background-color: rgba(1,2,3,.50);
+.botao-carro {
+    background-color: rgba(1, 2, 3, .50);
     border: none;
     color: var(--branco);
 
@@ -166,7 +174,7 @@ header nav a:hover{
     transition: .2s ease all;
 }
 
-.botao-carro:hover{
+.botao-carro:hover {
     background-color: var(--branco);
     color: var(--preto);
 }
