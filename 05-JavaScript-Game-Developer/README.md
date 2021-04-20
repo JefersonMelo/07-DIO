@@ -34,6 +34,6 @@ Este projeto é uma cópia do jogo do dinossauro, famoso no Chrome por nos entre
 
 Nesse projeto, o desafio é criar um jogo da memória utilizando apenas HTML, CSS e Javascript. Com poucas linhas de código, trabalhando com efeitos 3D no CSS e lógica de programação utilizando condicionais, Immediately Invoked Function Expression e manipulação de Array em um projeto super divertido.
 
-## [Ordenação e Filtros em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/08-Desenvolvendo-um-jogo-da-memoria)
+## [Ordenação e Filtros em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/09-Ordenacao-e-Filtros-em-JavaScript)
 
 Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
