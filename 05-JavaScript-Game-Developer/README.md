@@ -25,3 +25,7 @@ Exercício | Respostas
 ## [Fundamentos Aritméticos em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/05-Fundamentos-Aritmeticos-em-JavaScript)
 
 >Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
+
+## [Dino Game](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/07-Dino-Game)
+
+Este projeto é uma cópia do jogo do dinossauro, famoso no Chrome por nos entreter quando estamos sem conexão. Nele é utilizado HTML, CSS e JavaScript, abordando de maneira simples diversos conceitos introdutórios importantes para programação na web como tags básicas de HTML, manipulação de eventos, funções e manipulação de elementos HTML usando JavaScript, estilização e animações básicas com CSS.  
