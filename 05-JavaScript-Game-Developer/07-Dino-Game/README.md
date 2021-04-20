@@ -1,3 +1,3 @@
 # DINO GAME
 
-![<img src="img/example.png" alt="Imagem Exemplo Dino Game" >](<img src="img/example.png" alt="Imagem Exemplo Dino Game" >)
+![https://raw.githubusercontent.com/JefersonMelo/07-DIO/master/05-JavaScript-Game-Developer/07-Dino-Game/img/example.png](https://raw.githubusercontent.com/JefersonMelo/07-DIO/master/05-JavaScript-Game-Developer/07-Dino-Game/img/example.png)
