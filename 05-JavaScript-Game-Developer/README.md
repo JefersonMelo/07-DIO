@@ -29,3 +29,7 @@ Exercício | Respostas
 ## [Dino Game](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/07-Dino-Game)
 
 Este projeto é uma cópia do jogo do dinossauro, famoso no Chrome por nos entreter quando estamos sem conexão. Nele é utilizado HTML, CSS e JavaScript, abordando de maneira simples diversos conceitos introdutórios importantes para programação na web como tags básicas de HTML, manipulação de eventos, funções e manipulação de elementos HTML usando JavaScript, estilização e animações básicas com CSS.  
+
+## [Jogo Da Memória](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/08-Desenvolvendo-um-jogo-da-memoria)
+
+Nesse projeto, o desafio é criar um jogo da memória utilizando apenas HTML, CSS e Javascript. Com poucas linhas de código, trabalhando com efeitos 3D no CSS e lógica de programação utilizando condicionais, Immediately Invoked Function Expression e manipulação de Array em um projeto super divertido.
