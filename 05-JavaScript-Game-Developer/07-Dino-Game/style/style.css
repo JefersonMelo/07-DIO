@@ -20,3 +20,11 @@
     position: absolute;
     bottom: 0%;
 }
+
+.cactus{
+    width: 60px;
+    height: 60px;
+    background: var(--cinza);
+    position: absolute;
+    bottom: 0%;
+}
