@@ -5,3 +5,18 @@
     list-style: none;
     border: 0
 }
+
+:root{
+    --vermelho: #E50914;
+    --preto:#141414;
+    --cinza: #A9A9A9;
+    --branco: #FFFF;
+}
+
+.dino{
+    width: 60px;
+    height: 60px;
+    background: var(--cinza);
+    position: absolute;
+    bottom: 0%;
+}
