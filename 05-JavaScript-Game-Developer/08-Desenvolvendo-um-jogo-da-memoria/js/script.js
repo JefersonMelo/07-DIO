@@ -7,6 +7,9 @@ function flipCard() {
     if (lockBoard) {
         return;
     }
+    if (this === firstCard) {
+        return;
+    }
     this.classList.toggle('flip');
     if (!hasFlippedCard) {
         hasFlippedCard = true;
@@ -30,15 +33,32 @@ function checkForMath() {
 function disableCards() {
     firstCard.removeEventListener('click', firstCard);
     secoundCard.removeEventListener('click', firstCard);
-
+    resetBoard();
 }
 
 function unflipCard() {
+    lockBoard = true;
+
     setTimeout(() => {
         firstCard.classList.remove('flip');
         secoundCard.classList.remove('flip');
+        lockBoard = false;
+        resetBoard();
+
     }, 1500);
 }
+
+function resetBoard() {
+    [hasFlippedCard, lockBoard] = [false, false];
+    [firstCard, secoundCard] = [null, null];
+}
+
+(function shuffle() {
+    cards.forEach((card) => {
+        var randomPosition = Math.floor(Math.random() * 12);
+        card.style.order = randomPosition;
+    });
+})();
 
 cards.forEach((card) => {
     card.addEventListener('click', flipCard)
