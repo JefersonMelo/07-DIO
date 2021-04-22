@@ -21,10 +21,11 @@ body {
 
 .memory-game {
     height: 500px;
-    width: 700px;
+    width: 500px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    perspective: 1000px;
 }
 
 .card {
@@ -35,6 +36,8 @@ body {
     box-shadow: 1px 1px 1px var(--preto);
     cursor: pointer;
     transform: scale(1);
+    transform-style: preserve-3d;
+    transition: 0.7s;
 }
 
 .card-front,
@@ -45,9 +48,18 @@ body {
     position: absolute;
     border-radius: 5px;
     background: var(--branco);
+    backface-visibility: hidden;
 }
 
 .card:active {
     transform: scale(0.90);
     transition: transform .3s;
+}
+
+.card-front {
+    transform: rotateY(180deg);
+}
+
+.card.flip {
+    transform: rotateY(180deg);
 }
