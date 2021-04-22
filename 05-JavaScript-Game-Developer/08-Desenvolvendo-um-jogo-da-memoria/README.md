@@ -8,6 +8,6 @@ Nesse projeto, o desafio é criar um jogo da memória utilizando apenas HTML, CS
 * [CSS básico](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [Javascript básico](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)  
 
-## Exemplo de Usabilidade
+## Jogando
 
 ![./gif/jogo.gif](./gif/jogo.gif)
