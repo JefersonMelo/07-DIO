@@ -5,3 +5,43 @@
     list-style: none;
     border: 0
 }
+
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #A9A9A9;
+    --branco: #FFFF;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    background-color: var(--cinza);
+}
+
+.memory-game {
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: calc(33.33% - 10px);
+    width: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    box-shadow: 1px 1px 1px var(--preto);
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: var(--branco);
+}
