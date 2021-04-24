@@ -1,6 +1,3 @@
-// a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados
-// Abaixo segue um exemplo de código que você pode ou não utilizar
-
 /*
   ## Arrays ##
   https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array
@@ -16,41 +13,43 @@
   ## Como Subir no URI
   https://pt.stackoverflow.com/questions/319010/como-ler-at%C3%A9-o-final-do-arquivo-com-javascript-uri-online-judge
 
+  ## Depurar No Mozilla ##
+  https://www.devmedia.com.br/depurando-javascript-no-mozilla-firefox/28387
 */
 
-let totalitens = parseInt(gets());
-let itens = [];
+let qtdEntradas = parseInt(gets());
+let nums = 0;
+
 let pares = [];
 let impares = [];
 
 //ler todas as entradas
-for (let i = 0; i < totalitens; i++) {
-  itens.push(parseInt(gets()));
-}
+for (let i = 0; i < qtdEntradas; i++) {
+  nums = parseInt(gets());
 
-//separar em arrays de pares e impares
-for (let i = 0; i < itens.length; i++) {
-  if (itens[i] % 2 === 0) {
-    pares[i] = itens[i];
-  } else {
-    impares[i] = itens[i];
+  if (nums >= 0) {
+    if (nums % 2 === 0) {
+      pares[i] = nums;
+    } else {
+      impares[i] = nums;
+    }
   }
 }
 
-//ordenar em order crescente
-pares.sort(function(a, b) {
+//ordenar crescente
+pares.sort(function (a, b) {
   return a - b;
 });
 
-//ordenar em ordem decrescente
-impares.sort(function(a, b) {
+//ordenar decrescente
+impares.sort(function (a, b) {
   return b - a;
 });
 
 //concatenar os arrays
 let arrayConcat = pares.concat(impares);
 
-for (const num of arrayConcat) {
-  console.log(num);
-}
-
+//Impressão um por linha
+arrayConcat.forEach(i => {
+  console.log(i)
+});
