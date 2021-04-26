@@ -1,6 +1,6 @@
 # .Net Fundamentals
 
-## [Introdução a Programação com C##](https://github.com/JefersonMelo/07-DIO/tree/master/03-.Net_Fundamentals/01-Introducao_Programacao_Com_CSharp)
+## [Introdução a Programação com C#](https://github.com/JefersonMelo/07-DIO/tree/master/03-.Net_Fundamentals/01-Introducao_Programacao_Com_CSharp)
 
 Ecercício | Respostas
 --------- | ------
