@@ -19,3 +19,7 @@
 ## [JavaScript Game Developer](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer)
 
 >Aprenda de forma divertida a criar jogos com JavaScript para inciar a sua carreira em desenvolvimento front-end e se transformar em um dev de alto nível.
+
+## [Take Blip Fullstack Developer](https://github.com/JefersonMelo/07-DIO/tree/master/06-Take-Blip-Fullstack-Developer)
+
+>Desenvolva soluções fullstack aproveitando o melhor que o C#, a principal linguagem da Microsoft pode oferecer, e crie aplicações completas utilizando React no front-end. Ao final dessa jornada, você será capaz de construir aplicações web modernas e dentro das boas práticas do mercado.  
