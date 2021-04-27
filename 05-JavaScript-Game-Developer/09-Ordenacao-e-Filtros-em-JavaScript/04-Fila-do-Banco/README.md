@@ -14,6 +14,6 @@ Os inteiros acima são dados em ordem de chegada, ou seja, o primeiro inteiro di
 
 Para cada caso de teste imprima uma linha, contendo um inteiro, indicando o número de clientes que não precisaram trocar de lugar mesmo após a fila ser reordenada.
 
-| Exemplo de Entrada                                                 | Exemplo de Saída |
-| ------------------------------------------------------------------ | ---------------- |
+| Exemplo de Entrada                                             | Exemplo de Saída |
+| -------------------------------------------------------------- | ---------------- |
 | 3<br>3<br>100 80 90<br>4<br>100 120 30 50<br>4<br>100 90 30 25 | 1<br>0<br>4      |
