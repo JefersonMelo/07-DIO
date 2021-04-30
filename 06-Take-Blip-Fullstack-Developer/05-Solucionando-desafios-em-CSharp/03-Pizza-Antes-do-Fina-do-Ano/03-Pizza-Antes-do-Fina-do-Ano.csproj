@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>_03_Pizza_Antes_do_Fina_do_Ano</RootNamespace>
+  </PropertyGroup>
+
+</Project>
