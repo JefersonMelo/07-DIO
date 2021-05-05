@@ -12,9 +12,9 @@ namespace Catalogo_Api.Repositories
 {
     public class LivroService : ILivroService
     {
-        private readonly ILivroRepositoriy _livroRepositoriy;
+        private readonly ILivroRepository _livroRepositoriy;
 
-        public LivroService(ILivroRepositoriy livroRepositoriy)
+        public LivroService(ILivroRepository livroRepositoriy)
         {
             _livroRepositoriy = livroRepositoriy;
         }

@@ -7,10 +7,12 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Catalogo_Api.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Catalogo_Api.Repositories;
 
 namespace Catalogo_Api
 {
@@ -26,6 +28,8 @@ namespace Catalogo_Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ILivroService, LivroService>();
+            services.AddScoped<ILivroRepository, LivroRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>

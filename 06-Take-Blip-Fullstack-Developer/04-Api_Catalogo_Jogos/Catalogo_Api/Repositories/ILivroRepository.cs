@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Catalogo_Api.Repositories
 {
-    public interface ILivroRepositoriy : IDisposable
+    public interface ILivroRepository : IDisposable
     {
         Task<List<Livro>> Obter(int pagina, int quantidade);
         Task<List<Livro>> Obter(string autor, string editora);

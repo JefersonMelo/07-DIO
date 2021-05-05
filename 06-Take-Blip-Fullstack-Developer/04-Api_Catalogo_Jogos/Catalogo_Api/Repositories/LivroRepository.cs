@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Catalogo_Api.Repositories
 {
-    public class LivroRepository : ILivroRepositoriy
+    public class LivroRepository : ILivroRepository
     {
         private Dictionary<Guid, Livro> livros = new Dictionary<Guid, Livro>()
         {
@@ -23,6 +23,7 @@ namespace Catalogo_Api.Repositories
             return Task.FromResult(livros.Values.Skip(( pagina - 1 ) * quantidade).Take(quantidade).ToList());
         }
 
+        //Pesquisar mais sobre o Linq
         public Task<List<Livro>> Obter(string autor, string titulo)
         {
             return Task.FromResult(livros.Values.Where(livro => livro.Autor.Equals(autor) && livro.Titulo.Equals(titulo)).ToList());
