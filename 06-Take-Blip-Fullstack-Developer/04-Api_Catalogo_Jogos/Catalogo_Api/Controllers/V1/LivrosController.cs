@@ -2,7 +2,6 @@
 using Catalogo_Api.ImputModel;
 using Catalogo_Api.Services;
 using Catalogo_Api.ViewModel;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

@@ -1,18 +1,12 @@
+using Catalogo_Api.Repositories;
+using Catalogo_Api.Services;
+using ExemploApiCatalogoJogos.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using Catalogo_Api.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Catalogo_Api.Repositories;
 
 namespace Catalogo_Api
 {
@@ -30,6 +24,7 @@ namespace Catalogo_Api
         {
             services.AddScoped<ILivroService, LivroService>();
             services.AddScoped<ILivroRepository, LivroRepository>();
+            //services.AddScoped<ILivroRepository, LivroSqlServerRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -47,6 +42,8 @@ namespace Catalogo_Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Catalogo_Api v1"));
             }
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseHttpsRedirection();
 

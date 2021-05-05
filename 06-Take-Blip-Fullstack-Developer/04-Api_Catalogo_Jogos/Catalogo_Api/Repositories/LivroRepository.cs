@@ -52,10 +52,10 @@ namespace Catalogo_Api.Repositories
             return Task.FromResult(livros[id]);
         }
 
-        public Task<Livro> Inserir(Livro livro)
+        public Task Inserir(Livro livro)
         {
             livros.Add(livro.Id, livro);
-            return ( Task<Livro> )Task.CompletedTask;
+            return Task.CompletedTask;
         }
 
         public Task Atualizar(Livro livro)

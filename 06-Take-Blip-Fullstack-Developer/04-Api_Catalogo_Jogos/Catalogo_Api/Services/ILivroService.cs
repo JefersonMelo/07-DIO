@@ -2,7 +2,6 @@
 using Catalogo_Api.ViewModel;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Catalogo_Api.Services

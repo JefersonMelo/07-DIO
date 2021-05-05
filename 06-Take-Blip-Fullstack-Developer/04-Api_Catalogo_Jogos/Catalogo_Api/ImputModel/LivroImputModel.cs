@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Catalogo_Api.ImputModel
 {
@@ -21,7 +18,7 @@ namespace Catalogo_Api.ImputModel
         public string Editora { get; set; }
 
         [Required]
-        [StringLength(500, MinimumLength = 3, ErrorMessage = "O Prefácio deve conter no mínimo 100 e no máximo 500 catacteres")]
+        [StringLength(500, MinimumLength = 3, ErrorMessage = "O Prefácio deve conter no mínimo 3 e no máximo 500 catacteres")]
         public string Prefacio { get; set; }
 
         [Required]

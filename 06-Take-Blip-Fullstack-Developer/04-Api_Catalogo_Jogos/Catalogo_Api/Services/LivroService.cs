@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Catalogo_Api.Entities;
 using Catalogo_Api.Exceptions;
 using Catalogo_Api.ImputModel;
 using Catalogo_Api.Services;
 using Catalogo_Api.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Catalogo_Api.Entities;
 
 namespace Catalogo_Api.Repositories
 {
@@ -118,7 +118,7 @@ namespace Catalogo_Api.Repositories
             {
                 throw new NotImplementedException();
             }
-            
+
             entidadeLivro.Preco = preco;
 
             await _livroRepositoriy.Atualizar(entidadeLivro);
