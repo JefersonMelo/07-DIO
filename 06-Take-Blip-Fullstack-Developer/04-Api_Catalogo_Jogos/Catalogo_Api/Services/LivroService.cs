@@ -27,11 +27,11 @@ namespace Catalogo_Api.Repositories
             {
                 Id = livro.Id,
                 Autor = livro.Autor,
+                Titulo = livro.Titulo,
                 Editora = livro.Editora,
+                Prefacio = livro.Prefacio,                
                 Classificacao = livro.Classificacao,
-                Preco = livro.Preco,
-                Prefacio = livro.Prefacio,
-                Titulo = livro.Titulo
+                Preco = livro.Preco
             }).ToList();
         }
 
@@ -48,11 +48,11 @@ namespace Catalogo_Api.Repositories
             {
                 Id = livro.Id,
                 Autor = livro.Autor,
+                Titulo = livro.Titulo,
                 Editora = livro.Editora,
+                Prefacio = livro.Prefacio,                
                 Classificacao = livro.Classificacao,
-                Preco = livro.Preco,
-                Prefacio = livro.Prefacio,
-                Titulo = livro.Titulo
+                Preco = livro.Preco
             };
         }
 
@@ -69,8 +69,8 @@ namespace Catalogo_Api.Repositories
             {
                 Id = Guid.NewGuid(),
                 Autor = livro.Autor,
-                Editora = livro.Editora,
                 Titulo = livro.Titulo,
+                Editora = livro.Editora,
                 Prefacio = livro.Prefacio,
                 Classificacao = livro.Classificacao,
                 Preco = livro.Preco
@@ -82,12 +82,11 @@ namespace Catalogo_Api.Repositories
             {
                 Id = InsertLivro.Id,
                 Autor = livro.Autor,
-                Editora = livro.Editora,
                 Titulo = livro.Titulo,
+                Editora = livro.Editora,                
                 Prefacio = livro.Prefacio,
                 Classificacao = livro.Classificacao,
                 Preco = livro.Preco
-
             };
         }
 

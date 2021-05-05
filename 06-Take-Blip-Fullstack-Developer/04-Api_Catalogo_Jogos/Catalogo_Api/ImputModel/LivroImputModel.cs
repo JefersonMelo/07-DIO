@@ -6,12 +6,12 @@ namespace Catalogo_Api.ImputModel
     public class LivroImputModel
     {
         [Required]
-        [StringLength(100, MinimumLength = 3, ErrorMessage = "O Título do Livro deve conter no mínimo 3 e no máximo 100 catacteres")]
-        public string Titulo { get; set; }
-
-        [Required]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "O Nome do Autor deve conter no mínimo 3 e no máximo 100 catacteres")]
         public string Autor { get; set; }
+
+        [Required]
+        [StringLength(100, MinimumLength = 3, ErrorMessage = "O Título do Livro deve conter no mínimo 3 e no máximo 100 catacteres")]
+        public string Titulo { get; set; }
 
         [Required]
         [StringLength(100, MinimumLength = 3, ErrorMessage = "O Nome da Editora deve conter no mínimo 3 e no máximo 100 catacteres")]

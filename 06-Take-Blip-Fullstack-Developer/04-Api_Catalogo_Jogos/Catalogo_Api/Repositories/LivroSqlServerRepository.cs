@@ -20,7 +20,7 @@ namespace Catalogo_Api.Repositories
         {
             var livros = new List<Livro>();
 
-            var comando = $"select * from livros order by id offset {( ( pagina - 1 ) * quantidade )} rows fetch next {quantidade} rows only";
+            var comando = $"select * from Livros order by id offset {( ( pagina - 1 ) * quantidade )} rows fetch next {quantidade} rows only";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
@@ -49,7 +49,7 @@ namespace Catalogo_Api.Repositories
         {
             Livro livro = null;
 
-            var comando = $"select * from livros where Id = '{id}'";
+            var comando = $"select * from Livros where Id = '{id}'";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
@@ -78,7 +78,7 @@ namespace Catalogo_Api.Repositories
         {
             var livros = new List<Livro>();
 
-            var comando = $"select * from livros where Autor = '{autor}' and Titulo = '{titulo}'";
+            var comando = $"select * from Livros where Autor = '{autor}' and Titulo = '{titulo}'";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
@@ -105,7 +105,7 @@ namespace Catalogo_Api.Repositories
 
         public async Task Inserir(Livro livro)
         {
-            var comando = $"insert Livro (Id, Autor, Editora, Prefacio, Classificacao, Preco) values ('{livro.Id}', '{livro.Autor}', '{livro.Editora}', {livro.Prefacio}, {livro.Classificacao}, {livro.Preco.ToString().Replace(",", ".")})";
+            var comando = $"insert Livro (Id, Autor, Titulo, Editora, Prefacio, Classificacao, Preco) values ('{livro.Id}', '{livro.Autor}', '{livro.Titulo}', '{livro.Editora}', {livro.Prefacio}, {livro.Classificacao}, {livro.Preco.ToString().Replace(",", ".")})";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
