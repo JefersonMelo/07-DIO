@@ -1,11 +1,11 @@
-﻿using Catalogo_Api.Entities;
+﻿using Api_Catalogo.Entities;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 
-namespace Catalogo_Api.Repositories
+namespace Api_Catalogo.Repositories
 {
     public class LivroSqlServerRepository : ILivroRepository
     {
@@ -20,7 +20,7 @@ namespace Catalogo_Api.Repositories
         {
             var livros = new List<Livro>();
 
-            var comando = $"select * from Livros order by id offset {( ( pagina - 1 ) * quantidade )} rows fetch next {quantidade} rows only";
+            var comando = $"select * from livros order by id offset {( ( pagina - 1 ) * quantidade )} rows fetch next {quantidade} rows only";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
@@ -31,11 +31,9 @@ namespace Catalogo_Api.Repositories
                 livros.Add(new Livro
                 {
                     Id = ( Guid )sqlDataReader["Id"],
-                    Autor = ( string )sqlDataReader["Autor"],
+                    NomeAutor = ( string )sqlDataReader["NomeAutor"],
                     Titulo = ( string )sqlDataReader["Titulo"],
-                    Editora = ( string )sqlDataReader["Editora"],
-                    Prefacio = ( string )sqlDataReader["Preacio"],
-                    Classificacao = ( int )sqlDataReader["Classificacao"],
+                    Descricao = ( string )sqlDataReader["Descricao"],
                     Preco = ( double )sqlDataReader["Preco"]
                 });
             }
@@ -49,7 +47,7 @@ namespace Catalogo_Api.Repositories
         {
             Livro livro = null;
 
-            var comando = $"select * from Livros where Id = '{id}'";
+            var comando = $"select * from livros where Id = '{id}'";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
@@ -60,11 +58,9 @@ namespace Catalogo_Api.Repositories
                 livro = new Livro
                 {
                     Id = ( Guid )sqlDataReader["Id"],
-                    Autor = ( string )sqlDataReader["Autor"],
+                    NomeAutor = ( string )sqlDataReader["NomeAutor"],
                     Titulo = ( string )sqlDataReader["Titulo"],
-                    Editora = ( string )sqlDataReader["Editora"],
-                    Prefacio = ( string )sqlDataReader["Preacio"],
-                    Classificacao = ( int )sqlDataReader["Classificacao"],
+                    Descricao = ( string )sqlDataReader["Descricao"],
                     Preco = ( double )sqlDataReader["Preco"]
                 };
             }
@@ -74,11 +70,11 @@ namespace Catalogo_Api.Repositories
             return livro;
         }
 
-        public async Task<List<Livro>> Obter(string autor, string titulo)
+        public async Task<List<Livro>> Obter(string NomeAutor, string Titulo)
         {
             var livros = new List<Livro>();
 
-            var comando = $"select * from Livros where Autor = '{autor}' and Titulo = '{titulo}'";
+            var comando = $"select * from livros where NomeAutor = '{NomeAutor}' and Titulo = '{Titulo}'";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
@@ -89,11 +85,9 @@ namespace Catalogo_Api.Repositories
                 livros.Add(new Livro
                 {
                     Id = ( Guid )sqlDataReader["Id"],
-                    Autor = ( string )sqlDataReader["Autor"],
+                    NomeAutor = ( string )sqlDataReader["NomeAutor"],
                     Titulo = ( string )sqlDataReader["Titulo"],
-                    Editora = ( string )sqlDataReader["Editora"],
-                    Prefacio = ( string )sqlDataReader["Preacio"],
-                    Classificacao = ( int )sqlDataReader["Classificacao"],
+                    Descricao = ( string )sqlDataReader["Descricao"],
                     Preco = ( double )sqlDataReader["Preco"]
                 });
             }
@@ -105,18 +99,27 @@ namespace Catalogo_Api.Repositories
 
         public async Task Inserir(Livro livro)
         {
-            var comando = $"insert Livro (Id, Autor, Titulo, Editora, Prefacio, Classificacao, Preco) values ('{livro.Id}', '{livro.Autor}', '{livro.Titulo}', '{livro.Editora}', {livro.Prefacio}, {livro.Classificacao}, {livro.Preco.ToString().Replace(",", ".")})";
+            var comando = $"insert livros (Id, NomeAutor, Titulo, Preco) values ('{livro.Id}', '{livro.NomeAutor}', '{livro.Titulo}', {livro.Preco.ToString().Replace(",", ".")})";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
             sqlCommand.ExecuteNonQuery();
             await sqlConnection.CloseAsync();
-
         }
 
         public async Task Atualizar(Livro livro)
         {
-            var comando = $"update Livros set Autor = '{livro.Autor}', Titulo = '{livro.Titulo}', Editora = '{livro.Editora}', Prefacio = '{livro.Prefacio}', Classificacao = '{livro.Classificacao}', Preco = {livro.Preco.ToString().Replace(",", ".")} where Id = '{livro.Id}'";
+            var comando = $"update livros set NomeAutor = '{livro.NomeAutor}', Titulo = '{livro.Titulo}', Preco = {livro.Preco.ToString().Replace(",", ".")} where Id = '{livro.Id}'";
+
+            await sqlConnection.OpenAsync();
+            SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
+            sqlCommand.ExecuteNonQuery();
+            await sqlConnection.CloseAsync();
+        }
+
+        public async Task AtualizarDescricao(Livro livro)
+        {
+            var comando = $"update livros set NomeAutor = '{livro.NomeAutor}', Titulo = '{livro.Titulo}', Preco = {livro.Preco.ToString().Replace(",", ".")} where Id = '{livro.Id}'";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);
@@ -126,7 +129,7 @@ namespace Catalogo_Api.Repositories
 
         public async Task Remover(Guid id)
         {
-            var comando = $"delete from Livros where Id = '{id}'";
+            var comando = $"delete from livros where Id = '{id}'";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);

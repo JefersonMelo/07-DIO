@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Catalogo_Api.Exceptions
+namespace Api_Catalogo.Exceptions
 {
     public class LivroNaoCadastradoException : Exception
     {

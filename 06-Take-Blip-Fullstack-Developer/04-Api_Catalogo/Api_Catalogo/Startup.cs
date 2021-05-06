@@ -1,14 +1,18 @@
-using Catalogo_Api.Repositories;
-using Catalogo_Api.Services;
-using ExemploApiCatalogoJogos.Middleware;
+using Api_Catalogo.Controllers.V1;
+using Api_Catalogo.Middleware;
+using Api_Catalogo.Repositories;
+using Api_Catalogo.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
+using System.IO;
+using System.Reflection;
 
-namespace Catalogo_Api
+namespace Api_Catalogo
 {
     public class Startup
     {
@@ -24,12 +28,12 @@ namespace Catalogo_Api
         {
             services.AddScoped<ILivroService, LivroService>();
             services.AddScoped<ILivroRepository, LivroRepository>();
-            //services.AddScoped<ILivroRepository, LivroSqlServerRepository>();
+            //services.AddScoped<IJogoRepository, JogoSqlServerRepository>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalogo_Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Api_Catalogo", Version = "v1" });
             });
         }
 
@@ -40,7 +44,7 @@ namespace Catalogo_Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Catalogo_Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Api_Catalogo v1"));
             }
 
             app.UseMiddleware<ExceptionMiddleware>();
@@ -48,8 +52,6 @@ namespace Catalogo_Api
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {

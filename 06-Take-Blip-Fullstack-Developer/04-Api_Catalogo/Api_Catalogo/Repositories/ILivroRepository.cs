@@ -1,16 +1,17 @@
-﻿using Catalogo_Api.Entities;
+﻿using Api_Catalogo.Entities;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Catalogo_Api.Repositories
+namespace Api_Catalogo.Repositories
 {
     public interface ILivroRepository : IDisposable
     {
         Task<List<Livro>> Obter(int pagina, int quantidade);
-        Task<List<Livro>> Obter(string autor, string editora);
         Task<Livro> Obter(Guid id);
+        Task<List<Livro>> Obter(string nomeAutor, string titulo);
         Task Inserir(Livro livro);
+        Task AtualizarDescricao(Livro livro);
         Task Atualizar(Livro livro);
         Task Remover(Guid id);
     }

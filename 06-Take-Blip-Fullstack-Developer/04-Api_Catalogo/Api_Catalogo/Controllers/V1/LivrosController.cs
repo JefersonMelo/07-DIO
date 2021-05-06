@@ -1,7 +1,7 @@
-﻿using Catalogo_Api.Exceptions;
-using Catalogo_Api.ImputModel;
-using Catalogo_Api.Services;
-using Catalogo_Api.ViewModel;
+﻿using Api_Catalogo.Exceptions;
+using Api_Catalogo.InputModel;
+using Api_Catalogo.Services;
+using Api_Catalogo.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,9 +9,9 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Catalogo_Api.Controllers.V1
+namespace Api_Catalogo.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class LivrosController : ControllerBase
     {
@@ -31,15 +31,15 @@ namespace Catalogo_Api.Controllers.V1
         /// <param name="pagina">Indica qual página está sendo consultada. Mínimo 1</param>
         /// <param name="quantidade">Indica a quantidade de reistros por página. Mínimo 1 e máximo 50</param>
         /// <response code="200">Retorna a lista de livros</response>
-        /// <response code="204">Caso não haja livros</response>  
+        /// <response code="204">Caso não haja livros</response>   
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<LivroViewModel>>> Obter([FromQuery, Range(1, int.MaxValue)] int pagina = 1, [FromQuery, Range(1, 50)] int quanridade = 5)
+        public async Task<ActionResult<IEnumerable<LivroViewModel>>> Obter([FromQuery, Range(1, int.MaxValue)] int pagina = 1, [FromQuery, Range(1, 50)] int quantidade = 5)
         {
-            var livros = await _livroService.Obter(pagina, quanridade);
+            var livros = await _livroService.Obter(pagina, quantidade);
+
             if ( livros.Count() == 0 )
-            {
                 return NoContent();
-            }
+
             return Ok(livros);
         }
 
@@ -53,10 +53,10 @@ namespace Catalogo_Api.Controllers.V1
         public async Task<ActionResult<LivroViewModel>> Obter([FromRoute] Guid idLivro)
         {
             var livro = await _livroService.Obter(idLivro);
+
             if ( livro == null )
-            {
                 return NoContent();
-            }
+
             return Ok(livro);
         }
 
@@ -65,18 +65,19 @@ namespace Catalogo_Api.Controllers.V1
         /// </summary>
         /// <param name="livroInputModel">Dados do livro a ser inserido</param>
         /// <response code="200">Cao o livro seja inserido com sucesso</response>
-        /// <response code="422">Caso já exista um livro com mesmo nome para a mesma produtora</response>   
+        /// <response code="422">Caso já exista um livro com mesmo NomeAutor para a mesma Titulo</response>   
         [HttpPost]
-        public async Task<ActionResult<LivroViewModel>> Inserir([FromBody] LivroImputModel livroImputModel)
+        public async Task<ActionResult<LivroViewModel>> InserirLivro([FromBody] LivroInputModel livroInputModel)
         {
             try
             {
-                var livro = await _livroService.Inserir(livroImputModel);
+                var livro = await _livroService.Inserir(livroInputModel);
+
                 return Ok(livro);
             }
-            catch ( LivroJaCadastradoException )
+            catch ( LivroJaCadastradoException ex )
             {
-                return UnprocessableEntity("Já Existe um Livro com esse Título desta editora");
+                return UnprocessableEntity("Já existe um livro com este NomeAutor para esta Titulo");
             }
         }
 
@@ -88,60 +89,40 @@ namespace Catalogo_Api.Controllers.V1
         /// <response code="200">Cao o livro seja atualizado com sucesso</response>
         /// <response code="404">Caso não exista um livro com este Id</response>   
         [HttpPut("{idLivro:guid}")]
-        public async Task<ActionResult> Atualizar([FromRoute] Guid idLivro, [FromBody] LivroImputModel livroImputModel)
+        public async Task<ActionResult> AtualizarLivro([FromRoute] Guid idLivro, [FromBody] LivroInputModel livroInputModel)
         {
             try
             {
-                await _livroService.Atualizar(idLivro, livroImputModel);
+                await _livroService.Atualizar(idLivro, livroInputModel);
+
                 return Ok();
             }
-            catch ( LivroNaoCadastradoException )
+            catch ( LivroNaoCadastradoException ex )
             {
-                return NotFound("Este livro não existe!");
+                return NotFound("Não existe este livro");
             }
         }
 
-        /// <summary>
-        /// Atualizar o prefácio de um livro
-        /// </summary>
-        /// /// <param name="idLivro">Id do livro a ser atualizado</param>
-        /// <param name="prefacio">Novo prefácio do livro</param>
-        /// <response code="200">Cao o prefácio seja atualizado com sucesso</response>
-        /// <response code="404">Caso não exista um livro com este Id</response>   
-        [HttpPatch("{idLivro:guid}/prefacio/{prefacio:string}")]
-        public async Task<ActionResult> Atualizar([FromRoute] Guid idLivro, [FromRoute] string prefacio)
-        {
-            try
-            {
-                await _livroService.Atualizar(idLivro, prefacio);
-                return Ok();
-            }
-            catch ( LivroNaoCadastradoException )
-            {
-                return NotFound("Este livro não existe!");
-            }
-        }
-
-        /// <summary>
-        /// Atualizar o classificação de um livro
-        /// </summary>
-        /// /// <param name="idLivro">Id do livro a ser atualizado</param>
-        /// <param name="classificacao">Nova classificação do livro</param>
-        /// <response code="200">Cao a classificação seja atualizado com sucesso</response>
-        /// <response code="404">Caso não exista um livro com este Id</response>   
-        [HttpPatch("{idLivro:guid}/classificacao/{classificacao:int}")]
-        public async Task<ActionResult> Atualizar([FromRoute] Guid idLivro, [FromRoute] int classificacao)
-        {
-            try
-            {
-                await _livroService.Atualizar(idLivro, classificacao);
-                return Ok();
-            }
-            catch ( LivroNaoCadastradoException )
-            {
-                return NotFound("Este livro não existe!");
-            }
-        }
+        ///// <summary>
+        ///// Atualizar a descrição de um livro
+        ///// </summary>
+        ///// /// <param name="idLivro">Id do livro a ser atualizado</param>
+        ///// <param name="descricao">Nova descrição do livro</param>
+        ///// <response code="200">Caso a descrição seja atualizado com sucesso</response>
+        ///// <response code="404">Caso não exista um livro com este Id</response>   
+        //[HttpPatch("{idLivro:guid}/descricao/{descricao:string}")]
+        //public async Task<ActionResult> AtualizarLivroDescricao([FromRoute] Guid idLivro, [FromRoute] string descricao)
+        //{
+        //    try
+        //    {
+        //        await _livroService.AtualizarDescricao(idLivro, descricao);
+        //        return Ok();
+        //    }
+        //    catch ( LivroNaoCadastradoException ex )
+        //    {
+        //        return NotFound("Este livro não existe!");
+        //    }
+        //}
 
         /// <summary>
         /// Atualizar o preço de um livro
@@ -151,16 +132,16 @@ namespace Catalogo_Api.Controllers.V1
         /// <response code="200">Cao o preço seja atualizado com sucesso</response>
         /// <response code="404">Caso não exista um livro com este Id</response>   
         [HttpPatch("{idLivro:guid}/preco/{preco:double}")]
-        public async Task<ActionResult> Atualizar([FromRoute] Guid idLivro, [FromRoute] double preco)
+        public async Task<ActionResult> AtualizarLivro([FromRoute] Guid idLivro, [FromRoute] double preco)
         {
             try
             {
-                await _livroService.Atualizar(idLivro, preco);
+                await _livroService.AtualizarPreco(idLivro, preco);
                 return Ok();
             }
-            catch ( LivroNaoCadastradoException )
+            catch ( LivroNaoCadastradoException ex )
             {
-                return NotFound("Este livro não existe!");
+                return NotFound("Não existe este livro");
             }
         }
 
@@ -169,19 +150,21 @@ namespace Catalogo_Api.Controllers.V1
         /// </summary>
         /// /// <param name="idLivro">Id do livro a ser excluído</param>
         /// <response code="200">Cao o preço seja atualizado com sucesso</response>
-        /// <response code="404">Caso não exista um livro com este Id</response>  
+        /// <response code="404">Caso não exista um livro com este Id</response>   
         [HttpDelete("{idLivro:guid}")]
-        public async Task<ActionResult> Apagar([FromRoute] Guid idLivro)
+        public async Task<ActionResult> ApagarLivro([FromRoute] Guid idLivro)
         {
             try
             {
                 await _livroService.Remover(idLivro);
+
                 return Ok();
             }
-            catch ( LivroNaoCadastradoException )
+            catch ( LivroNaoCadastradoException ex )
             {
-                return NotFound("Este Livro Não Existe");
+                return NotFound("Não existe este livro");
             }
         }
+
     }
 }

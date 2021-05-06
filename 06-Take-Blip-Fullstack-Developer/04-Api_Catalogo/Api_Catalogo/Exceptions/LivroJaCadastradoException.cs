@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace Catalogo_Api.Exceptions
+namespace Api_Catalogo.Exceptions
 {
     public class LivroJaCadastradoException : Exception
     {
         public LivroJaCadastradoException( )
-            : base("Este livro já está cadastrado")
+            : base("Este já livro está cadastrado")
         { }
     }
 }
