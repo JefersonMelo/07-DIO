@@ -37,3 +37,11 @@ Nesse projeto, o desafio é criar um jogo da memória utilizando apenas HTML, CS
 ## [Ordenação e Filtros em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/09-Ordenacao-e-Filtros-em-JavaScript)
 
 Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.
+
+## [Introdução a Busca e Substituição em JavaScript](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/10-Introducao-a-Busca-e-Substituicao-em-JavaScript)  
+
+Nesse desafio de codificação você irá praticar através do desenvolvimento de algoritmos os conceitos de pensamento computacional apresentados nas aulas e exercícios anteriores.  
+
+## [Criando seu próprio jogo da velha com HTML e Javascript](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/11-Jogo-da-Velha)  
+
+Neste projeto, vamos construir juntos um jogo da velha, utilizando somente HTML para estruturar nosso site, CSS para estilizar e dar vida a ele, e Javascript para criarmos toda suas interações, desde a escolha do jogador, efetivar uma jogada e dar um vencedor ao jogo. Vamos abordar conceitos básicos sobre as linguagens e como podemos criar projetos bem simples sem muito trabalho, apenas utilizando suas funções básicas e uma pouco de lógica!  
