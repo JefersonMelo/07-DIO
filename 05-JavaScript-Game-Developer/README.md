@@ -45,3 +45,8 @@ Nesse desafio de codificação você irá praticar através do desenvolvimento d
 ## [Criando seu próprio jogo da velha com HTML e Javascript](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/11-Jogo-da-Velha)  
 
 Neste projeto, vamos construir juntos um jogo da velha, utilizando somente HTML para estruturar nosso site, CSS para estilizar e dar vida a ele, e Javascript para criarmos toda suas interações, desde a escolha do jogador, efetivar uma jogada e dar um vencedor ao jogo. Vamos abordar conceitos básicos sobre as linguagens e como podemos criar projetos bem simples sem muito trabalho, apenas utilizando suas funções básicas e uma pouco de lógica!  
+
+## [Criandoseu jogo no estilo Space Shooter](https://github.com/JefersonMelo/07-DIO/tree/master/05-JavaScript-Game-Developer/13-Criandoseu-jogo-no-estilo-Space-Shooter)  
+
+Nesse projeto, o desafio será criar um Space Shooter utilizando HTML, CSS e Javascript. Aprenderemos juntos a trabalhar com posicionamento no CSS e lógica de programação utilizando posicionamento com CSS, manipulação do DOM, eventListeners, e manipulação de Array.  
+
