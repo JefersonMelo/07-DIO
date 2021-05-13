@@ -1,0 +1,17 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+    --cinza: #A9A9A9;
+    --branco: #FFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--preto);
+}
