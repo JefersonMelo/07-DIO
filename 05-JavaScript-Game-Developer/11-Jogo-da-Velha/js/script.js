@@ -4,7 +4,7 @@ var vencedorSelecionado = document.getElementById('vencedor-selecionado');
 
 MudarJogador('X');
 
-function escolherQuadrado(id) {
+function EscolherQuadrado(id) {
     if (vencedor !== null) {
         return;
     }
@@ -24,7 +24,7 @@ function escolherQuadrado(id) {
     }
 
     MudarJogador(jogador);
-    checaVencedor();
+    ChecaVencedor();
 }
 
 function MudarJogador(valor) {
@@ -32,7 +32,7 @@ function MudarJogador(valor) {
     jogadorSelecionado.innerHTML = jogador;
 }
 
-function checaVencedor() {
+function ChecaVencedor() {
     var quadrado1 = document.getElementById(1);
     var quadrado2 = document.getElementById(2);
     var quadrado3 = document.getElementById(3);
