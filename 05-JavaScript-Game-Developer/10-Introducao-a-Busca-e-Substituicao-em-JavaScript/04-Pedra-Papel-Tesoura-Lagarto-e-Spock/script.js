@@ -2,7 +2,7 @@
 const lines = input.split('\n');
 https://www.devmedia.com.br/javascript-split-dividindo-separando-strings/39254
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/split
-
+https://digitalinnovation.one/artigos/operadores-if-else-switch-case-ternario-e-object-literals
 */
 let dicionarioDeRegras = {
     tesoura: ['papel', 'lagarto'],
