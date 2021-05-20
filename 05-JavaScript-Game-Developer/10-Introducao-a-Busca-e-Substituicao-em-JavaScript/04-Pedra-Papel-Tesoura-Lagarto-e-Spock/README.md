@@ -25,7 +25,7 @@ Haverá diversos casos de teste. O primeiro número a ser lido será um inteiro,
 
 Para cada caso de teste, imprima quem venceu, ou se houve empate.  
 
-|Exemplo de Entrada|Exemplo de Saída|
-|-|-|
-|3<br>spock spock<br>tesoura spock<br>lagarto spock|empate<br>Marcia<br>Fernanda|
+| Exemplo de Entrada                                 | Exemplo de Saída             |
+| -------------------------------------------------- | ---------------------------- |
+| 3<br>spock spock<br>tesoura spock<br>lagarto spock | empate<br>Marcia<br>Fernanda |
 

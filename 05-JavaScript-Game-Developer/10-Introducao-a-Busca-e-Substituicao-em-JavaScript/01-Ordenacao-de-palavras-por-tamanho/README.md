@@ -12,6 +12,6 @@ A primeira linha da entrada possui um único inteiro N, que indica o número de 
 
 A saída deve conter o conjunto de palavras da entrada ordenado pelo tamanho das palavras e caso o tamanho das palavras for igual, deve-se ordernar por ordem alfabética.. Um espaço em branco deve ser impresso entre duas palavras.  
 
-|Exemplo de Entrada |Exemplo de Saída|
-|-|-|
-|2<br>One three four<br>mond at midnight<br>one three five|midnight three four<br>mond One at<br>three five one
+| Exemplo de Entrada                                        | Exemplo de Saída                                     |
+| --------------------------------------------------------- | ---------------------------------------------------- |
+| 2<br>One three four<br>mond at midnight<br>one three five | midnight three four<br>mond One at<br>three five one |

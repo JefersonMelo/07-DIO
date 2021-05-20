@@ -16,6 +16,6 @@ A entrada contém vários casos de teste e termina com final de arquivo. Cada li
 
 A saída contém uma linha, que pode ser “Senha valida.”, caso a senha tenha cada item dos requisitos solicitados anteriormente, ou “Senha invalida.”, se um ou mais requisitos não forem atendidos.  
 
-|Exemplo de Entrada|Exemplo de Saída|
-|-|-|
-|Digital Innovation One<br>AbcdEfgh99<br>DigitalInnovationOne123<br>Digital Innovation One 123<br>Aass9<br>Aassd9|Senha invalida.<br>Senha valida.<br>Senha valida.<br>Senha invalida.<br>Senha invalida.<br>Senha valida.|
+| Exemplo de Entrada                                                                                               | Exemplo de Saída                                                                                         |
+| ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Digital Innovation One<br>AbcdEfgh99<br>DigitalInnovationOne123<br>Digital Innovation One 123<br>Aass9<br>Aassd9 | Senha invalida.<br>Senha valida.<br>Senha valida.<br>Senha invalida.<br>Senha invalida.<br>Senha valida. |

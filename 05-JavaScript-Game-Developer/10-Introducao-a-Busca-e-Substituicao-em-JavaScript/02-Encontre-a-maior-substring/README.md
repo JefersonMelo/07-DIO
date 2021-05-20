@@ -12,6 +12,6 @@ A entrada contém vários casos de teste. Cada caso de teste é composto por dua
 
 O tamanho da maior subsequência comum entre as duas Strings.  
 
-|Exemplo de Entrada|Exemplo de Saída|
-|-|-|
-|abcdef<br>cdofhij<br>TWO<br>FOUR<br>abracadabra<br>open<br>Hey This java is hot<br>Java is a new paradigm|2<br>0<br>7|
+| Exemplo de Entrada                                                                                        | Exemplo de Saída |
+| --------------------------------------------------------------------------------------------------------- | ---------------- |
+| abcdef<br>cdofhij<br>TWO<br>FOUR<br>abracadabra<br>open<br>Hey This java is hot<br>Java is a new paradigm | 2<br>0<br>7      |

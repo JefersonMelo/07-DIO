@@ -35,6 +35,6 @@ A entrada contem vários casos de teste. Cada caso de teste é composto por uma 
 
 Para cada linha de entrada seu programa deve gerar uma linha de saída com o texto traduzido para HTML como demonstrado nos exemplos abaixo. Para tornar itálico um pedaço de texto no HTML, você deve iniciar este pedaço com a tag ``<i>`` e terminá-lo com a tag ``</i>``. Para texto em negrito, inicie com ``<b>`` e termine com ``</b>``.
 
-|Exemplo de Entrada|Exemplo de Saída|
-|-|-|
-|Você ``_deveria_`` ver a foca no zoologico!<br>Marque a conta ``*a receber*`` para ``*paga*``.|Você ``<i>deveria</i>`` ver a foca no zoologico!<br>Marque a conta ``<b>a receber</b>`` para ``<b>paga</b>``.|
+| Exemplo de Entrada                                                                             | Exemplo de Saída                                                                                              |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Você ``_deveria_`` ver a foca no zoologico!<br>Marque a conta ``*a receber*`` para ``*paga*``. | Você ``<i>deveria</i>`` ver a foca no zoologico!<br>Marque a conta ``<b>a receber</b>`` para ``<b>paga</b>``. |
