@@ -1,30 +1,17 @@
-const input = require('fs').readFileSync('/dev/stdin', 'utf8');
-const lines = input.split('\n');
+let text = gets();
+const italics = /\_(.*?)\_/gim;
+const bold = /\*(.*?)\*/gim;
 
-while (true) {
-  let string = lines.shift();
+function parseMarkdown(text) {
+  const html = text.replace(italics, "<i>$1</i>").replace(bold, "<b>$1</b>");
 
-  if (!string) {
-    break;
-  }
-
-  const letters = string.split("");
-  const formattedLetters = letters;
-
-  let searchingItalicEndTag = false;
-  let searchingBoldEndTag = false;
-
-  for (let i = 0; i < letters.length; i++) {
-   //continue a solução 
-
-    if (letter === "_") {
-      formattedLetters[i] = searchingItalicEndTag
-       //continue a solução 
-
-    } else if (letter === "*") {
-    //continue a solução 
-    }
-  }
-  
-  console.log(formattedLetters.join(""));
+  return html.trim();
 }
+
+let count = 0;
+
+do {
+  console.log(parseMarkdown(text));
+  text = gets();
+  count++;
+} while (count < 60);
