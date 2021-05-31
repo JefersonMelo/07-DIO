@@ -16,4 +16,4 @@ Desenvolva seus primeiros passos e primeiros projetos na stack de .net C# com gr
 |-|-|-|
 |1|[Notas e Moedas](https://github.com/JefersonMelo/07-DIO/blob/master/08-GFT-START-%232.NET/03-Desafios-Aritmeticos-Intermedi%C3%A1rios-em-CSharp/01-Notas-e-Moedas/Program.cs)|:white_check_mark:|
 |2|[Tipos de Triângulos](https://github.com/JefersonMelo/07-DIO/blob/master/08-GFT-START-%232.NET/03-Desafios-Aritmeticos-Intermedi%C3%A1rios-em-CSharp/02-Tipos-de-Triangulos/Program.cs)|:white_check_mark:|
-|3|[]()|:white_check_mark:|
+|3|[Fórmula de Bhaskara](https://github.com/JefersonMelo/07-DIO/blob/master/08-GFT-START-%232.NET/03-Desafios-Aritmeticos-Intermedi%C3%A1rios-em-CSharp/03-Formula-de-Bhaskara/Program.cs)|:white_check_mark:|
