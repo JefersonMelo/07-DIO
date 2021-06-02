@@ -5,12 +5,12 @@
 
     <item
         android:id="@+id/idItem_01"
-        android:title="Item 1"
+        android:title="@string/item_1"
         app:showAsAction="never" >
     </item>
     <item
         android:id="@+id/idItem_02"
-        android:title="Item 2"
+        android:title="@string/item_2"
         app:showAsAction="never" >
     </item>
 

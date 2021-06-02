@@ -6,6 +6,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 
+
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         return when (item.itemId){
             R.id.idItem_01 -> {
                 Log.d("CLICK", "Click no Item 1")
+                true
+            }R.id.idItem_02 -> {
+                Log.d("CLICK", "Click no Item 2")
                 true
             }
             else -> super.onOptionsItemSelected(item)
