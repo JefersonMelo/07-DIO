@@ -26,7 +26,7 @@
         android:layout_height="0dp"
         android:background="@color/red_primary"
         android:contentDescription="@string/todo"
-        app:layout_constraintDimensionRatio="16:6"
+        app:layout_constraintDimensionRatio="16:3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,6 +52,7 @@
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/txtView_usuario"
         app:layout_constraintTop_toBottomOf="@+id/txtView_usuario"></TextView>
+
     <TextView
         android:id="@+id/txtView_conta"
         android:layout_width="wrap_content"
@@ -66,16 +67,107 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="0dp"
-        android:layout_height="200dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_height="300dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="32dp"
         app:layout_constraintTop_toBottomOf="@+id/txtView_agencia"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_update_black_24dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <TextView
+                android:id="@+id/textView_saldo_disponivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/txt_saldo_dispon_vel"
+                app:layout_constraintBottom_toBottomOf="@+id/img_saldo"
+                app:layout_constraintLeft_toRightOf="@+id/img_saldo"
+                app:layout_constraintTop_toTopOf="@+id/img_saldo"></TextView>
+
+            <ImageView
+                android:id="@+id/imgView_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+            <TextView
+                android:id="@+id/txtView_saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="R$: 12.000,00"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/img_saldo"
+                app:layout_constraintTop_toBottomOf="@+id/img_saldo"></TextView>
+
+            <TextView
+                android:id="@+id/txtView_limite_disponivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/saldo_limite"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/txtView_saldo"
+                app:layout_constraintTop_toBottomOf="@+id/txtView_saldo"></TextView>
+
+            <TextView
+                android:id="@+id/txtView_valor_disponivel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="16dp"
+                android:text="12.000,00"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/txtView_saldo"
+                app:layout_constraintTop_toBottomOf="@+id/txtView_saldo">
+            </TextView>
+
+            <View
+                android:id="@+id/view_linha"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_margin="16dp"
+                app:layout_constraintTop_toBottomOf="@+id/txtView_limite_disponivel">
+            </View>
+
+            <TextView
+                android:id="@+id/txtView_extrato"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_extrato"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/red_secondary"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view_linha"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent">
+            </TextView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
     </com.google.android.material.card.MaterialCardView>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
