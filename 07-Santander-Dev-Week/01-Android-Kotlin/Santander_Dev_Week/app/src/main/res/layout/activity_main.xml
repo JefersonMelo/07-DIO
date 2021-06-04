@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ui.MainActivity">
 
 
     <androidx.appcompat.widget.Toolbar
@@ -18,7 +18,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        <!--app:title="@string/app_name"-->
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -43,11 +42,9 @@
                 android:layout_height="30dp"
                 android:src="@drawable/ic_santander_white_24dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/img_view_menu"
                 app:layout_constraintTop_toTopOf="parent">
-
             </ImageView>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
@@ -59,10 +56,9 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="@color/red_primary"
-        android:contentDescription="@string/todo"
         app:layout_constraintDimensionRatio="16:6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
     </ImageView>
@@ -78,28 +74,61 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
     </TextView>
 
+    <!--Agência-->
+    <TextView
+        android:id="@+id/textView_ag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_agencia"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="@+id/txtView_usuario"
+        app:layout_constraintTop_toBottomOf="@+id/txtView_usuario">
+
+    </TextView>
+
+    <!--Número da Agência-->
     <TextView
         android:id="@+id/txtView_agencia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Ag: 0001"
+        android:layout_marginLeft="5dp"
+        android:text="22222"
         android:textColor="@color/white"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/txtView_usuario"
-        app:layout_constraintTop_toBottomOf="@+id/txtView_usuario">
+        app:layout_constraintStart_toEndOf="@+id/textView_ag"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_ag">
+
     </TextView>
 
+    <!--Tipo Conta-->
+    <TextView
+        android:id="@+id/textView_tipo_conta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_tipo_conta"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toEndOf="@+id/txtView_agencia"
+        app:layout_constraintTop_toTopOf="@+id/txtView_agencia">
+
+    </TextView>
+
+    <!--Número da Conta-->
     <TextView
         android:id="@+id/txtView_conta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Conta: 000001-1"
+        android:text="00000-1"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:layout_marginLeft="10dp"
-        app:layout_constraintStart_toEndOf="@+id/txtView_agencia"
-        app:layout_constraintTop_toTopOf="@+id/txtView_agencia">
+        android:layout_marginLeft="5dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_tipo_conta"
+        app:layout_constraintTop_toTopOf="@+id/textView_tipo_conta">
+
     </TextView>
 
     <!--Card Principal-->
@@ -152,12 +181,13 @@
 
             </ImageView>
 
+            <!--Sifrão-->
             <TextView
-                android:id="@+id/txtView_saldo"
+                android:id="@+id/txtView_sifrao"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:text="R$: 12.000,00"
+                android:text="R$:"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"
@@ -166,30 +196,49 @@
 
             </TextView>
 
+            <!--Saldo Total-->
+            <TextView
+                android:id="@+id/txtView_saldo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="12.000,00"
+                android:layout_marginLeft="8dp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/txtView_sifrao"
+                app:layout_constraintTop_toBottomOf="@+id/img_saldo">
+
+            </TextView>
+
+            <!--Texto Limite R$-->
             <TextView
                 android:id="@+id/txtView_limite_disponivel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:text="@string/saldo_limite"
+                android:layout_marginTop="16dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="@+id/txtView_saldo"
+                app:layout_constraintStart_toStartOf="@+id/txtView_sifrao"
                 app:layout_constraintTop_toBottomOf="@+id/txtView_saldo">
 
             </TextView>
 
+            <!--Valor Disponível-->
             <TextView
                 android:id="@+id/txtView_valor_disponivel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="8dp"
+                android:text="2.000,00"
                 android:layout_marginTop="16dp"
-                android:text="12.000,00"
+                android:layout_marginLeft="8dp"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/txtView_saldo"
+                app:layout_constraintStart_toEndOf="@+id/txtView_limite_disponivel"
                 app:layout_constraintTop_toBottomOf="@+id/txtView_saldo">
+
             </TextView>
 
             <View
@@ -197,7 +246,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="@android:color/darker_gray"
-                android:layout_margin="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="24dp"
                 app:layout_constraintTop_toBottomOf="@+id/txtView_limite_disponivel">
             </View>
 
@@ -206,7 +257,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/ver_extrato"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="@color/red_secondary"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -339,18 +390,20 @@
     </com.google.android.material.card.MaterialCardView>
 
     <!--Botão Final-->
+
+    <!--Cartão Final-->
     <ImageView
         android:id="@+id/btn_final"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
         android:background="@color/red_primary"
-        app:layout_constraintTop_toBottomOf="@id/matCard_pagar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-    </ImageView>
+        app:layout_constraintTop_toBottomOf="@id/matCard_pagar"></ImageView>
 
-    <!--Cartão Final-->
     <TextView
         android:id="@+id/txt_view_cartao_final"
         android:layout_width="wrap_content"
