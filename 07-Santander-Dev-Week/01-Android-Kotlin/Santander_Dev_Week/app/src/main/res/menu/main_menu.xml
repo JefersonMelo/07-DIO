@@ -5,13 +5,9 @@
 
     <item
         android:id="@+id/idItem_01"
-        android:title="@string/item_1"
-        app:showAsAction="never" >
-    </item>
-    <item
-        android:id="@+id/idItem_02"
-        android:title="@string/item_2"
-        app:showAsAction="never" >
+        android:title="@string/icon_notificacoes"
+        android:icon="@drawable/ic_notifications_none_white_24dp"
+        app:showAsAction="ifRoom" >
     </item>
 
 </menu>

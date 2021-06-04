@@ -23,13 +23,12 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId){
             R.id.idItem_01 -> {
-                Log.d("CLICK", "Click no Item 1")
-                true
-            }R.id.idItem_02 -> {
-                Log.d("CLICK", "Click no Item 2")
+                Log.d("CLICK", "Click em Notificações")
                 true
             }
             else -> super.onOptionsItemSelected(item)
         }
     }
+
+
 }
