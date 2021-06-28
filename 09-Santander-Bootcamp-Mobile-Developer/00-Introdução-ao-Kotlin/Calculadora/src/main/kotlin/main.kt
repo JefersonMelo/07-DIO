@@ -24,7 +24,7 @@ fun main(args: Array<String>) {
 }
 
 fun resultado(op:String, a: Float, b: Float):String{
-    val dec = DecimalFormat("###")
+    val dec = DecimalFormat("##.##")
     var r:Float = 0f
 
     if(op == "+"){
