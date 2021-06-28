@@ -5,16 +5,19 @@ fun main(args: Array<String>) {
     do{
         print("Valor A: ")
         var a:Float = readLine()!!.toFloat()
-        print("Valor B: ")
-        var b:Float = readLine()!!.toFloat()
-
 
         println("Escolha Uma Operação: + - * / % ou S para sair")
         print("Opção: ")
         var op:String = readLine().toString().uppercase()
 
+        print("Valor B: ")
+        var b:Float = readLine()!!.toFloat()
+
         if (op!="S"){
             print(resultado(op, a, b))
+            print("Continuar S ou N: ")
+            var c:String = readLine().toString().uppercase()
+            if (c=="N")break;
         }
 
     }while (op != "S")
