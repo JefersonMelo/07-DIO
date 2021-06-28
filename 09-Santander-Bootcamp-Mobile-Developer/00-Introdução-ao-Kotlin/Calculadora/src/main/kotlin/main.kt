@@ -1,23 +1,23 @@
 import java.text.DecimalFormat
 
-fun main(args: Array<String>) {
+fun main() {
 
     do{
         print("Valor A: ")
-        var a:Float = readLine()!!.toFloat()
+        val a:Float = readLine()!!.toFloat()
 
         println("Escolha Uma Operação: + - * / % ou S para sair")
         print("Opção: ")
-        var op:String = readLine().toString().uppercase()
+        val op:String = readLine().toString().uppercase()
 
         print("Valor B: ")
-        var b:Float = readLine()!!.toFloat()
+        val b:Float = readLine()!!.toFloat()
 
         if (op!="S"){
             print(resultado(op, a, b))
             print("Continuar S ou N: ")
-            var c:String = readLine().toString().uppercase()
-            if (c=="N")break;
+            val c:String = readLine().toString().uppercase()
+            if (c=="N")break
         }
 
     }while (op != "S")
@@ -28,7 +28,7 @@ fun main(args: Array<String>) {
 
 fun resultado(op:String, a: Float, b: Float):String{
     val dec = DecimalFormat("##.##")
-    var r:Float = 0f
+    var r = 0f
 
     if(op == "+"){
         r = soma(a, b)
