@@ -1,5 +1,6 @@
 package com.prospertec.diobank
 
-class Pessoa {
-
-}
+open class Pessoa(
+    val nome: String,
+    val cpf: String
+)
