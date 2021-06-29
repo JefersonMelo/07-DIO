@@ -1,4 +1,4 @@
-package com.prospertec.diobank
+package com.prospertec.diobank.banco
 
 data class Banco(
     val nome: String,
