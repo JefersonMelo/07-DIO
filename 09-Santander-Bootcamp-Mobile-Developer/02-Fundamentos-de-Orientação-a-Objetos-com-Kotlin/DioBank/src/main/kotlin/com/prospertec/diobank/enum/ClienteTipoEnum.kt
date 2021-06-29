@@ -1,6 +1,6 @@
 package com.prospertec.diobank.enum
 
-enum class ClienteTipoEnum(desc:String) {
+enum class ClienteTipoEnum(val desc:String) {
     PF("Pessoa Física"),
     PJ("Pessoa Jurídica");
 }
