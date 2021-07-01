@@ -9,7 +9,7 @@ fun main() {
     val f3 = Funcionario(nome = "F3", salario = 2500.0, tipoContato = "CLT")
     val f4 = Funcionario(nome = "F4", salario = 1500.0, tipoContato = "CLT")
 
-    val rep =  Repositorio<Funcionario>()
+    val rep = Repositorio<Funcionario>()
 
     rep.create(f1.nome, f1)
     rep.create(f2.nome, f2)
@@ -17,4 +17,12 @@ fun main() {
     rep.create(f4.nome, f4)
 
     println(rep.findById(f1.nome))
+
+    println("--------------")
+    rep.findAll().forEach { println(it) }
+
+    println("--------------")
+    rep.remove(f1.nome)
+    rep.findAll().forEach { println(it) }
+
 }
