@@ -9,6 +9,5 @@ data class Funcionario(
         """
             Nome: $nome
             Salário: $salario
-            Tipo Contrato: $tipoContato
         """.trimIndent()
 }
