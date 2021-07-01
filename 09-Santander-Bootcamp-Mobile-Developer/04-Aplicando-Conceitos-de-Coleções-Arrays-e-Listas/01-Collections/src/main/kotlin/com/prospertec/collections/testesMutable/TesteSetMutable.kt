@@ -14,8 +14,6 @@ fun main() {
     //Método adicionar
     println("-----------------")
     fs.add(f3)
-    fs.add(f3)
-    fs.add(f3)
     fs.forEach { println(it) }
 
     //Método remover
