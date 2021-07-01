@@ -1,4 +1,4 @@
-package com.prospertec.collections.testes
+package com.prospertec.collections.testesArray
 
 fun main() {
     val sals = doubleArrayOf(10000.0, 3000.0, 1500.0)

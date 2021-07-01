@@ -1,4 +1,4 @@
-package com.prospertec.collections.testes
+package com.prospertec.collections.testesArray
 
 fun main() {
     //Array

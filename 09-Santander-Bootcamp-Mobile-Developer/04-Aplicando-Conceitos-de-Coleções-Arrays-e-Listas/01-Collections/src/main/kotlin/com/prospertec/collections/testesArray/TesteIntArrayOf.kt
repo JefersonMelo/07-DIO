@@ -1,4 +1,4 @@
-package com.prospertec.collections.testes
+package com.prospertec.collections.testesArray
 
 fun main() {
     val valores = intArrayOf(325, 1, 34, 6, 9)
