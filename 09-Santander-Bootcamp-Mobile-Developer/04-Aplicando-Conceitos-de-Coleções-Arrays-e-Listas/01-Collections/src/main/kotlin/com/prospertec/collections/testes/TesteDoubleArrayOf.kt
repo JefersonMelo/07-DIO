@@ -18,6 +18,16 @@ fun main() {
     println("Med: ${sals.average()}")
 
     println("----------------------")
-    val salMaiorQue3k = sals.filter { it > 3000.0 }
-    println(salMaiorQue3k)
+    println(sals.filter { it > 3000.0 })
+
+    println("----------------------")
+    //contar quantidade do range de um dado valor
+    println(sals.count { it in 1000.0..5000.0 })
+
+     println("----------------------")
+    //Filtro, busca por um valor específico
+    println(sals.find { it == 4500.0 })
+
+
+
 }
