@@ -11,4 +11,13 @@ fun main() {
     //Impressão do array ordenado
     sals.sort()
     sals.forEach { println("$it") }
+
+    println("----------------------")
+    println("Min: ${sals.minOrNull()}")
+    println("Max: ${sals.maxOrNull()}")
+    println("Med: ${sals.average()}")
+
+    println("----------------------")
+    val salMaiorQue3k = sals.filter { it > 3000.0 }
+    println(salMaiorQue3k)
 }
