@@ -32,4 +32,4 @@ Para cada caso de teste, imprima uma única linha indicando o nível de velocida
 
 1. [Reading console input in Kotlin](https://stackoverflow.com/questions/41283393/reading-console-input-in-kotlin)
 2. [Case Tests](https://www.udebug.com/URI/1789)
-3. [When](https://github.com/lucasrmagalhaes/desafios-DIO/blob/master/Desafios/Kotlin/2.%20Solucionando%20problemas%20em%20Kotlin/4.%20A%20Corrida%20de%20Tartarugas/solucao.kt)
+3. [When](https://github.com/lucasrmagalhaes/desafios-DIO/blob/874de8ed3d9273ab94d10469246427149a9705d4/Desafios/Kotlin/2.%20Solucionando%20problemas%20em%20Kotlin/4.%20A%20Corrida%20de%20Tartarugas/solucao.kt#L15)
