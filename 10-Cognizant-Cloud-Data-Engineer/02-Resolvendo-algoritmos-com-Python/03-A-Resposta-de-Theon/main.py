@@ -1,12 +1,7 @@
-def persons():
-    n = int(input())
-    x = input().split()
-    for i in range(n):
-        x[i] = int(x[i])
-    lowest = min(x)
-    result = x.index(lowest) + 1
+N = int(input())
 
-    return result
+entrada = list(map(int, input().split()))
 
+minimo = min(entrada)
 
-print(persons())
+print(entrada.index(minimo) + 1)
